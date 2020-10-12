@@ -22,6 +22,17 @@ Gebruik ETRS89/... als de vector tegels bedoeld zijn voor toepassingen die nauwk
 
 TODO: gebruik van RD?
 
+## Eis: tile origin
+Per CRS een tile origin definiëren?
+
+
+## Eis: zoomniveaus
+
+<div class="advisement">
+_EIS_ Ondersteun tenminste X zoomniveaus
+</div>
+
+
 ## Eis: tile extent
 <div class="advisement">
 _EIS_ Een tegel is altijd vierkant en is 256 bij 256 pixels, 512 bij 512, 1024 bij 1024?

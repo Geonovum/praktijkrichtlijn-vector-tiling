@@ -11,4 +11,5 @@ Buiten scope van de Praktijkrichtlijn zijn onder andere:
 - 3D kaarten
 - gebruik van tooling
 - tips & trucs (apart best practices document)
+- beveiligingsaspecten, zoals API Keys, beveiliging met naam/wachtwoord
 - ...
