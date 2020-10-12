@@ -40,8 +40,7 @@ _AANBEVELING_ Specificeer styles in MapboxGL style specification (https://docs.m
 
 ## Aanbeveling: Documentatie
 <div class="informative">
-_AANBEVELING_ Volg de aanbevelingen over documentatie uit de API Designrules voor de Nederlandse overheid:
-https://docs.geostandaarden.nl/api/API-Designrules/#documentation
+_AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 </div>
 
 Specifiek voor vector tiles gelden onderstaande aanbevelingen voor documentatie.
