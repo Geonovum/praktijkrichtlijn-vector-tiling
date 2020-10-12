@@ -14,7 +14,7 @@ Voor publicatiedoeleinden bij de meeste (web)applicatie geldt dat WGS84 echter a
 <div class="advisement">
 _EIS_
 
-Gebruik WGS84 als de vector tegels bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter.
+Gebruik Webmercator of juist WGS84 als de vector tegels bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter?
 
 Gebruik ETRS89/... als de vector tegels bedoeld zijn voor toepassingen die nauwkeuriger zijn dan 1 meter.
 
