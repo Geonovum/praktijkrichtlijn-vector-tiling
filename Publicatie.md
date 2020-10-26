@@ -2,7 +2,7 @@
 **hoofdstuk is werk in uitvoering**
 
 ## Eis: custom URL schema of OGC API Tiles?
-OGC API Tiles is nog in ontwikkeling, laatste fase van specificatie.
+[[OGC-API-Tiles-Core]] is nog in ontwikkeling, laatste fase van specificatie.
 
 <div class="advisement">
 _EIS_ Als tegels via een API aangeboden worden, gebruik dan OGC API Tiles of een URL schema als ...

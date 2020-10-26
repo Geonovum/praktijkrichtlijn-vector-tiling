@@ -93,7 +93,13 @@ var respecConfig =
       title: "API Designrules (Nederlandse API Strategie IIa)",
       href: "https://docs.geostandaarden.nl/api/API-Designrules/",
       status: "Geonovum Standaard",
-      publisher: "W3c en OGC",
+      publisher: "W3C en OGC",
+    },
+    "OGC-API-Tiles-Core": {
+      title: "OGC API - Tiles - Part 1: Core",
+      href: "https://ogcapi.ogc.org/tiles/", // TODO: precise link to final version, if published
+      status: "DRAFT",
+      publisher: "OGC",
     }
   }
 
