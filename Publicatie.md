@@ -18,7 +18,7 @@ Als tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Typ
 <div class="informative">
 _AANBEVELING_ Gebruik MBTiles voor bulk downloads (ter beschikking stellen van sets van tiles)
 
-TODO: GeoPackage http://www.geopackage.org/spec/#tiles
+TODO: GeoPackage en tiles [http://www.geopackage.org/spec/#tiles](http://www.geopackage.org/spec/#tiles)
 </div>
 
 ## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver
