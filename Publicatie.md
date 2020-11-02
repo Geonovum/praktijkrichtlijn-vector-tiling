@@ -1,24 +1,26 @@
 # Tegels aanbieden
 **hoofdstuk is werk in uitvoering**
 
-## Eis: custom URL schema of OGC API Tiles?
-[[OGC-API-Tiles-Core]] is nog in ontwikkeling, laatste fase van specificatie.
+## Eis: gebruik OGC API Tiles
+Er is nu nog geen open standaard gereed voor publicatie. [[OGC-API-Tiles-Core]] lijkt dat wel te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn deze API specificatie daarom voor.
 
 <div class="advisement">
-_EIS_ Als tegels via een API aangeboden worden, gebruik dan OGC API Tiles of een URL schema als ...
+_EIS_ Als tegels via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
-## Aanbeveling: bulk downloads via MBTiles
+## Aanbeveling: bulk downloads via MBTiles of GeoPackage
 <div class="informative">
 _AANBEVELING_ Gebruik MBTiles voor bulk downloads (ter beschikking stellen van sets van tiles)
+
+TODO: GeoPackage
 </div>
 
-## Aanbeveling: gebruik geen gzip op de webserver
-Stuk intro waarom beter geen GZIP bij tiling gebruiken.
+## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver
 
 <div class="informative">
-_AANBEVELING_ biedt tiles aan zonde GZIP compressie op de webserver
+_AANBEVELING_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header `Content-Encoding: gzip` mee.
 </div>
+
 
 ## Aanbeveling: Tile json overzooming
 <div class="informative">
@@ -29,12 +31,6 @@ _AANBEVELING_ ?
 
 <div class="informative">
 _AANBEVELING_ Lever een standaard stijl bij de vector tiles.
-</div>
-
-## Aanbeveling: Styling specificatie
-
-<div class="informative">
-_AANBEVELING_ Specificeer styles in MapboxGL style specification (https://docs.mapbox.com/mapbox-gl-js/style-spec/)
 </div>
 
 
@@ -53,6 +49,12 @@ _AANBEVELING_ Documenteer welke data lagen er zijn
 ### Aanbeveling: Attributen
 <div class="informative">
 _AANBEVELING_ Documenteer welke attributen er zijn per laag
+</div>
+
+### Aanbeveling: Styling specificatie
+
+<div class="informative">
+_AANBEVELING_ Specificeer styles in MapboxGL style specification (https://docs.mapbox.com/mapbox-gl-js/style-spec/) (TODO: is dit de juiste manier of beter OGC API Styles?)
 </div>
 
 ### Aanbeveling: Styling documenteren

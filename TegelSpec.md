@@ -8,9 +8,9 @@ Dit hoofdstuk beschrijft hoe tiles op te bouwen.
 _EIS_ Gebruik gebruik [[MapboxVT]] versie 2.1 om tiles op te bouwen
 </div>
 
-## Eis: encoding / compressie?
+## Eis: encoding
 <div class="advisement">
-_EIS_ Gebruik voor de encoding van de data [[PBF]], geojson?, zoals beschreven op ....
+_EIS_ Gebruik voor de encoding van de data [[PBF]], zoals beschreven op ....
 </div>
 
 ## Eis: Winding order conform OGC
@@ -21,18 +21,6 @@ Voor de volgorde van coordinaten bij polygonen, gebruik de zogenaamde _winding o
 
 <div class="note">
 Mapbox Vector Tile spec schrijft deze Winding order ook voor, maar omdat de winding order vaak mis gaat, bevat deze Praktijkrichtlijn een aparte eis hiervoor.
-</div>
-
-## Aanbeveling: Clipping
-
-<div class="informative">
-_AANBEVELING_ Aanbeveling doen rondom clipping?
-</div>
-
-## Aanbeveling: Simplificeren
-
-<div class="informative">
-_AANBEVELING_ Aanbeveling doen rondom Simplificeren?
 </div>
 
 ## Eis: bestands extensie is .mvt of .pbf
