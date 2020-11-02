@@ -8,11 +8,17 @@ Er is nu nog geen open standaard gereed voor publicatie. [[OGC-API-Tiles-Core]] 
 _EIS_ Als tegels via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
+
+## Eis: Content-Type
+<div class="advisement">
+Als tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type: X` voor de tiles.
+</div>
+
 ## Aanbeveling: bulk downloads via MBTiles of GeoPackage
 <div class="informative">
 _AANBEVELING_ Gebruik MBTiles voor bulk downloads (ter beschikking stellen van sets van tiles)
 
-TODO: GeoPackage
+TODO: GeoPackage http://www.geopackage.org/spec/#tiles
 </div>
 
 ## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver

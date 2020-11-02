@@ -22,16 +22,3 @@ Voor de volgorde van coordinaten bij polygonen, gebruik de zogenaamde _winding o
 <div class="note">
 Mapbox Vector Tile spec schrijft deze Winding order ook voor, maar omdat de winding order vaak mis gaat, bevat deze Praktijkrichtlijn een aparte eis hiervoor.
 </div>
-
-## Eis: bestands extensie is .mvt of .pbf
-Mapbox schrijft alleen ```.mvt``` voor als bestandsextensie. Er is behoefte aan meer en andere bestandsextenties, om bepaalde uitbreidingen duidelijk te maken. Deze Prakrijktrichtlijn staat daarom ook toe:
-
--   ```.pbf``` voor tiles die ....
--   ```...``` voor tiles die ...
-
-<div class="advisement">Gebruik een van de volgende bestandsextensies
-1. ```.mvt``` voor tiles die strikt alleen de eisen van [[MapboxVT]] volgen
-1. ```.pbf``` voor tiles die [[MapboxVT]] volgen, maar uitgebreid zijn met ...
-1. ```. ...``` voor ...
-
-</div>
