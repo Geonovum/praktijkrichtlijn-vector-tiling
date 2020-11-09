@@ -3,6 +3,7 @@
 
 Scope van de praktijkrichtlijn.
 
+## Doel 
 De Prakrijktrichtlijn heeft tot doel om te specificeren hoe het beste vector tiles aangeboden kunnen worden om breed gebruik ervan mogelijk te maken, voor Nederlandse toepassingen.
 
 Met als doel verschillende vector tile aanbieders van  primair Nederlandse data / data van Nederlandse organisaties (overheden?) makkelijk te kunnen gebruiken, combineren en hergebruiken. 
@@ -17,12 +18,14 @@ Richt zich op het aanbieden, publiceren, gebruik en hergebruik van vector tiles 
 
 De scope van deze praktijkrichtlijn vector tiles voor  visualisatie (portrayal), 2D vector tiles, die bedoeld zijn om door derden te gebruiken (primair) zoals voor achtergrondkaarten. Niet delen van data, delen van features of nauwkeurige metingen. 
 
-Aanname dat een typisch gebruik van vector tiles is voor het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanmame is dat de data hiervoor , voor bewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. Die daarom niet de kwalitatieve nauwkeruige coordinaten van de orginele geodata bevat. 
+Aanname dat een typisch gebruik van vector tiles is voor het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanname is dat de data hiervoor , voor bewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. Die daarom niet de kwalitatieve nauwkeurige coordinaten van de orginele geodata bevat. 
 
 Deze tiles kunnen aangeboden worden als service of als bulk download. We richten ons meer op aanbieden als service dan bulk download. In dit document wordt er geen verschil gemaakt of de tegels al voorberekend zijn ("pre-cooked" / "pre-processed"), of dynamisch worden opgebouwd ( real time request). Bij een vector tile service kan dus beide bedoeld worden. 
 
 
-Door ons te beperken tot visualisatie is natuurlijk het risico dat niet alle positieve mogelijkehden van vector tiles hier genoemd worden. Maar het doen van deze praktijkrichtlijk is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook met de OGC standaarden, zoals WMS, WFS en de toekomstige OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden. 
+Door ons te beperken tot visualisatie is natuurlijk het risico dat niet alle positieve mogelijkheden van vector tiles hier genoemd worden. Maar het doen van deze praktijkrichtlijk is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook met de OGC standaarden, zoals WMS, WFS en de toekomstige OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden. 
+
+protocol gebaseerd op Open standaarden. 
 
 
 ### Buiten scope
@@ -37,6 +40,9 @@ Buiten scope van de Praktijkrichtlijn zijn verder:
 - beveiligingsaspecten, zoals API Keys, beveiliging met naam/wachtwoord
 - Aanbevelingen rond attribuut data. 
 - Pre-processing van data 
-- Styling best practises 
+- Styling best practises
+- Interactieve mogelijkheden vector tiles. 
 
 Voor eigen applicaties en specifieke toepassingen staat het uiteraard vrij om op een andere manier vector tiles aan te bieden dan deze praktijkrichtlijn beoogt.
+
+Deze richtlijn is niet gebonden aan specifieke software. 

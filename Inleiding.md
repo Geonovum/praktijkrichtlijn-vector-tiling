@@ -15,10 +15,11 @@ Makkelijker hergebruik vector tiles.
 
 ## Doelgroep
 De praktijkrichtlijn is bedoeld voor o.a.:
-- aanbieders van vector tiling data-
-- software leverancies van vector tiling software
-- (geo-)applicatie ontwikkelaars
+- Aanbieders van vector tiles 
+- Gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars
+- Software leverancies van vector tiling software 
 
+Nederlandse data / data van Nederlandse organisaties (overheden?). 
 
 ## Leeswijzer
 Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).
