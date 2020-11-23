@@ -10,7 +10,7 @@ Met als doel verschillende vector tile aanbieders van  primair Nederlandse data 
 
 Aanbod uniform = goede client kunnen bouwen. Zodat het makkelijker wordt vector tiles te gebruiken. Dit helpt bij het stimuleren gebruik Vector-tiling.
 
-## Toepassingsgebied
+## Binnen scope
 
 De Praktijkrichtlijn richt zich op publicatie en gebruik van vector tiles in (web)applicaties, 
 
@@ -36,12 +36,14 @@ Buiten scope van de Praktijkrichtlijn zijn verder:
 - 3D vector tiles
 - "silo" applicaties: applicaties die niet beogen tiles te delen met derden.
 - gebruik en advies over software en tooling voor het maken, serveren en consumeren van vector tiles 
+- Interactieve mogelijkheden vector tiles. 
+
+<!-- verwijzen naar best practices voor een aantal punten -->
 - tips & trucs, de bijlage [Best Practices](#BestPractices) bevat
 - beveiligingsaspecten, zoals API Keys, beveiliging met naam/wachtwoord
 - Aanbevelingen rond attribuut data. 
 - Pre-processing van data 
 - Styling best practises
-- Interactieve mogelijkheden vector tiles. 
 
 Voor eigen applicaties en specifieke toepassingen staat het uiteraard vrij om op een andere manier vector tiles aan te bieden dan deze praktijkrichtlijn beoogt.
 
