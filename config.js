@@ -100,7 +100,14 @@ var respecConfig =
       href: "https://ogcapi.ogc.org/tiles/", // TODO: precise link to final version, if published
       status: "DRAFT",
       publisher: "OGC",
-    }
+    },
+    "OGC Two Dimensional Tile Matrix Set": {
+      title: "OGC Two Dimensional Tile Matrix Set",
+      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html", // TODO: precise link to final version, if published
+      status: "1.0",
+      publisher: "OGC",
+    },
+
   }
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
