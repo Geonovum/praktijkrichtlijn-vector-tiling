@@ -44,6 +44,20 @@ The core is:
 
 ```
 
+## TileMatrisSet schema (tms) OGC
+
+> TileMatrixSet specifies the concept of a tile matrix set and tile matrix set
+limits and its implementation in 2D space. This standard also provides both a
+XML and a JSON encoding. The Tile Matrix Set concept, initially developed in
+OGC Web Map Tile Service (WMTS) 1.0, is now provided as an independent standard
+that can be referenced by other standards such as WMTS 2.0 and GeoPackage, or
+the NRCan promoted standard candidate Map Markup Language (MapML). In addition,
+we ensure that the tile matrix set concept can be used by grid based tiles as
+well as for vector tiles.
+[OGC(r) TileMatrixSet (tms)](http://schemas.opengis.net/tms/ReadMe.txt)
+
+
+
 ## Eis: tile origin
 TODO: Per CRS een tile origin definiëren.
 Dit leidt tot bepaalde tilignschemas, zie ook OGC definities van tiling schemas (in json?)
