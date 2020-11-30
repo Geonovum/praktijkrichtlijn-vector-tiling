@@ -27,7 +27,7 @@ _AANBEVELING_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HT
 
 ## Aanbeveling: Documentatie
 
-Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een `TileSet` requirement class beschreven. Deze bevat de beschrijving van de aangeboden tegels set en de bron beschrijving van de tegels. De response heeft 2 formaten: TileJSON en OGC JSON.
+Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een *`TileSet` requirement class* beschreven. Deze bevat de beschrijving van de aangeboden tegels set en de bron beschrijving van de tegels. De response heeft 2 formaten: TileJSON en OGC JSON.
 Deze bevat:
 - tilematrixset links
 - links naar de tegels
@@ -63,7 +63,7 @@ _AANBEVELING_ `minzoom` en `maxzoom` definieren in de data lagen beschrijving.
 
 ### Aanbeveling: Data Attributen 
 <div class="informative">
-_AANBEVELING_  Geef aan welke attributen (`fields`) er beschikbaar zijn per data laag. Een TileJSON format bevat geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze los te documenteren of op te nemen als `additionalProperties` of `description` in de data laaq beschrijving.  
+_AANBEVELING_  Geef aan welke attributen (`fields`) er beschikbaar zijn per data laag. Een TileJSON format bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als `additionalProperties` of `description` in de data laag beschrijving.  
 </div>
 
 
