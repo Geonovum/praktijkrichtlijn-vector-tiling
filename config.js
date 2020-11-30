@@ -89,7 +89,7 @@ var respecConfig =
       status: "Best practice",
       publisher: "W3c en OGC",
     },
-    "APIDesignRules": {
+    "API Designrules": {
       title: "API Designrules (Nederlandse API Strategie IIa)",
       href: "https://docs.geostandaarden.nl/api/API-Designrules/",
       status: "Geonovum Standaard",
