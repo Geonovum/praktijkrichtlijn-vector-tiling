@@ -44,11 +44,14 @@ Deze bevat:
 - metadata (attribution)
 - request en response uitleg 
 
-_AANBEVELING_ Ideaal beeld zou zijn aant te sluiten bij de OGC API Tiles definitie. Echter is deze nog niet volledig af. 
 
-_AANBEVELING_ Mocht er nog niet aan te sluiten zijn bij de OGC API Tiles standaard, lever dan op zijn minste en TileJSON document aan bij een vector tegel set. Zoals gedefineerd in [Annex B.1. Example TileJson Document: Draft](https://htmlpreview.github.io/?https://github.com/opengeospatial/OGC-API-Tiles/blob/master/core/standard/OAPI_Tiles.html#_example_tilejson_document) van het OGC API Tiles document. 
+>Defines the response of a TileSet GET request (but not the path or the link for the request). The response has two formats: tilejson and OGC json. The OGC json includes tilematrixset links, a central point (optional), a links to the URI template to individual tiles, and the geospatial data resources involved in the creation of the tiles (optional), and other metadata (including attribution; optional) Defines how to formulate a request for individual tiles and how the response will look like (success and failure)
 
-Voor verdere beschrijvingen en metadate over een tegel set bron aanleveren:
+_AANBEVELING_ Ideaal beeld zou zijn aan te sluiten bij de OGC API Tiles definitie. Echter is deze nog niet volledig af. 
+
+_AANBEVELING_ Mocht er nog niet aan te sluiten zijn bij de OGC API Tiles standaard, lever dan op zijn minst een TileJSON document aan bij een vector tegel set. Zoals gedefineerd in [Annex B.1. Example TileJson Document: Draft](https://htmlpreview.github.io/?https://github.com/opengeospatial/OGC-API-Tiles/blob/master/core/standard/OAPI_Tiles.html#_example_tilejson_document) van het OGC API Tiles document. 
+
+Voor verdere beschrijvingen en metadata van een tegel set bron aanleveren:
 
 _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 </div>
@@ -66,7 +69,8 @@ _AANBEVELING_ Een TileJSON format bevat een beschrijving van welke data lagen er
 </div>
 
 ### Aanbeveling: Overzooming
-2. Overzooming op lagen. De layer definition met min en max zoom level definitie zorgt ervoor dat de client kan overzoomen op de tegels. Dit houd in, wanneer tegels niet beschikbaar zijn op een bepaald zoom level dan kan een client de tegels op van een bovenliggend zoom niveau ophalen.
+Voordelen van het gebruik van een TileJSON als vector tile bron :Overzooming op lagen. 
+De layer definition met min en max zoom level definitie zorgt ervoor dat de client kan overzoomen op de tegels. Dit houd in, wanneer tegels niet beschikbaar zijn op een bepaald zoom level dan kan een client de tegels op van een bovenliggend zoom niveau ophalen.
 
 _AANBEVELING_ Min en max zoom definieren in de data lagen beschrijving. 
 
