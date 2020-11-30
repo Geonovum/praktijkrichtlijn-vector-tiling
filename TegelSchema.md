@@ -2,6 +2,7 @@
 **hoofdstuk is werk in uitvoering**
 
 ## Coördinaat Referentie Systemen
+<div class="informative">
 [[MapboxVT]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden.
 
@@ -24,6 +25,8 @@ Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basi
 
 In de Praktijkrichtlijn hanteren we echter de gangbare EPSG code EPSG:3857 ([WGS84 / Pseudo-Mercator](https://epsg.org/crs_3857/WGS-84-Pseudo-Mercator.html)), met als Geodetisc CRS WGS84 conform EPSG:4326.
 </p>
+
+</div>
 
 ## Eis: te gebruiken TileMatrixSets
 Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Er is geen OGC TileMatrixSet voor het Rijksdriehoekstelsel.

@@ -87,7 +87,7 @@ var respecConfig =
       title: "Spatial Data on the Web Best Practices",
       href: "https://www.w3.org/TR/sdw-bp/",
       status: "Best practice",
-      publisher: "W3c en OGC",
+      publisher: "W3C en OGC",
     },
     "API-Designrules": {
       title: "API Designrules (Nederlandse API Strategie IIa)",
