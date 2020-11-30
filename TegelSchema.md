@@ -7,6 +7,7 @@ Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook meth
 
 Het OGC en W3C zeggen in de Spatial Data on the Web Best Practices [[SDW-BP]]: ... https://www.w3.org/TR/sdw-bp/#CRS-background en https://www.w3.org/TR/sdw-bp/#bp-crs-choice.
 
+
 Van coördinaten in WGS84 is bekend dat die op het Europees vasteland soms te grote afwijkingen kunnen vertonen. In Nederland is WGS84 niet nauwkeurig genoeg als de data gebruikt wordt bij toepassingen die nauwkeuriger dan 1 meter moeten zijn.
 Voor het maken van tiles zullen geometrieen omgerekend worden naar het lokale stelsel van een vector tile. Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
 
@@ -34,40 +35,21 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referenti
 ### Eis: publicatie van gebruikte CRS
 Als vector tiles via OGC API Tiles, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles.
 
-<p class="note" title="OGC API Tiles ondersteunt beperkte set TileMatrixSets">
-[[OGC-API-Tiles-Core]] ondersteunt alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC Two Dimensional Tile Matrix Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
+<p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
+[[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC Two Dimensional Tile Matrix Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 </p>
 
-## TileMatrisSet schema (tms) OGC
-
-> TileMatrixSet specifies the concept of a tile matrix set and tile matrix set
-limits and its implementation in 2D space. This standard also provides both a
-XML and a JSON encoding. The Tile Matrix Set concept, initially developed in
-OGC Web Map Tile Service (WMTS) 1.0, is now provided as an independent standard
-that can be referenced by other standards such as WMTS 2.0 and GeoPackage, or
-the NRCan promoted standard candidate Map Markup Language (MapML). In addition,
-we ensure that the tile matrix set concept can be used by grid based tiles as
-well as for vector tiles.
-[OGC(r) TileMatrixSet (tms)](http://schemas.opengis.net/tms/ReadMe.txt)
-
-
-## Eis: zoomniveaus
-
-TODO: deze kan vervallen als we TileMatrixSets gebruiken.
-
-<div class="advisement">
-_EIS_ Ondersteun tenminste X zoomniveaus
-</div>
-
-## Eis: afmetingen van de tile
+## Eis: afmetingen van de tile / high resolution tiles
 TODO: kan deze vervallen als we TileMatrixSets gebruiken?
+
+TODO: we gaan uit van 256 pixels. Of willen we juist 512 of 1024 juist voor Retina schermen als default? Mapbox heeft 512 als default
+
 <div class="advisement">
 _EIS_ Een tegel is altijd vierkant en is 256 bij 256 pixels, 512 bij 512, 1024 bij 1024?
 </div>
 
 Hiermee wordt de "extent of the tile" bedoeld, in termen van [[MapboxVT]].
 Alternatief: “interne resolutie” / “discreet grid” / “extent of the tile”
-
 
 ## Eis: platte index
 Bij tiling wordt normaal gesproken bij 1 niveau verder inzoomen een tegel opgeknipt in 4 nieuwe tegels (een zogenaamde _platte index_ / _flat index_). Het kan nuttig zijn om vanwege datadichtheid dit niet te doen, maar slimmer om te gaan met bijna lege tiles (niet meer opknippen). Ook het overslaan van zoomniveaus wordt wel eens toegepast. Beide methodes vragen om een slimmere index, waarmee duidelijk is bij welke stappen wel of juist geen nieuwe tile opgevraagd moet worden. Een dergelijke slimme index is voor clients lastiger om te gebruiken. De Prakrijktrichtlijn schrijft daarom alleen een platte index voor.
