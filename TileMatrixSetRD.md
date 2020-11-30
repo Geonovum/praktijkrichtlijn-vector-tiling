@@ -47,8 +47,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 6144000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 2,
+            "matrixHeight": 2
         },
         {
             "type": "TileMatrixType",
@@ -60,8 +60,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 3072000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 4,
+            "matrixHeight": 4
         },
         {
             "type": "TileMatrixType",
@@ -73,8 +73,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 1536000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 8,
+            "matrixHeight": 8
         },
         {
             "type": "TileMatrixType",
@@ -86,8 +86,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 768000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 16,
+            "matrixHeight": 16
         },
         {
             "type": "TileMatrixType",
@@ -99,8 +99,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 384000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 32,
+            "matrixHeight": 32
         },
         {
             "type": "TileMatrixType",
@@ -112,8 +112,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 192000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 64,
+            "matrixHeight": 64
         },
         {
             "type": "TileMatrixType",
@@ -125,8 +125,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 96000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 128,
+            "matrixHeight": 128
         },
         {
             "type": "TileMatrixType",
@@ -138,8 +138,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 48000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 256,
+            "matrixHeight": 256
         },
         {
             "type": "TileMatrixType",
@@ -151,8 +151,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 24000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 512,
+            "matrixHeight": 512
         },
         {
             "type": "TileMatrixType",
@@ -164,8 +164,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 12000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 1024,
+            "matrixHeight": 1024
         },
         {
             "type": "TileMatrixType",
@@ -177,8 +177,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 6000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 2048,
+            "matrixHeight": 2048
         },
         {
             "type": "TileMatrixType",
@@ -190,8 +190,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 3000.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 4096,
+            "matrixHeight": 4096
         },
         {
             "type": "TileMatrixType",
@@ -203,8 +203,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 1500.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 8192,
+            "matrixHeight": 8192
         },
         {
             "type": "TileMatrixType",
@@ -216,8 +216,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "scaleDenominator": 750.0,
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 16384,
+            "matrixHeight": 16384
         },
         {
             "identifier": "15",
@@ -229,8 +229,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             ],
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 32768,
+            "matrixHeight": 32768
         },
         {
             "identifier": "16",
@@ -242,8 +242,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             ],
             "tileWidth": 256,
             "tileHeight": 256,
-            "matrixWidth": 1,
-            "matrixHeight": 1
+            "matrixWidth": 65536,
+            "matrixHeight": 65536
         }
     ]
 }
