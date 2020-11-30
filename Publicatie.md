@@ -35,7 +35,6 @@ _AANBEVELING_ Lever een standaard stijl bij de vector tiles.
 
 
 ## Aanbeveling: Documentatie
-<div class="informative">
 Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een `TileSet` requirement class beschreven. Deze bevat de beschrijving van de aangeboden tegels set en de bron beschrijving van de tegels. De response heeft 2 formaten: TileJSON en OGC JSON.
 Deze bevat:
 - tilematrixset links
@@ -46,6 +45,8 @@ Deze bevat:
 
 
 >Defines the response of a TileSet GET request (but not the path or the link for the request). The response has two formats: tilejson and OGC json. The OGC json includes tilematrixset links, a central point (optional), a links to the URI template to individual tiles, and the geospatial data resources involved in the creation of the tiles (optional), and other metadata (including attribution; optional) Defines how to formulate a request for individual tiles and how the response will look like (success and failure)
+
+<div class="informative">
 
 _AANBEVELING_ Ideaal beeld zou zijn aan te sluiten bij de OGC API Tiles definitie. Echter is deze nog niet volledig af. 
 
@@ -58,9 +59,10 @@ _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API Designrules]]
 
 ### Aanbeveling: Bron Attribution (bron annotatie)
 Voordelen van het gebruik van een TileJSON als vector tile bron :
+<div class="informative">
 
 _AANBEVELING_  De bron *attribution* meegeven, zodat deze zichtbaar is als annotatie op de kaart in de client. 
-
+</div>
 Mogelijke copyright annotatie. 
 
 ### Aanbeveling: Data lagen
@@ -71,8 +73,10 @@ _AANBEVELING_ Een TileJSON format bevat een beschrijving van welke data lagen er
 ### Aanbeveling: Overzooming
 Voordelen van het gebruik van een TileJSON als vector tile bron :Overzooming op lagen. 
 De layer definition met min en max zoom level definitie zorgt ervoor dat de client kan overzoomen op de tegels. Dit houd in, wanneer tegels niet beschikbaar zijn op een bepaald zoom level dan kan een client de tegels op van een bovenliggend zoom niveau ophalen.
+<div class="informative">
 
 _AANBEVELING_ Min en max zoom definieren in de data lagen beschrijving. 
+</div>
 
 ### Aanbeveling: Data Attributen 
 <div class="informative">
