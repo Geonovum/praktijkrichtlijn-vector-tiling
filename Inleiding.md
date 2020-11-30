@@ -1,40 +1,37 @@
 # Inleiding
 **hoofdstuk is werk in uitvoering**
 
-De praktijkrichtlijn Vector tiling beschrijft hoe vector tiling te gebruiken voor Nederlandse toepassingen.
+## Doel
+De Prakrijktrichtlijn specificeert hoe het beste vector tiles aangeboden kunnen worden om breed gebruik mogelijk te maken (maximale interoperabiliteit), voor Nederlandse toepassingen. Dit moet het ook makkelijker maken om vector tiles van derden te gebruiken. Zie verder [het hoofdstuk over de scope](#Scope).
 
-## Praktijkrichtlijn, geen verplichting
-De Prakrijktrichtlijn is geen verplichting voor (Nederlandse) overheden. De Prakrijktrichtlijn heeft tot doel om te specificeren hoe het beste vector tiles aangeboden kunnen worden om breed gebruik ervan mogelijk te maken, voor Nederlandse toepassingen.
+Deze praktijkrichtlijn is geen verplichting.
 
-Verschillen in de praktijk gelijk trekken zodat men vector tiles van verschillende aanbieders kan combineren.
+## Totstandkoming
+Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlandse experts in enkele werksessies afgestemd.
 
-Aanbod uniform = goede client kunnen bouwen. Zodat het makkelijker wordt vector tiles te gebruiken.
-Dit helpt bij het stimuleren gebruik Vector-tiling.
+## Aansluiten bij internationale standaarden
+Deze Prakrijktrichtlijn gebruikt zoveel mogelijk internationale standaarden en specificaties. Waar dat nog niet goed mogelijk is, kiezen we de meest gangbare oplossing uit de praktijk. Deze richtlijn is niet gebonden aan specifieke software.
 
-Makkelijker hergebruik vector tiles.
+Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel van belang kunnen zijn om op een goede, geschikte manier vector tiles aan te bieden. Deze staan in de bijlage [Best Practices](#BestPractices).
 
 ## Doelgroep
 De praktijkrichtlijn is bedoeld voor o.a.:
-- Aanbieders van vector tiles 
-- Gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars
-- Software leverancies van vector tiling software 
-
-Nederlandse data / data van Nederlandse organisaties (overheden?). 
+- aanbieders van vector tiles
+- gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
 
 ## Leeswijzer
 Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).
 
-De Praktijkrichtlijn zelf is geen verplichting, maar om een onderscheid te maken in de kenmerken hanteert de Prakrijktrichtlijn de termen _EIS_ en _AANBEVELING_ om een onderscheid te maken in de minimaal benodigde set van kenmerken om te voldoen aan de Prakrijktrichtlijn en de gewenste set.
+De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen _EIS_ en _AANBEVELING_ om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.
 
 Eisen staan geformuleerd in oranje blokken, bijvoorbeeld:
 
 <div class="advisement">
-
 _EIS_ Dit is een vereist kenmerk
-
 </div>
 
 Aanbevelingen zonder extra opmaak:
+
 <div class="informative">
 _AANBEVELING_ Dit is een aanbeveling
 </div>
