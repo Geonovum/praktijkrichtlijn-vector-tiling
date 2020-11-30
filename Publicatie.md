@@ -14,11 +14,9 @@ _EIS_ Als tegels via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core
 Als tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type: X` voor de tiles.
 </div>
 
-## Aanbeveling: bulk downloads via MBTiles of GeoPackage
+## Aanbeveling: bulk downloads via GeoPackage met Vector Tiles extension
 <div class="informative">
-_AANBEVELING_ Gebruik MBTiles voor bulk downloads (ter beschikking stellen van sets van tiles)
-
-TODO: GeoPackage en tiles [http://www.geopackage.org/spec/#tiles](http://www.geopackage.org/spec/#tiles)
+_AANBEVELING_ Gebruik GeoPackage met de Vector Tiles Community extentions voor bulk downloads, zoals beschreven op [https://www.geopackage.org/extensions.html](https://www.geopackage.org/extensions.html)
 </div>
 
 ## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver
