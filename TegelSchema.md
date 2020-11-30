@@ -39,8 +39,8 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referenti
 * Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: **NOG TE BEPALEN / PUBLICEREN** [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.
 </div>
 
-### Eis: publicatie van gebruikte CRS
-Als vector tiles via OGC API Tiles, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles.
+### Publicatie van gebruikte CRS
+Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
 <p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
 [[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
