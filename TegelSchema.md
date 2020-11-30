@@ -1,16 +1,21 @@
 # Tegel schema
 **hoofdstuk is werk in uitvoering**
 
-## Coordinaat Referentie Systemen
+## Coördinaat Referentie Systemen
 [[MapboxVT]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden.
 
-Het OGC en W3C zeggen in de Spatial Data on the Web Best Practices [[SDW-BP]]: ... https://www.w3.org/TR/sdw-bp/#CRS-background en https://www.w3.org/TR/sdw-bp/#bp-crs-choice.
+Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] waarom WGS84 vaak de voorkeur heeft. Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
 
-Van coördinaten in WGS84 is bekend dat die op het Europees vasteland soms te grote afwijkingen kunnen vertonen. In Nederland is WGS84 niet nauwkeurig genoeg als de data gebruikt wordt bij toepassingen die nauwkeuriger dan 1 meter moeten zijn.
+> Best Practice 7: Choose coordinate reference systems to suit your user's applications
+>
+> Consider your user's intended application when choosing the coordinate reference system(s) used to publish spatial data
+
+Maar van coördinaten in WGS84 is bekend dat die op het Europees vasteland soms te grote afwijkingen kunnen vertonen. In Nederland is WGS84 niet nauwkeurig genoeg als de data gebruikt wordt bij toepassingen die nauwkeuriger dan 1 meter moeten zijn.
+
 Voor het maken van tiles zullen geometrieen omgerekend worden naar het lokale stelsel van een vector tile. Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
 
-Voor publicatiedoeleinden bij de meeste (web)applicatie geldt dat WGS84 acceptabel is. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coordinaat referentie systeem.
+Voor publicatiedoeleinden bij de meeste (web)applicatie geldt daarom dat WGS84 acceptabel is. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
 
 <p class="note" title="Notitie over realisatie van WGS84 en Web Mercator">
 Er is niet één scherpe definitie van WGS84. Om nauwkeurig te zijn, is het nodig naar een specifieke realisatie van WGS84 te verwijzen.
