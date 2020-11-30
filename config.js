@@ -89,7 +89,7 @@ var respecConfig =
       status: "Best practice",
       publisher: "W3c en OGC",
     },
-    "API Designrules": {
+    "API-Designrules": {
       title: "API Designrules (Nederlandse API Strategie IIa)",
       href: "https://docs.geostandaarden.nl/api/API-Designrules/",
       status: "Geonovum Standaard",
@@ -101,7 +101,7 @@ var respecConfig =
       status: "DRAFT",
       publisher: "OGC",
     },
-    "OGC Two Dimensional Tile Matrix Set": {
+    "OGC-Two-Dimensional-Tile-Matrix-Set": {
       title: "OGC Two Dimensional Tile Matrix Set",
       href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html", // TODO: precise link to final version, if published
       status: "1.0",

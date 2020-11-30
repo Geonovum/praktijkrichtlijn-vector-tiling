@@ -26,7 +26,7 @@ In de Praktijkrichtlijn hanteren we echter de gangbare EPSG code EPSG:3857 ([WGS
 </p>
 
 ## Eis: te gebruiken TileMatrixSets
-Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC Two Dimensional Tile Matrix Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Er is geen OGC TileMatrixSet voor het Rijksdriehoekstelsel.
+Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Er is geen OGC TileMatrixSet voor het Rijksdriehoekstelsel.
 
 <div class="advisement">
 _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referentie systemen:
@@ -40,7 +40,7 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referenti
 Als vector tiles via OGC API Tiles, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles.
 
 <p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
-[[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC Two Dimensional Tile Matrix Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
+[[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 </p>
 
 ## Eis: afmetingen van de tile / high resolution tiles
