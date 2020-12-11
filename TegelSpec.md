@@ -41,7 +41,7 @@ Voor de volgorde van coordinaten bij polygonen, gebruik de zogenaamde _winding o
 
 ## Vector Tiles aanbieden 
 
-Voor het aanbieden en publiceren van vector tiles is nog geen open standaard gereed.  De vector tiles kunnen als download aangeboden worden of als service, vanaf een statisch adres of als service. 
+Voor het aanbieden en publiceren van vector tiles is nog geen open standaard gereed.  De vector tiles kunnen als download aangeboden worden of als service. 
 Nieuwe ontwikkelingen bij OGC gaan standaarden bevatten voor het publiceren en aanbieden geografische data als API service, voor features, maps en tegels. Waaronder ook vector tiles.
 
 Wij hebben het hier dan over de  [[OGC-API-Tiles-Core]] standaard.
@@ -50,7 +50,7 @@ Er is nu nog geen open standaard gereed voor publicatie. [[OGC-API-Tiles-Core]] 
 
 ### Eis: OGC API Tiles
 <div class="advisement">
-EIS Als tegels via een API aangeboden worden, gebruik dan [OGC-API-Tiles-Core].
+Als tegels via een API aangeboden worden, gebruik dan [OGC-API-Tiles-Core].
 </div>
 
 De eis is beschreven in Hoofdstuk 5 en wordt daar verder beschreven. Echter omdat deze specificatie eerder aangehaald wordt in het document wordt het alvast geintroduceerd. Daarnaast worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles standaard. 
