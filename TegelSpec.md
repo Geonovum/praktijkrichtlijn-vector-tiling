@@ -9,7 +9,7 @@ Bij het maken van vector tiles gaan deze richtlijn uit van het gebruik van de te
 
 ## Eis: Mapbox Vector Tile specification versie 2.1
 <div class="advisement">
-_EIS_ Gebruik gebruik [[Mapbox Vector Tile SpecificationT]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
+_EIS_ Gebruik gebruik [[Mapbox Vector Tile Specification]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
 </div>
 
 In het kort gaat deze specificatie uit van :
@@ -32,12 +32,9 @@ Deze praktijkrichtlijn wijkt af van [2. File Format](https://github.com/mapbox/v
 Gebruik voor de encoding van de data [PBF (Goolge Protobuf)](https://github.com/protocolbuffers/protobuf)
 </div>
 
-<div class="note">
-Mapbox Vector Tile spec schrijft deze Winding order voor, maar omdat de winding order vaak mis gaat, bevat deze Praktijkrichtlijn een aparte eis hiervoor.
-</div>
 
 ### Eis: Winding order conform OGC
-
+Mapbox Vector Tile spec schrijft deze Winding order voor, maar omdat de winding order vaak mis gaat, bevat deze Praktijkrichtlijn een aparte eis hiervoor.
 <div class="advisement">
 Voor de volgorde van coordinaten bij polygonen, gebruik de zogenaamde _winding order_ zoals in OGC Simple Features Access is gedefinieerd.
 </div>
