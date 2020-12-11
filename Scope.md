@@ -22,8 +22,7 @@ Buiten scope van de Praktijkrichtlijn zijn:
 - interactieve mogelijkheden vector tiles.
 
 <!-- verwijzen naar best practices voor een aantal punten -->
-De bijlage [Best Practices](#BestPractices) bevat ook enkele onderwerpen die buiten scope zijn van de praktijkrichtlijn, maar wel relevant voor het handig kunnen maken en aanbieden van vector tiles. Dit zijn zaken als:
-- Aanbevelingen rond attribuut data.
+De [Best practices](https://geonovum.github.io/vector-tiling-best-practices/) bevatten ook enkele onderwerpen die buiten scope zijn van de praktijkrichtlijn, maar wel relevant voor het handig kunnen maken en aanbieden van vector tiles. Dit zijn zaken als:
 - Pre-processing van data
 - Styling best practises
 - beveiligingsaspecten, zoals API Keys, beveiliging met naam/wachtwoord

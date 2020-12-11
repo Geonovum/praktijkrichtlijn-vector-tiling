@@ -10,7 +10,6 @@ _AANBEVELING_ Specificeer styles in MapboxGL style specification (https://docs.m
 _AANBEVELING_ Documenteer welke styling beschikbaar is en hoe die opgebouwd is
 </div>
 
-
 ### Aanbeveling: Standaard stijl
 
 <div class="informative">

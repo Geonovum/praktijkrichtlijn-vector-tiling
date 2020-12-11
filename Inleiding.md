@@ -12,7 +12,8 @@ Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlan
 ## Aansluiten bij internationale standaarden
 Deze Prakrijktrichtlijn gebruikt zoveel mogelijk internationale standaarden en specificaties. Waar dat nog niet goed mogelijk is, kiezen we de meest gangbare oplossing uit de praktijk. Deze richtlijn is niet gebonden aan specifieke software.
 
-Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel van belang kunnen zijn om op een goede, geschikte manier vector tiles aan te bieden. Deze staan in de bijlage [Best Practices](#BestPractices).
+## Best practices
+Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel van belang kunnen zijn om op een goede, geschikte manier vector tiles aan te bieden. Deze staan in een apart [Best practices document](https://geonovum.github.io/vector-tiling-best-practices/).
 
 ## Doelgroep
 De praktijkrichtlijn is bedoeld voor o.a.:
