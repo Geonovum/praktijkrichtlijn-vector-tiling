@@ -1,6 +1,6 @@
 # Documentatie
 
-Het is belangrijk bij het aanleveren van een vector tile set (donwload of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen maar maakt ook het delen, vinden en hergebruiken van bronnen makkelijker. 
+Het is belangrijk bij het aanleveren van een vector tile set (donwload of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen en tegelijkertijd ook voordelen voor het delen, vinden en hergebruiken van bronnen. 
 
 ## OGC API Tiles *`TileSet` requirement class* 
 <div class="informative">
@@ -18,15 +18,17 @@ Deze bevat:
 > **Requirement Class "TileSet"** Defines the response of a TileSet GET request (but not the path or the link for the request). The response has two formats: tilejson and OGC json. The OGC json includes tilematrixset links, a central point (optional), a links to the URI template to individual tiles, and the geospatial data resources involved in the creation of the tiles (optional), and other metadata (including attribution; optional) Defines how to formulate a request for individual tiles and how the response will look like (success and failure)
 
 
-## TileJSON 
+## Handmatige TileJSON 
 
 Omdat de OGC API standaard nog niet af is en om die reden nog niet aan te sluiten zijn bij deze standaard, dan raden wij het volgende alternatief aan : 
 
 <div class="informative">
-
 _AANBEVELING_ Lever op zijn minst een TileJSON document aan bij een vector tegel set. Zoals gedefineerd in [Annex B.1. Example TileJson Document: Draft](https://htmlpreview.github.io/?https://github.com/opengeospatial/OGC-API-Tiles/blob/master/core/standard/OAPI_Tiles.html#_example_tilejson_document) van het OGC API Tiles document.
 </div>
 
+In de praktijk betekend dit het handmatig aanleveren van een TileJSON bestand. Ook zijn er software tools die een TileJSON of Capabilities bestand generenren. Check hierbij echter of alle van de volgende onderdelen juist zijn opgenomen. 
+
+## Minimale aanbevelingen
 
 In meer detail, geven wij verdere beschrijvingen voor de verschilende metadata onderdelen die men kan aanleveren bij een vector tiles set. Hier onze aanbevelingen en de onderbouwing: 
 
@@ -58,9 +60,7 @@ _AANBEVELING_  De bron `attribution` meegeven, zodat deze zichtbaar is als annot
 
 Denk aan; Mogelijke copyright annotatie.
 
-
-
-### API design rules Nederlandse Overheid
+## API design rules Nederlandse Overheid
 Verder raden wij aan ook te kijken naar de [[API Designrules]] voor de Nederlandse overheid.
 
 _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
