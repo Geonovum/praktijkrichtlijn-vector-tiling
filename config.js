@@ -23,7 +23,7 @@ var respecConfig =
   //specType: "ST",                   // Standaard
   //specType: "IM",                   // Informatie Model
   //specType: "PR",                     // Praktijk Richtlijn
-  specType: "HR",                   // HandReiking
+  specType: "PR",                   // HandReiking
   //specType: "WA",                   // Werkafspraak
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
