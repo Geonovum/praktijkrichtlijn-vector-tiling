@@ -37,26 +37,27 @@ var respecConfig =
   editors:
   [
     {
+      name:       "Niene Boeijen",
+      company:    "This Way"
+    },
+    {
       name:       "Thijs Brentjens",
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
     },
-    {
-      name:       "Niene Boeijen",
-      company:    "This Way"
-    },
+
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
-  // TODO: werkgroep leden noemen?
-  authors:
-  [
-    {
-      name:       "Werkgroep leden noemen?",
-      company:    "Per organisatie",
-      companyURL: "https://example.com"
-    },
-  ],
+  // Werkgroepleden in andere paragraaf
+  // authors:
+  // [
+  //   {
+  //     name:       "Werkgroep leden noemen?",
+  //     company:    "Per organisatie",
+  //     companyURL: "https://example.com"
+  //   },
+  // ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "vt",  	          // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
@@ -70,7 +71,7 @@ var respecConfig =
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
-    "Mapbox Vector Tile Specification":
+    "Mapbox-Vector-Tile-Specification":
       {
         title:      "Mapbox Vector Tile Specification",
         href:       "https://docs.mapbox.com/vector-tiles/specification/",

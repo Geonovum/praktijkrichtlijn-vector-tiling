@@ -1,9 +1,10 @@
+
 # Tegel schema
 **hoofdstuk is werk in uitvoering**
 
 ## Coördinaat Referentie Systemen
 <div class="informative">
-[[Mapbox Vector Tile Specification]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
+[[Mapbox-Vector-Tile-Specification]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden.
 
 Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] waarom WGS84 vaak de voorkeur heeft. Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
@@ -29,7 +30,7 @@ In de Praktijkrichtlijn hanteren we echter de gangbare EPSG code EPSG:3857 ([WGS
 </div>
 
 ## Eis: te gebruiken TileMatrixSets
-Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles. 
+Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
 
 
 <div class="advisement">
@@ -40,7 +41,7 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referenti
 * Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: **NOG TE BEPALEN / PUBLICEREN** [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.
 </div>
 
-Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Bijlage: [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json) 
+Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Bijlage: [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json)
 
 ### Publicatie van gebruikte CRS
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
