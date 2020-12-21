@@ -17,7 +17,7 @@ Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde 
 Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 
 <div class="advisement">
-_EIS_ Biedt tegels aan in _tenminste_ één van de volgende _TileMatrixSets_ voor de coördinaat referentie systemen:
+_EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSets_ voor de coördinaat referentie systemen:
 
 * Web Mercator: EPSG:3857. TileMatrixSetId van OGC: `WebMercatorQuad`, URI: [http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json](http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json).
 * ETRS89, projectie Lambert Azimuthal Equal Area, EPSG:3035. TileMatrixSetId van OGC: `EuropeanETRS89_LAEAQuad`, URI: [http://schemas.opengis.net/tms/1.0/json/examples/EuropeanETRS89_LAEAQuad.json](http://schemas.opengis.net/tms/1.0/json/examples/EuropeanETRS89_LAEAQuad.json). Dit kan voor Europese toepassingen, met hogere nauwkeurigheid dan 1 meter, geschikt zijn.
@@ -27,15 +27,15 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende _TileMatrixSets_ voo
 Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
 
 ## Eis: Publicatie van gebruikte CRS
-Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
+Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de vector tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
 <div class="advisement">
 _EIS_ Neem de `TileMatrixSetId` op in de URL en de beschrijving van de vector tiles.
 </div>
 
 ## Eis: platte index
-Bij tiling wordt normaal gesproken bij 1 niveau verder inzoomen een tegel opgeknipt in 4 nieuwe tegels (een zogenaamde _platte index_ / _flat index_). Het kan nuttig zijn om vanwege datadichtheid dit niet te doen, maar slimmer om te gaan met bijna lege tiles (niet meer opknippen). Ook het overslaan van zoomniveaus wordt wel eens toegepast. Beide methodes vragen om een slimmere index, waarmee duidelijk is bij welke stappen wel of juist geen nieuwe tile opgevraagd moet worden. Een dergelijke slimme index is voor clients lastiger om te gebruiken. De Prakrijktrichtlijn schrijft daarom alleen een platte index voor.
+Bij tiling wordt normaal gesproken bij 1 niveau verder inzoomen een vector tile opgeknipt in 4 nieuwe vector tiles (een zogenaamde _platte index_ / _flat index_). Het kan nuttig zijn om vanwege datadichtheid dit niet te doen, maar slimmer om te gaan met bijna lege vector tiles (niet meer opknippen). Ook het overslaan van zoomniveaus wordt wel eens toegepast. Beide methodes vragen om een slimmere index, waarmee duidelijk is bij welke stappen wel of juist geen nieuwe tile opgevraagd moet worden. Een dergelijke slimme index is voor clients lastiger om te gebruiken. De Prakrijktrichtlijn schrijft daarom alleen een platte index voor.
 
 <div class="advisement">
-_EIS_ Gebruik een platte / "flat" index als indeling voor tegels.
+_EIS_ Gebruik een platte / "flat" index als indeling voor vector tiles.
 </div>

@@ -21,7 +21,7 @@ WGS84 wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige 
 Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.
 
 ## Impact onnauwkeurigheid WGS84 gering voor beoogde vector tiling toepassingen
-Voor het maken van tiles zullen geometriëen omgerekend worden naar het lokale stelsel van een vector tile, in integers (vaak in een bereik van 0-4096 bij 0-4096). Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
+Voor het maken van vector tiles zullen geometriëen omgerekend worden naar het lokale stelsel van een vector tile, in integers (vaak in een bereik van 0-4096 bij 0-4096). Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
 
 Voor publicatiedoeleinden bij de meeste (web)applicatie geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
 
