@@ -1,3 +1,4 @@
+
 # Tegel schema
 **hoofdstuk is werk in uitvoering**
 
@@ -29,7 +30,8 @@ In de Praktijkrichtlijn hanteren we echter de gangbare EPSG code EPSG:3857 ([WGS
 </div>
 
 ## Eis: te gebruiken TileMatrixSets
-Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Er is geen OGC TileMatrixSet voor het Rijksdriehoekstelsel.
+Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
+
 
 <div class="advisement">
 _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referentie systemen:
@@ -39,24 +41,14 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende Coordinaat referenti
 * Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: **NOG TE BEPALEN / PUBLICEREN** [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.
 </div>
 
+Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Bijlage: [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json)
+
 ### Publicatie van gebruikte CRS
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
 <p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
 [[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 </p>
-
-## Eis: afmetingen van de tile / high resolution tiles
-TODO: kan deze vervallen als we TileMatrixSets gebruiken?
-
-TODO: we gaan uit van 256 pixels. Of willen we juist 512 of 1024 juist voor Retina schermen als default? Mapbox heeft 512 als default
-
-<div class="advisement">
-_EIS_ Een tegel is altijd vierkant en is 256 bij 256 pixels, 512 bij 512, 1024 bij 1024?
-</div>
-
-Hiermee wordt de "extent of the tile" bedoeld, in termen van [[Mapbox-Vector-Tile-Specification]].
-Alternatief: “interne resolutie” / “discreet grid” / “extent of the tile”
 
 ## Eis: platte index
 Bij tiling wordt normaal gesproken bij 1 niveau verder inzoomen een tegel opgeknipt in 4 nieuwe tegels (een zogenaamde _platte index_ / _flat index_). Het kan nuttig zijn om vanwege datadichtheid dit niet te doen, maar slimmer om te gaan met bijna lege tiles (niet meer opknippen). Ook het overslaan van zoomniveaus wordt wel eens toegepast. Beide methodes vragen om een slimmere index, waarmee duidelijk is bij welke stappen wel of juist geen nieuwe tile opgevraagd moet worden. Een dergelijke slimme index is voor clients lastiger om te gebruiken. De Prakrijktrichtlijn schrijft daarom alleen een platte index voor.
