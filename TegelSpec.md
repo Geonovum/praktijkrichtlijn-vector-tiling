@@ -18,12 +18,12 @@ In het kort gaat deze specificatie uit van :
 * Winding order conform OGC 
 * [OGC valide](https://www.ogc.org/standards/sfa) geometrien 
 
-In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie '.mvt' zoals genoemd in [2.1 File extension](https://docs.mapbox.com/vector-tiles/specification/) van de Mapbox specificatie. Ook wijken wij af van de in [2.2 Multipurpose Internet Mail Extensions (MIME)](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime)
+In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie '.mvt' zoals genoemd in [2.1 File extension](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#21-file-extension) van de Mapbox specificatie. Ook wijken wij af van de in [2.2 Multipurpose Internet Mail Extensions (MIME)](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime)
 
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-Deze praktijkrichtlijn wijkt af van [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vecot tile specification. De bestands extensie voor de vector tegels is vrij in te vullen, alsmede de MIME type. 
+Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekend dat de bestands extensie voor de vector tegels  vrij in te vullen is, alsmede de MIME type. 
 </div>
 
 ### Eis: Encoding PBF
