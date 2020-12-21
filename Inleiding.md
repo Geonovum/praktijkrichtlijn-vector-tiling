@@ -12,9 +12,10 @@ Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlan
 ### Werkgroepleden
 De volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:
 
+* ...
 * Niene Boeijen, This Way
 * Thijs Brentjens, Geonovum
-
+* ...
 * _alfabetische lijst, wordt aangevuld na toestemming werkgroepleden_
 
 ## Aansluiten bij internationale standaarden
