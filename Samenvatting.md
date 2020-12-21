@@ -1,4 +1,4 @@
-De praktijkrichtlijn Vector tiling formuleert eisen en aanbevelingen hoe vector tiles te gebruiken voor Nederlandse toepassingen. De praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, waarbij visualisatie het hoofddoel is. Dit moet het voor gebruikers makkelijker maken vector tiles van derden te gebruiken.
+De Praktijkrichtlijn Vector Tiling formuleert eisen en aanbevelingen hoe vector tiles te gebruiken voor Nederlandse toepassingen. De praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, waarbij visualisatie het hoofddoel is. Dit moet het voor gebruikers makkelijker maken vector tiles van derden te gebruiken.
 
 Enkele van de belangrijkste punten zijn:
 * gebruik de specificatie van Mapbox (de [[Mapbox-Vector-Tile-Specification]]) om vector tiles te maken en OGC API Tiles ([[OGC-API-Tiles-Core]]) voor het publiceren en documenteren via een API.
