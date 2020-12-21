@@ -1,32 +1,34 @@
 # Styling
 
-Voor het weergeven van vector tiles is een stijl specificatie nodig die beschrijft welke data te tekenen, in welke volgorde, en in welke stijl. 
+Voor het weergeven van vector tiles is een weergavestijl specificatie nodig die beschrijft welke data te tekenen, in welke volgorde, en in welke stijl.
 
-## Aanbeveling: Styling publiceren
+## Aanbeveling: Styling publiceren via OGC API Styles
 
-De [OGC API Styles](https://www.ogc.org/projects/groups/stylesapiswg) specificatie wordt ontwikkelde voor het publiceren, delen en vinden van map stijlen en bijbehorende resources. 
+Het OGC ontwikkelt [[OGC-API-Styles]] voor het publiceren, delen en vinden van kaart stijlen en bijbehorende resources.
 
 <div class="informative">
-_AANBEVELING_ Lever de stijling aan doormiddel van de OCG API Styles standaard. 
+_AANBEVELING_ Lever de styling aan door middel van de OGC API Styles specificatie.
 </div>
 
 ## Aanbeveling: Styling specificatie encoding
 
-De OGC API Styles standaard ondersteund verschillende style encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling. 
+[[OGC-API-Styles]] ondersteunt verschillende styling encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling.
 
-In de praktijk ondersteund veel tooling de [Mapbox Styling specificatie](https://docs.mapbox.com/mapbox-gl-js/style-spec/) en zien we dat deze het meest wordt gebruikt. 
+In de praktijk ondersteund veel tooling de [[Mapbox-Style-Specification]] en zien we dat deze het meest wordt gebruikt.
 
 <div class="informative">
-_AANBEVELING_ Specificeer de stijl conform de MapboxGL style specification (https://docs.mapbox.com/mapbox-gl-js/style-spec/) 
+_AANBEVELING_ Specificeer de stijl conform de [[Mapbox-Style-Specification]]
 </div>
 
 ### Aanbeveling: Standaard stijl
 
-Een vector tile set is moeilijk te bevatten zonder stijling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker en zorgt ervoor dat de client direct aan de slag kan. 
+Een vector tile set is moeilijk te gebruiken zonder styling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker. Dit zorgt ervoor dat de gebruiker / applicatie ontwikkelaar direct aan de slag kan.
 
 <div class="informative">
 _AANBEVELING_ Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
 </div>
 
-
-De stijling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het [Best Practices document]().
+## Best practices styling
+<div class="informative">
+De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het [Best Practices document](https://geonovum.github.io/vector-tiling-best-practices/).
+</div>
