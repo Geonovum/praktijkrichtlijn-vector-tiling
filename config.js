@@ -38,7 +38,9 @@ var respecConfig =
   [
     {
       name:       "Niene Boeijen",
-      company:    "This Way"
+      company:    "This Way Cartography",
+      companyURL:  "https://nieneb.nl/"
+
     },
     {
       name:       "Thijs Brentjens",
