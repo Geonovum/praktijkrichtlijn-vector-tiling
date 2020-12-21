@@ -1,5 +1,4 @@
 # Uitgangspunten
-**hoofdstuk is werk in uitvoering**
 
 Dit hoofdstuk beschrijft de twee grootste uitgangspunten waar deze praktijkrichtlijn aansluit bij bestaande richtlijnen en standaarden.
 
