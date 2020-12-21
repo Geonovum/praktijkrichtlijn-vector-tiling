@@ -70,11 +70,12 @@ var respecConfig =
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
-    "MapboxVT": {
-        title: "Mapbox Vector Tile Specification",
-        href: "https://docs.mapbox.com/vector-tiles/specification/",
-        status: "V2.1",
-        publisher: "Mapbox",
+    "Mapbox Vector Tile Specification":
+      {
+        title:      "Mapbox Vector Tile Specification",
+        href:       "https://docs.mapbox.com/vector-tiles/specification/",
+        status:     "V2.1",
+        publisher:  "Mapbox",
     },
     "PBF": {
       title: "Google Proto Buffers",
