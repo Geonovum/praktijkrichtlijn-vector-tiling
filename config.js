@@ -48,7 +48,7 @@ var respecConfig =
     "Mapbox-Vector-Tile-Specification":
       {
         title:      "Mapbox Vector Tile Specification",
-        href:       "https://docs.mapbox.com/vector-tiles/specification/",
+        href:       "https://github.com/mapbox/vector-tile-spec/tree/master/2.1",
         status:     "V2.1",
         publisher:  "Mapbox",
     },
