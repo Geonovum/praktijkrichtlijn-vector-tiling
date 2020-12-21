@@ -9,27 +9,27 @@ Bij het maken van vector tiles gaan deze richtlijn uit van het gebruik van de te
 
 ## Eis: Mapbox Vector Tile specification versie 2.1
 <div class="advisement">
-_EIS_ Gebruik [[Mapbox Vector Tile Specification]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
+_EIS_ Gebruik [[Mapbox-Vector-Tile-Specification]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
 </div>
 
 In het kort gaat deze specificatie uit van :
 
-* [PBF (Goolge Protobuf)](https://github.com/protocolbuffers/protobuf) encoding
+* [PBF (Google Protobuf)](https://github.com/protocolbuffers/protobuf) encoding
 * Winding order conform OGC
-* [OGC valide](https://www.ogc.org/standards/sfa) geometrien
+* [OGC valide](https://www.ogc.org/standards/sfa) geometriëen
 
 In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie '.mvt' zoals genoemd in [2.1 File extension](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#21-file-extension) van de Mapbox specificatie. Ook wijken wij af van de in [2.2 Multipurpose Internet Mail Extensions (MIME)](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime)
 
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekend dat de bestands extensie voor de vector tegels  vrij in te vullen is, alsmede de MIME type. 
+Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekend dat de bestands extensie voor de vector tegels  vrij in te vullen is, alsmede de MIME type.
 </div>
 
 ### Eis: Encoding PBF
 
 <div class="advisement">
-Gebruik voor de encoding van de data [PBF (Goolge Protobuf)](https://github.com/protocolbuffers/protobuf)
+Gebruik voor de encoding van de data [[PBF]](Google Protobuf)
 </div>
 
 
