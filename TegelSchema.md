@@ -48,7 +48,8 @@ Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
 <div class="advisement">
-_EIS_ Neem de TileMatrixSetId op in de URL en de beschrijving van de vector tiles. 
+_EIS_ Neem de `TileMatrixSetId` op in de URL en de beschrijving van de vector tiles.
+</div>
 
 <p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
 [[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
