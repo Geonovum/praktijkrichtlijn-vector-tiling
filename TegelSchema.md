@@ -12,14 +12,14 @@ Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP
 >
 > Consider your user's intended application when choosing the coordinate reference system(s) used to publish spatial data
 
-Maar van coördinaten in WGS84 is bekend dat die op het Europees vasteland soms te grote afwijkingen kunnen vertonen. In Nederland is WGS84 niet nauwkeurig genoeg als de data gebruikt wordt bij toepassingen die nauwkeuriger dan 1 meter moeten zijn.
+Door tektonische verschuiving van Europa veranderen coördinaten van punten in Nederland met 2,5 cm/jaar. Het verschil tussen WGS84 en ETRS89 is daardoor opgelopen tot ruim 0,8 m in 2020. WGS84 is daarom minder geschikt voor nauwkeurige toepassingen.
 
 Voor het maken van tiles zullen geometrieen omgerekend worden naar het lokale stelsel van een vector tile. Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
 
 Voor publicatiedoeleinden bij de meeste (web)applicatie geldt daarom dat WGS84 acceptabel is. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
 
 <p class="note" title="Notitie over realisatie van WGS84 en Web Mercator">
-Er is niet één scherpe definitie van WGS84. Om nauwkeurig te zijn, is het nodig naar een specifieke realisatie van WGS84 te verwijzen.
+WGS84 is wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige eenduidige definitie van het CRS is het daarom nodig een specifieke realisatie van WGS84 te vermelden (bijvoorbeeld WGS84-G1762, EPSG:9057). Vanwege de tektonische verschuiving van Europa is het daarnaast nodig het tijdstip (epoche) van de geldigheid van de coördinaten te vermelden. Bij coördinaten die direct in WGS84 gemeten zijn (zoals met een niet-landmeetkundige GPS-ontvanger) is het epoche het tijdstip van de meting. Bij transformatie van RD/ETRS89 naar een WGS84-realisatie wordt impliciet een referentie-epoche gebruikt of moet de gebruiker een epoche opgeven. Wanneer geen specifieke WGS84-realisatie gespecificeerd wordt, dan wordt meestal een onnauwkeurige nul-transformatie tussen ETRS89 en WGS84 gebruikt.
 
 Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.
 
