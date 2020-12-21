@@ -1,5 +1,4 @@
 # Inleiding
-**hoofdstuk is werk in uitvoering**
 
 ## Doel
 De Prakrijktrichtlijn specificeert hoe het beste vector tiles aangeboden kunnen worden om breed gebruik mogelijk te maken (maximale interoperabiliteit), voor Nederlandse toepassingen. Dit moet het ook makkelijker maken om vector tiles van derden te gebruiken. Zie verder [het hoofdstuk over de scope](#Scope).

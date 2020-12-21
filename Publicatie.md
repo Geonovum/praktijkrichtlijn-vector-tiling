@@ -1,5 +1,4 @@
-# Tegels aanbieden
-**hoofdstuk is werk in uitvoering**
+# Vector tiles aanbieden
 
 ## Eis: gebruik OGC API Tiles
 Er is nu nog geen open standaard gereed voor publicatie. [[OGC-API-Tiles-Core]] lijkt dat wel te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn deze API specificatie daarom voor.
@@ -10,7 +9,7 @@ _EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tile
 
 ## Eis: Content-Type
 <div class="advisement">
-Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type oor de vector tiles weer te geven.
+Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type van de vector tiles weer te geven.
 </div>
 
 ## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver
