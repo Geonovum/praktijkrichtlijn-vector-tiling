@@ -22,20 +22,22 @@ In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie `.mvt
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekent dat de bestands extensie voor de vector tiles vrij in te vullen is, alsmede de MIME type.
+_EIS_ De bestands extensie voor de vector tiles is vrij in te vullen, alsmede het MIME type.
+
+Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification.
 </div>
 
 ### Eis: Encoding PBF
 
 <div class="advisement">
-Gebruik voor de encoding van de data [[PBF]] (Google Protobuf)
+_EIS_ Gebruik voor de encoding van de data [[PBF]] (Google Protobuf)
 </div>
 
 ### Eis: Winding order conform OGC
 [[Mapbox-Vector-Tile-Specification]] vereist de OGC _Winding order_. Zie de de [Mapbox documentatie over _Winding order_](https://docs.mapbox.com/vector-tiles/specification/#winding-order) voor een toelichting. Omdat de _winding order_ vaak mis gaat bij implementaties, bevat de Praktijkrichtlijn een expliciete eis hiervoor.
 
 <div class="advisement">
-Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde _winding order_ zoals in OGC Simple Features Access is gedefinieerd.
+_EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde _winding order_ zoals in OGC Simple Features Access is gedefinieerd.
 </div>
 
 ## Vector tiles aanbieden
@@ -48,7 +50,7 @@ Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles.
 
 ### Eis: OGC API Tiles
 <div class="advisement">
-Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
+_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
 Hoofdstuk 5 werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.

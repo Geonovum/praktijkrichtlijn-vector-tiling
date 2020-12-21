@@ -9,7 +9,7 @@ _EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tile
 
 ## Eis: Content-Type
 <div class="advisement">
-Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type van de vector tiles weer te geven.
+_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type van de vector tiles weer te geven.
 </div>
 
 ## Aanbeveling: gebruik HTTP Header Content-Encoding bij gzip compressie op de webserver
