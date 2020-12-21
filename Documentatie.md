@@ -62,6 +62,6 @@ _AANBEVELING_  De bron `attribution` meegeven, zodat deze zichtbaar is als annot
 Denk aan; Mogelijke copyright annotatie.
 
 ## API design rules Nederlandse Overheid
-Verder raden wij aan ook te kijken naar de [[API Designrules]] voor de Nederlandse overheid.
+Verder raden wij aan ook te kijken naar de [[API-Designrules]] voor de Nederlandse overheid.
 
-_AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
+_AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
