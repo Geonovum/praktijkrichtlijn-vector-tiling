@@ -1,38 +1,20 @@
-
-# Tegel schema
-**hoofdstuk is werk in uitvoering**
+# Vector tiles schema
 
 ## Coördinaat Referentie Systemen
 <div class="informative">
+Een vector tiles schema bestaat uit een oorsprong, grid indeling en zoomniveaus voor een bepaald Coördinaat Referentie Systeen (CRS). Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande standaarden. Web Mercator en andere WGS84 gebaseerde CRSen zijn veelgebruikt bij vector tiles en tools hebben hier brede ondersteuning voor.
 
-Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] dat de CRS WGS84 vaak de voorkeur heeft.
+Maar WGS84 is voor Nederland (en andere Europese landen) tot op zekere hoogte onnauwkeurig. Afhankelijk van de toepassing kan dit zeer ongewenste effecten hebben. De bijlage [Coördinaat referentie systemen voor vector tiles](#CRSachtergrond) bevat meer informatie over deze (on)nauwkeurigheid en wat de impact is voor vector tiles.
 
-Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
-
-> Best Practice 7: Choose coordinate reference systems to suit your user's applications
->
-> Consider your user's intended application when choosing the coordinate reference system(s) used to publish spatial data
-
-Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden. Ook de [[Mapbox-Vector-Tile-Specification]] gebruikt als basis de Web mercator projectie maar schrijft verder geen verplichting voor een specifiek Coördinaat Referentie Systeem (CRS) te gebruiken in vector tiles.
-
-Door tektonische verschuiving van Europa veranderen coördinaten van punten in Nederland met 2,5 cm/jaar. Het verschil tussen WGS84 en ETRS89 is daardoor opgelopen tot ruim 0,8 m in 2020. WGS84 is daarom minder geschikt voor nauwkeurige toepassingen.
-
-Voor het maken van tiles zullen geometrieen omgerekend worden naar het lokale stelsel van een vector tile. Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile.
-
-Voor publicatiedoeleinden bij de meeste (web)applicatie geldt daarom dat WGS84 acceptabel is. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
-
-<p class="note" title="Notitie over realisatie van WGS84 en Web Mercator">
-WGS84 is wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige eenduidige definitie van het CRS is het daarom nodig een specifieke realisatie van WGS84 te vermelden (bijvoorbeeld WGS84-G1762, EPSG:9057). Vanwege de tektonische verschuiving van Europa is het daarnaast nodig het tijdstip (epoche) van de geldigheid van de coördinaten te vermelden. Bij coördinaten die direct in WGS84 gemeten zijn (zoals met een niet-landmeetkundige GPS-ontvanger) is het epoche het tijdstip van de meting. Bij transformatie van RD/ETRS89 naar een WGS84-realisatie wordt impliciet een referentie-epoche gebruikt of moet de gebruiker een epoche opgeven. Wanneer geen specifieke WGS84-realisatie gespecificeerd wordt, dan wordt meestal een onnauwkeurige nul-transformatie tussen ETRS89 en WGS84 gebruikt.
-
-Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.
-
-In de Praktijkrichtlijn hanteren we echter de gangbare EPSG code EPSG:3857 ([WGS84 / Pseudo-Mercator](https://epsg.org/crs_3857/WGS-84-Pseudo-Mercator.html)), met als Geodetisc CRS WGS84 conform EPSG:4326.
-</p>
-
+Voor de meeste toepassingen die vector tiles gebruiken binnen de scope van deze Prakrijktrichtlijn is Web Mercator voldoende nauwkeurig.
 </div>
 
 ## Eis: te gebruiken TileMatrixSets
-Voor het te gebruiken CRS en grid (oorsprong, grid indeling en zoomniveaus), kan het beste aangesloten worden bij bestaande standaarden. Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn. Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
+Het OGC definieert in [[OGC-Two-Dimensional-Tile-Matrix-Set]] enkele zogenaamde _TileMatrixSets_, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn.
+
+[[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Zie de bijlage: [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json)
+
+Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 
 <div class="advisement">
 _EIS_ Biedt tegels aan in _tenminste_ één van de volgende _TileMatrixSets_ voor de coördinaat referentie systemen:
@@ -42,18 +24,14 @@ _EIS_ Biedt tegels aan in _tenminste_ één van de volgende _TileMatrixSets_ voo
 * Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: **NOG TE BEPALEN / PUBLICEREN** [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.
 </div>
 
-Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Bijlage: [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json)
+Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
 
-### Publicatie van gebruikte CRS
+## Eis: Publicatie van gebruikte CRS
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
 <div class="advisement">
 _EIS_ Neem de `TileMatrixSetId` op in de URL en de beschrijving van de vector tiles.
 </div>
-
-<p class="note" title="OGC API Tiles beschrijft beperkte set TileMatrixSets">
-[[OGC-API-Tiles-Core]] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [[OGC-Two-Dimensional-Tile-Matrix-Set]]. Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
-</p>
 
 ## Eis: platte index
 Bij tiling wordt normaal gesproken bij 1 niveau verder inzoomen een tegel opgeknipt in 4 nieuwe tegels (een zogenaamde _platte index_ / _flat index_). Het kan nuttig zijn om vanwege datadichtheid dit niet te doen, maar slimmer om te gaan met bijna lege tiles (niet meer opknippen). Ook het overslaan van zoomniveaus wordt wel eens toegepast. Beide methodes vragen om een slimmere index, waarmee duidelijk is bij welke stappen wel of juist geen nieuwe tile opgevraagd moet worden. Een dergelijke slimme index is voor clients lastiger om te gebruiken. De Prakrijktrichtlijn schrijft daarom alleen een platte index voor.
