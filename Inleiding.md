@@ -14,7 +14,7 @@ De volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via d
 
 * Niene Boeijen, This Way Cartography
 * Thijs Brentjens, Geonovum
-
+* ...
 * _alfabetische lijst, wordt aangevuld na toestemming werkgroepleden_
 
 ## Aansluiten bij internationale standaarden

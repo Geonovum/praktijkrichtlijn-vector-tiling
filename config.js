@@ -1,38 +1,15 @@
-//-------------------------------------------------------------------------------------
-//-- File. . . :  config.js
-//-- Bevat . . :  Template voor de  configuratie voor respec
-//--              Gebaseerd op https://github.com/Geonovum/respec/wiki
-//--              Deze file moet worden neergezet in de root-directory van de
-//--              betreffende standaard.
-//-- Door. . . :  Jan van Gelder
-//-------------------------------------------------------------------------------------
-//-------------------------------------------------------------------------------------
-//-- Log . . . :  20181015 - JvG - Initiele versie
-//-------------------------------------------------------------------------------------
-
-//-------------------------------------------------------------------------------------
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "GN-WV",                // Werk Versie
-  //specStatus: "GN-CV",              // Consultatie Versie
-  //specStatus: "GN-VV",              // Vaststellings Versie
-  //specStatus: "GN-DEF",             // Definitieve Versie
-  //-- specType is verplicht! (activeer 1 van de volgende) ----------------------------
-  //specType: "NO",                   // Norm
-  //specType: "ST",                   // Standaard
-  //specType: "IM",                   // Informatie Model
-  //specType: "PR",                     // Praktijk Richtlijn
-  specType: "PR",                   // HandReiking
-  //specType: "WA",                   // Werkafspraak
+  //-- specType is verplicht! (activeer 1 van de volgende) ------------------
+  specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  //publishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
-  //-- de namen van de Editor(s) ------------------------------------------------------
-  //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
-  //-- de github repository waar je documentn in staat --------------------------------
+  // publishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
+  //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
   [
@@ -55,21 +32,17 @@ var respecConfig =
   // authors:
   // [
   //   {
-  //     name:       "Werkgroep leden noemen?",
+  //     name:       "Werkgroep leden noemen",
   //     company:    "Per organisatie",
   //     companyURL: "https://example.com"
   //   },
   // ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "vt",  	          // Wordt gebruikt in de document URL
-  //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
   pubDomain: "serv", 	            // Services
-  //pubDomain: "visu", 	            // Visualisatie
   issueBase: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling/issues",
   //-- license: voor de geldende gebruiksvoorwaarden
   license: "cc-by",              //-- bronvermelding, geen afgeleide werken (default)
-  // license: "cc0",                //-- Public Domain Dedication
-  // license: "cc-by",              //-- Attribution, met bronvermelding
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
@@ -106,7 +79,7 @@ var respecConfig =
     },
     "OGC-Two-Dimensional-Tile-Matrix-Set": {
       title: "OGC Two Dimensional Tile Matrix Set",
-      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html", // TODO: precise link to final version, if published
+      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html", 
       status: "1.0",
       publisher: "OGC",
     },
