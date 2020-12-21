@@ -24,7 +24,6 @@ var respecConfig =
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
     },
-
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
@@ -79,11 +78,20 @@ var respecConfig =
     },
     "OGC-Two-Dimensional-Tile-Matrix-Set": {
       title: "OGC Two Dimensional Tile Matrix Set",
-      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html", 
+      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html",
       status: "1.0",
       publisher: "OGC",
     },
-
+    "OGC-API-Styles": {
+      title: "OGC API Styles",
+      href: "https://www.ogc.org/projects/groups/stylesapiswg",
+      publisher: "OGC",
+    },
+    "Mapbox-Style-Specification" : {
+      title: "",
+      href: "https://docs.mapbox.com/mapbox-gl-js/style-spec/",
+      publisher:  "Mapbox",
+    }
   }
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
