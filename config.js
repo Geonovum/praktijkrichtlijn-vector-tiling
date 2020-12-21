@@ -88,8 +88,9 @@ var respecConfig =
       publisher: "OGC",
     },
     "Mapbox-Style-Specification" : {
-      title: "",
+      title: "Mapbox Style Specification",
       href: "https://docs.mapbox.com/mapbox-gl-js/style-spec/",
+      status: "v13.18.0",
       publisher:  "Mapbox",
     }
   }
