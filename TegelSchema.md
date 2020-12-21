@@ -3,7 +3,7 @@
 
 ## Coördinaat Referentie Systemen
 <div class="informative">
-[[Mapbox Vector Tile Specification]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
+[[Mapbox-Vector-Tile-Specification]] schrijft geen Coördinaat Referentie Systeem (CRS) voor om te gebruiken in vector tiles conform die specificatie.
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden.
 
 Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] waarom WGS84 vaak de voorkeur heeft. Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
@@ -55,7 +55,7 @@ TODO: we gaan uit van 256 pixels. Of willen we juist 512 of 1024 juist voor Reti
 _EIS_ Een tegel is altijd vierkant en is 256 bij 256 pixels, 512 bij 512, 1024 bij 1024?
 </div>
 
-Hiermee wordt de "extent of the tile" bedoeld, in termen van [[Mapbox Vector Tile Specification]].
+Hiermee wordt de "extent of the tile" bedoeld, in termen van [[Mapbox-Vector-Tile-Specification]].
 Alternatief: “interne resolutie” / “discreet grid” / “extent of the tile”
 
 ## Eis: platte index

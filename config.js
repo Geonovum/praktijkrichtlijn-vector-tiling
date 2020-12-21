@@ -70,7 +70,7 @@ var respecConfig =
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
-    "Mapbox Vector Tile Specification":
+    "Mapbox-Vector-Tile-Specification":
       {
         title:      "Mapbox Vector Tile Specification",
         href:       "https://docs.mapbox.com/vector-tiles/specification/",
