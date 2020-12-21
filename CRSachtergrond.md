@@ -1,6 +1,7 @@
 # Coördinaat referentie systemen voor vector tiles
 
 ## Coördinaat referentie systemen bij beoogd gebruik
+<div class="informative">
 Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
 
 > Best Practice 7: Choose coordinate reference systems to suit your user's applications
@@ -10,6 +11,7 @@ Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordele
 Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] dat het CRS WGS84 vaak de voorkeur heeft.
 
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden. De [[Mapbox-Vector-Tile-Specification]] gaat uit van de Web Mercator projectie (met WGS84 als datum) maar bevat verder geen verplichting voor een specifiek Coördinaat Referentie Systeem (CRS) voor vector tiles.
+</div>
 
 ## Onnauwkeurigheid WGS84 en bijstelling
 Door tektonische verschuiving van Europa veranderen coördinaten van punten in Nederland met 2,5 cm/jaar. Het verschil tussen WGS84 en ETRS89 is daardoor opgelopen tot ruim 0,8 m in 2020. WGS84 is daarom minder geschikt voor nauwkeurige toepassingen.

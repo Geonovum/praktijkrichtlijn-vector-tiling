@@ -22,7 +22,7 @@ In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie `.mvt
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekent dat de bestands extensie voor de vector tegels  vrij in te vullen is, alsmede de MIME type.
+Deze praktijkrichtlijn wijkt af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification. Dit betekent dat de bestands extensie voor de vector tiles vrij in te vullen is, alsmede de MIME type.
 </div>
 
 ### Eis: Encoding PBF
@@ -48,7 +48,7 @@ Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles.
 
 ### Eis: OGC API Tiles
 <div class="advisement">
-Als vector tiles via een API aangeboden worden, gebruik dan [OGC-API-Tiles-Core].
+Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
 Hoofdstuk 5 werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.
