@@ -2,13 +2,13 @@
 
 ## Coördinaat referentie systemen bij beoogd gebruik
 <div class="informative">
+
+Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] dat het CRS WGS84 vaak de voorkeur heeft.
 Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordelen in de adoptatie en het kunnen hergebruiken van data. Zie de paragrafen [CRS background](https://www.w3.org/TR/sdw-bp/#CRS-background) en [Best practice 7](https://www.w3.org/TR/sdw-bp/#bp-crs-choice):
 
 > Best Practice 7: Choose coordinate reference systems to suit your user's applications
 >
 > Consider your user's intended application when choosing the coordinate reference system(s) used to publish spatial data
-
-Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] dat het CRS WGS84 vaak de voorkeur heeft.
 
 Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden. De [[Mapbox-Vector-Tile-Specification]] gaat uit van de Web Mercator projectie (met WGS84 als datum) maar bevat verder geen verplichting voor een specifiek Coördinaat Referentie Systeem (CRS) voor vector tiles.
 </div>
