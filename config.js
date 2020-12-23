@@ -1,7 +1,7 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "GN-WV",                // Werk Versie
+  specStatus: "GN-CV",                // Werk Versie
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
   specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
