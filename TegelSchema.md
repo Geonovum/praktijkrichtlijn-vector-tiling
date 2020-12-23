@@ -2,7 +2,7 @@
 
 ## Coördinaat Referentie Systemen
 <div class="informative">
-Een vector tiles schema bestaat uit een oorsprong, grid indeling en zoomniveaus voor een bepaald Coördinaat Referentie Systeen (CRS). Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande standaarden. Web Mercator en andere WGS84 gebaseerde CRSen zijn veelgebruikt bij vector tiles en tools hebben hier brede ondersteuning voor.
+Een vector tiles schema bestaat uit een oorsprong, grid indeling en zoomniveaus voor een bepaald Coördinaat Referentie Systeen (CRS). Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande standaarden. Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [[SDW-BP]] dat het CRS WGS84 vaak de voorkeur heeft. Web Mercator en andere WGS84 gebaseerde CRSen zijn veelgebruikt bij vector tiles en tools hebben hier brede ondersteuning voor.
 
 Maar WGS84 is voor Nederland (en andere Europese landen) tot op zekere hoogte onnauwkeurig. Afhankelijk van de toepassing kan dit zeer ongewenste effecten hebben. De bijlage [Coördinaat referentie systemen voor vector tiles](#CRSachtergrond) bevat meer informatie over deze (on)nauwkeurigheid en wat de impact is voor vector tiles.
 

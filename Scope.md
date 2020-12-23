@@ -12,7 +12,7 @@ Door ons te beperken tot visualisatie het gevolg dat niet alle geschikte mogelij
 
 ## Buiten scope
 
-Hoewel het mogelijk is om vector tiling te gebruiken om alleen de (feature/object) data uit te wisselen (al dan niet met nauwkeurige geometrie), is dit buiten scope van deze Praktijkrichtlijn. Het herleiden van de orginele geometrie uit een vector tile geometrie is technisch mogelijk, maar geen onderdeel van dit document.
+Hoewel het mogelijk is om vector tiling te gebruiken om alleen de (feature/object) data uit te wisselen (al dan niet met nauwkeurige geometrie), is dit buiten scope van deze Praktijkrichtlijn.
 
 Buiten scope van de Praktijkrichtlijn zijn:
 - 3D vector tiles

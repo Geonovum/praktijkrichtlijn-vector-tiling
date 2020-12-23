@@ -20,12 +20,12 @@ In de praktijk ondersteund veel tooling de [[Mapbox-Style-Specification]] en zie
 _AANBEVELING_ Specificeer de stijl conform de [[Mapbox-Style-Specification]]
 </div>
 
-## Aanbeveling: Standaard stijl
+## Eis: Standaard stijl
 
 Een vector tile set is moeilijk te gebruiken zonder styling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker. Dit zorgt ervoor dat de gebruiker / applicatie ontwikkelaar direct aan de slag kan.
 
-<div class="informative">
-_AANBEVELING_ Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
+<div class="advisement">
+_EIS_ Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
 </div>
 
 ## Best practices styling

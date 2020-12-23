@@ -17,5 +17,5 @@ _EIS_ Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header
 _AANBEVELING_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header `Content-Encoding: gzip` mee.
 </div>
 
-## Downloaden van vector tiles in statische bestanden
+## Downloaden van vector tiles
 Voor sommige doelen, zoals gebruik in offline systemen of voor het kopiëren van vector tiles voor installatie van een eigen vector tileserver, is het handig om meerdere vector tiles of een hele set van vector tiles in één bestand te kunnen downloaden. Er zijn meerdere manieren in gebruik, zoals in _filebased databases_ als MBTiles of GeoPackage of het comprimeren (ZIPpen) van een directorystructuur met vector tiles. Elk van deze manieren kan geschikt zijn. Er is op dit moment geen specifieke eis of aanbeveling over op te nemen.
