@@ -2,12 +2,12 @@
 
 Het is belangrijk bij het aanleveren van een vector tile set (download of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen en tegelijkertijd ook voordelen voor het delen, vinden en hergebruiken van bronnen.
 
-## Eis: OGC API Tiles *"TileSet" requirement class*
+## Eis: OGC API Tiles **"TileSet" requirement class**
 <div class="advisement">
-_EIS_ Sluit zoveel mogelijk aan bij de OGC API Tiles definitie en de  *"TileSet" requirement class* endpoint.
+_EIS_ Sluit zoveel mogelijk aan bij de OGC API Tiles definitie en de **"TileSet" requirement class** endpoint.
 </div>
 
-Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een *"TileSet" requirement class* beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster). De response heeft 2 formaten: TileJSON en OGC JSON.
+Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een **"TileSet" requirement class** beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster). De response heeft 2 formaten: TileJSON en OGC JSON.
 
 Deze beschrijvingen bevatten o.a. :
 - Beschikbare Tilematrixset links
