@@ -9,12 +9,16 @@ Deze praktijkrichtlijn is geen verplichting.
 Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlandse experts in enkele werksessies afgestemd.
 
 ### Werkgroepleden
-De volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:
+Onder andere de volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:
 
-* Niene Boeijen, This Way Cartography
-* Thijs Brentjens, Geonovum
-* ...
-* _alfabetische lijst, wordt aangevuld na toestemming werkgroepleden_
+*   Anton Bakker, Kadaster
+*   Niene Boeijen, This Way Cartography (redactie)
+*   Thijs Brentjens, Geonovum (redactie)
+*   Stefan de Konink, Stichting OpenGeo
+*   Jeroen Hogeboom, Kadaster
+*   Edward Mac Gillavry, Webmapper
+*   Just van den Broecke, Just Objects
+*   Wouter Visscher, Kadaster
 
 ## Aansluiten bij internationale standaarden
 Deze Prakrijktrichtlijn gebruikt zoveel mogelijk internationale standaarden en specificaties. Waar dat nog niet goed mogelijk is, kiezen we de meest gangbare oplossing uit de praktijk. Deze richtlijn is niet gebonden aan specifieke software.
@@ -24,8 +28,8 @@ Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel v
 
 ## Doelgroep
 De praktijkrichtlijn is bedoeld voor o.a.:
-- aanbieders van vector tiles
-- gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
+-   aanbieders van vector tiles
+-   gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
 
 ## Leeswijzer
 Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).

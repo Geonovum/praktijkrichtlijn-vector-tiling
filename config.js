@@ -8,7 +8,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2020-12-23",  	    // Format is "YYY-MM-DD"
+  publishDate: "2021-04-15",  	    // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
