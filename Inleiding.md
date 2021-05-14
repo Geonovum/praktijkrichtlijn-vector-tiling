@@ -11,6 +11,7 @@ Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlan
 ### Werkgroepleden
 Onder andere de volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:
 
+*   Joris Bak, Esri Nederland
 *   Anton Bakker, Kadaster
 *   Niene Boeijen, This Way Cartography (redactie)
 *   Thijs Brentjens, Geonovum (redactie)
