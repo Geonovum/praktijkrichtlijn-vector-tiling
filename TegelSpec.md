@@ -53,4 +53,4 @@ Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles.
 _EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
-Hoofdstuk 5 werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.
+[Hoofdstuk 5](#Publicatie) werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.
