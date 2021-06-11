@@ -42,7 +42,7 @@ _EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde _wi
 
 ## Vector tiles aanbieden
 
-Voor het aanbieden en publiceren van vector tiles is nog geen open standaard gereed. De vector tiles kunnen als download aangeboden worden of als service, via een API, of als statische _directory structure_.
+Voor het aanbieden en publiceren van vector tiles via het web is nog geen open standaard gereed. De vector tiles kunnen als download aangeboden worden of als webservice, via een API, of als statische _directory structure_.
 
 Het OGC werkt aan verscheidene nieuwe specificaties voor het publiceren en aanbieden van geografische data via APIs: voor _features_, _maps_ en _vector tiles_. Voor vector tiles is de [[OGC-API-Tiles-Core]] specificatie relevant.
 
