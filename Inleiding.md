@@ -33,6 +33,11 @@ De praktijkrichtlijn is bedoeld voor o.a.:
 -   gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
 
 ## Leeswijzer
+Na dit hoofdstuk komt eerst de [Scope](#Scope) van deze Praktijkrichtlijn. [Hoofdstuk 3](#TegelSpec) bevat vervolgens de specificaties waarop deze Praktijkrichtlijn gebaseerd is. [Hoofdstuk 4 TileMatrixSet](#TegelSchema) werkt de details van de te gebruiken _TileMatrixSets_ uit. [Hoofdstuk 5 Publicatie](#Publicatie) behandelt hoe de vector tiles aan te bieden.
+[Hoofdstuk 6 Documentatie](#Documentatie) specificeert hoe de aangeboden vector tiles en API te documenteren. Het weergeven van vector tiles is onderwerp van [hoofdstuk 7 Styling](#Styling).
+
+De bijlagen bevatten verdiepende informatie over Coördinaat Referentie Systemen en de uitwerking van de _TileMatrixSet_ voor het Rijksdriehoekstelsel.
+
 Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).
 
 De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen _EIS_ en _AANBEVELING_ om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.
