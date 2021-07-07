@@ -46,7 +46,7 @@ Voor het aanbieden en publiceren van vector tiles via het web is nog geen open s
 
 Het OGC werkt aan verscheidene nieuwe specificaties voor het publiceren en aanbieden van geografische data via APIs: voor _features_, _maps_ en _vector tiles_. Voor vector tiles is de [[OGC-API-Tiles-Core]] specificatie relevant.
 
-Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles. [[OGC-API-Tiles-Core]] lijkt hier wel de open standaard voor te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn daarom [[OGC-API-Tiles-Core]] voor.
+Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles door middel van web services. [[OGC-API-Tiles-Core]] lijkt hier wel de open standaard voor te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn daarom [[OGC-API-Tiles-Core]] voor.
 
 ### Eis: OGC API Tiles
 <div class="advisement">
