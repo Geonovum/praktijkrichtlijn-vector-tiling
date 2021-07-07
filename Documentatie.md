@@ -19,15 +19,13 @@ Deze beschrijvingen bevatten o.a. :
 > **Requirement Class "TileSet"** Defines the response of a TileSet GET request (but not the path or the link for the request). The response has two formats: tilejson and OGC json. The OGC json includes tilematrixset links, a central point (optional), a links to the URI template to individual tiles, and the geospatial data resources involved in the creation of the tiles (optional), and other metadata (including attribution; optional) Defines how to formulate a request for individual tiles and how the response will look like (success and failure)
 
 
-## Eis: Handmatige TileJSON
+## Eis: TileJSON
 
 Omdat de OGC API Tiles specificatie nog niet af is en om die reden nog niet aan te sluiten is bij deze specificatie, raden wij het volgende alternatief aan:
 
 <div class="advisement">
 _EIS_ Lever op zijn minst een TileJSON document aan bij een vector tile set. Zoals gedefineerd in [Annex B.1. Example TileJson Document: Draft](https://htmlpreview.github.io/?https://github.com/opengeospatial/OGC-API-Tiles/blob/master/core/standard/OAPI_Tiles.html#_example_tilejson_document) van het OGC API Tiles document.
 </div>
-
-In de praktijk betekent dit het handmatig aanleveren van een TileJSON bestand. Ook zijn er software tools die een TileJSON of Capabilities bestand genereren. Controleer hierbij of alle van de volgende minimale aanbevelingen juist zijn opgenomen.
 
 ## Minimale aanbevelingen
 
