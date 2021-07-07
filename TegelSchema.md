@@ -26,8 +26,6 @@ _EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSet
 * Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: **NOG TE BEPALEN / PUBLICEREN** [NetherlandsRDNewQuad.json](media/NetherlandsRDNewQuad.json). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.
 </div>
 
-Let op, de resolutie in de TileMatrixSet is niet van toepassing op vector tiles.
-
 ## Eis: Publicatie van gebruikte CRS
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de vector tiles. Daarmee is het gebruikte CRS gepubliceerd.
 
