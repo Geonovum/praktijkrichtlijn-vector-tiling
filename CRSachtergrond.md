@@ -47,5 +47,9 @@ Betekent dit dat:
 *   de tile een gebied van: 256 pixels * 0,84 meter/pixel = 215,04 meter (bij 215,04 meter) representeert
 *   en komt de (maximale) nauwkeurigheid van de geometrie in `mvt` format op: 215,04/4096 = 0,0525 m . Dus ~ 5 cm op zoomniveau 12.
 
-Algemeen: de nauwkeurigheid van de geometrie _in het lokale stelsel_ van een vector tile op `(256 * resolutie van het zoomniveau)/4096` is. Op zoomniveau 10 (bij benadering 1:12.000), is de nauwkeurigheid dan 0,21 meter.
+Algemeen: de nauwkeurigheid van de geometrie _in het lokale stelsel_ van een vector tile is:
+
+`nauwkeurigheid vector tile = (256 * resolutie van het zoomniveau)/4096`
+
+Op zoomniveau 10 (bij benadering 1:12.000) is de nauwkeurigheid dan 0,21 meter.
 </aside>
