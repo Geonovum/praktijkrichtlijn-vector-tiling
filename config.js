@@ -1,14 +1,14 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "GN-CV",                // Werk Versie = WV, Consultatie versie = CV
+  specStatus: "GN-DEF",                // Werk Versie = WV, Consultatie versie = CV
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
   specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2021-04-15",  	    // Format is "YYY-MM-DD"
+  publishDate: "2021-08-30",  	    // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
@@ -93,11 +93,11 @@ var respecConfig =
       status: "v13.18.0",
       publisher:  "Mapbox",
     }
-  }
+  },
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  //previousPublishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
-  //previousMaturity: "CV",                   // kies 1 van deze 2 regels
+  previousPublishDate: "2021-04-15",  	    // Format is "YYY-MM-DD"
+  previousMaturity: "CV",                   // kies 1 van deze 2 regels
   //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
