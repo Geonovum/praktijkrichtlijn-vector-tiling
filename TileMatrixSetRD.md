@@ -4,226 +4,225 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
 
 ## JSON encoding
 
-```
+```json
 {
-    "type": "TileMatrixSetType",
     "title": "Amersfoort / RD New schema for the Netherlands",
-    "identifier": "NetherlandsRDNewQuad",
+    "id": "NetherlandsRDNewQuad",
     "boundingBox": {
-        "type": "BoundingBoxType",
         "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
-        "lowerCorner": [
-            595401.92,
+        "lowerLeft": [
+            -285401.92,
             22598.08
         ],
-        "upperCorner": [
-            -285401.92,
-            903401.92
+        "upperRight": [
+            595401.92,
+            903402.0
         ]
     },
-    "supportedCRS": "http://www.opengis.net/def/crs/EPSG/0/28992",
+    "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+    "orderedAxes": ["X", "Y"],
     "wellKnownScaleSet": " urn:ogc:def:wkss:OGC:1.0:NLDEPSG28992Scale",
-    "tileMatrix": [
+    "tileMatrices": [
         {
-            "identifier": "0",
-            "type": "TileMatrixType",
-            "scaleDenominator": 1.2288E7,
-            "topLeftCorner": [
+            "id": "0",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
+            "scaleDenominator": 1.2288E7,
+            "cellSize": 3440.64,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 1,
             "matrixHeight": 1
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "1",
-            "topLeftCorner": [
+            "id": "1",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 6144000.0,
+            "cellSize": 1720.32,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 2,
             "matrixHeight": 2
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "2",
-            "topLeftCorner": [
+            "id": "2",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 3072000.0,
+            "cellSize": 860.16,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 4,
             "matrixHeight": 4
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "3",
-            "topLeftCorner": [
+            "id": "3",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 1536000.0,
+            "cellSize": 430.08,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 8,
             "matrixHeight": 8
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "4",
-            "topLeftCorner": [
+            "id": "4",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 768000.0,
+            "cellSize": 215.04,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 16,
             "matrixHeight": 16
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "5",
-            "topLeftCorner": [
+            "id": "5",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 384000.0,
+            "cellSize": 107.52,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 32,
             "matrixHeight": 32
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "6",
-            "topLeftCorner": [
+            "id": "6",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 192000.0,
+            "cellSize": 53.76,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 64,
             "matrixHeight": 64
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "7",
-            "topLeftCorner": [
+            "id": "7",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 96000.0,
+            "cellSize": 26.88,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 128,
             "matrixHeight": 128
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "8",
-            "topLeftCorner": [
+            "id": "8",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 48000.0,
+            "cellSize": 13.44,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 256,
             "matrixHeight": 256
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "9",
-            "topLeftCorner": [
+            "id": "9",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 24000.0,
+            "cellSize": 6.72,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 512,
             "matrixHeight": 512
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "10",
-            "topLeftCorner": [
+            "id": "10",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 12000.0,
+            "cellSize": 3.36,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 1024,
             "matrixHeight": 1024
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "11",
-            "topLeftCorner": [
+            "id": "11",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 6000.0,
+            "cellSize": 1.68,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 2048,
             "matrixHeight": 2048
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "12",
-            "topLeftCorner": [
+            "id": "12",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 3000.0,
+            "cellSize": 0.84,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 4096,
             "matrixHeight": 4096
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "13",
-            "topLeftCorner": [
+            "id": "13",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 1500.0,
+            "cellSize": 0.42,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 8192,
             "matrixHeight": 8192
         },
         {
-            "type": "TileMatrixType",
-            "identifier": "14",
-            "topLeftCorner": [
+            "id": "14",
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
             "scaleDenominator": 750.0,
+            "cellSize": 0.21,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 16384,
             "matrixHeight": 16384
         },
         {
-            "identifier": "15",
-            "type": "TileMatrixType",
+            "id": "15",
             "scaleDenominator": 375.0,
-            "topLeftCorner": [
+            "cellSize": 0.105,
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
@@ -233,10 +232,10 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "matrixHeight": 32768
         },
         {
-            "identifier": "16",
-            "type": "TileMatrixType",
+            "id": "16",
             "scaleDenominator": 187.5,
-            "topLeftCorner": [
+            "cellSize": 0.0525,
+            "pointOfOrigin": [
                 -285401.92,
                 903402.0
             ],
@@ -252,165 +251,189 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
 
 ## XML Encoding
 
-```
-<TileMatrixSet id="NetherlandsRDNewQuad" xsi:schemaLocation="geonovum/tilematrixset/def">
-    <ows:Title>Amersfoort / RD New schema for the Netherlands</ows:Title>
-    <ows:Identifier>NetherlandsRDNewQuad</ows:Identifier>
-    <ows:BoundingBox crs="http://www.opengis.net/def/crs/EPSG/0/28992">
-        <ows:LowerCorner> 595401.92 22598.08 </ows:LowerCorner>
-        <ows:UpperCorner> -285401.92 903401.92 </ows:UpperCorner>
-    </ows:BoundingBox>
-    <ows:SupportedCRS> http://www.opengis.net/def/crs/EPSG/0/28992</ows:SupportedCRS>
-    <ows:Identifier>EPSG:28992</ows:Identifier>
-    <ows:SupportedCRS>urn:ogc:def:crs:EPSG::28992</ows:SupportedCRS>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<TileMatrixSet id="NetherlandsRDNewQuad"
+               xmlns="http://www.opengis.net/tms/2.0"
+               xmlns:tmsc="http://www.opengis.net/tms/2.0/common"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.opengis.net/tms/2.0 https://schemas.opengis.net/tms/2.0/xml/tilematrixset.xsd">
+    <tmsc:Title>Amersfoort / RD New schema for the Netherlands</tmsc:Title>
+    <tmsc:Identifier>NetherlandsRDNewQuad</tmsc:Identifier>
+    <tmsc:BoundingBox crs="http://www.opengis.net/def/crs/EPSG/0/28992" orderedAxes="X,Y">
+        <tmsc:LowerLeft>-285401.92 22598.08</tmsc:LowerLeft>
+        <tmsc:UpperRight>595401.92 903402.0</tmsc:UpperRight>
+    </tmsc:BoundingBox>
+    <tmsc:CRS>
+        <tmsc:URI>http://www.opengis.net/def/crs/EPSG/0/28992</tmsc:URI>
+    </tmsc:CRS>
+    <OrderedAxes>X,Y</OrderedAxes>
+    <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:NLDEPSG28992Scale"</WellKnownScaleSet>
     <TileMatrix>
-        <ows:Identifier>00</ows:Identifier>
+        <tmsc:Identifier>0</tmsc:Identifier>
         <ScaleDenominator>1.2288E7</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>3440.64</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>1</MatrixWidth>
         <MatrixHeight>1</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>01</ows:Identifier>
+        <tmsc:Identifier>1</tmsc:Identifier>
         <ScaleDenominator>6144000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>1720.32</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>2</MatrixWidth>
         <MatrixHeight>2</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>02</ows:Identifier>
+        <tmsc:Identifier>2</tmsc:Identifier>
         <ScaleDenominator>3072000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>860.16</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>4</MatrixWidth>
         <MatrixHeight>4</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>03</ows:Identifier>
+        <tmsc:Identifier>3</tmsc:Identifier>
         <ScaleDenominator>1536000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>430.08</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>8</MatrixWidth>
         <MatrixHeight>8</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>04</ows:Identifier>
+        <tmsc:Identifier>4</tmsc:Identifier>
         <ScaleDenominator>768000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>215.04</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>16</MatrixWidth>
         <MatrixHeight>16</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>05</ows:Identifier>
+        <tmsc:Identifier>5</tmsc:Identifier>
         <ScaleDenominator>384000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>107.52</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>32</MatrixWidth>
         <MatrixHeight>32</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>06</ows:Identifier>
+        <tmsc:Identifier>6</tmsc:Identifier>
         <ScaleDenominator>192000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>53.76</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>64</MatrixWidth>
         <MatrixHeight>64</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>07</ows:Identifier>
+        <tmsc:Identifier>7</tmsc:Identifier>
         <ScaleDenominator>96000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>26.88</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>128</MatrixWidth>
         <MatrixHeight>128</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>08</ows:Identifier>
+        <tmsc:Identifier>8</tmsc:Identifier>
         <ScaleDenominator>48000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>13.44</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>256</MatrixWidth>
         <MatrixHeight>256</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>09</ows:Identifier>
+        <tmsc:Identifier>9</tmsc:Identifier>
         <ScaleDenominator>24000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>6.72</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>512</MatrixWidth>
         <MatrixHeight>512</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>10</ows:Identifier>
+        <tmsc:Identifier>10</tmsc:Identifier>
         <ScaleDenominator>12000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>3.36</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>1024</MatrixWidth>
         <MatrixHeight>1024</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>11</ows:Identifier>
+        <tmsc:Identifier>11</tmsc:Identifier>
         <ScaleDenominator>6000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>1.68</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>2048</MatrixWidth>
         <MatrixHeight>2048</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>12</ows:Identifier>
+        <tmsc:Identifier>12</tmsc:Identifier>
         <ScaleDenominator>3000.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>0.84</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>4096</MatrixWidth>
         <MatrixHeight>4096</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>13</ows:Identifier>
+        <tmsc:Identifier>13</tmsc:Identifier>
         <ScaleDenominator>1500.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>0.42</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
+        <tmsc:Identifier>14</tmsc:Identifier>
         <ScaleDenominator>750.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>0.21</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>16384</MatrixWidth>
         <MatrixHeight>16384</MatrixHeight>
     </TileMatrix>
      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
+        <tmsc:Identifier>15</tmsc:Identifier>
         <ScaleDenominator>375.0</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>0.105</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>32768</MatrixWidth>
         <MatrixHeight>32768</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
+        <tmsc:Identifier>16</tmsc:Identifier>
         <ScaleDenominator>187.5</ScaleDenominator>
-        <TopLeftCorner>-285401.92 903402.0</TopLeftCorner>
+        <CellSize>0.0525</CellSize>
+        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>65536</MatrixWidth>
