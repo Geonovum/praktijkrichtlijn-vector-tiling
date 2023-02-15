@@ -16,7 +16,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         ],
         "upperRight": [
             595401.92,
-            903402.0
+            903401.92
         ]
     },
     "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
@@ -27,7 +27,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "0",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 1.2288E7,
             "cellSize": 3440.64,
@@ -40,7 +40,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "1",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 6144000.0,
             "cellSize": 1720.32,
@@ -53,7 +53,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "2",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 3072000.0,
             "cellSize": 860.16,
@@ -66,7 +66,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "3",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 1536000.0,
             "cellSize": 430.08,
@@ -79,7 +79,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "4",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 768000.0,
             "cellSize": 215.04,
@@ -92,7 +92,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "5",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 384000.0,
             "cellSize": 107.52,
@@ -105,7 +105,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "6",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 192000.0,
             "cellSize": 53.76,
@@ -118,7 +118,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "7",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 96000.0,
             "cellSize": 26.88,
@@ -131,7 +131,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "8",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 48000.0,
             "cellSize": 13.44,
@@ -144,7 +144,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "9",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 24000.0,
             "cellSize": 6.72,
@@ -157,7 +157,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "10",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 12000.0,
             "cellSize": 3.36,
@@ -170,7 +170,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "11",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 6000.0,
             "cellSize": 1.68,
@@ -183,7 +183,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "12",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 3000.0,
             "cellSize": 0.84,
@@ -196,7 +196,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "13",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 1500.0,
             "cellSize": 0.42,
@@ -209,7 +209,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "id": "14",
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "scaleDenominator": 750.0,
             "cellSize": 0.21,
@@ -224,7 +224,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "cellSize": 0.105,
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -237,7 +237,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "cellSize": 0.0525,
             "pointOfOrigin": [
                 -285401.92,
-                903402.0
+                903401.92
             ],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -262,7 +262,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
     <tmsc:Identifier>NetherlandsRDNewQuad</tmsc:Identifier>
     <tmsc:BoundingBox crs="http://www.opengis.net/def/crs/EPSG/0/28992" orderedAxes="X,Y">
         <tmsc:LowerLeft>-285401.92 22598.08</tmsc:LowerLeft>
-        <tmsc:UpperRight>595401.92 903402.0</tmsc:UpperRight>
+        <tmsc:UpperRight>595401.92 903401.92</tmsc:UpperRight>
     </tmsc:BoundingBox>
     <tmsc:CRS>
         <tmsc:URI>http://www.opengis.net/def/crs/EPSG/0/28992</tmsc:URI>
@@ -273,7 +273,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>0</tmsc:Identifier>
         <ScaleDenominator>1.2288E7</ScaleDenominator>
         <CellSize>3440.64</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>1</MatrixWidth>
@@ -283,7 +283,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>1</tmsc:Identifier>
         <ScaleDenominator>6144000.0</ScaleDenominator>
         <CellSize>1720.32</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>2</MatrixWidth>
@@ -293,7 +293,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>2</tmsc:Identifier>
         <ScaleDenominator>3072000.0</ScaleDenominator>
         <CellSize>860.16</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>4</MatrixWidth>
@@ -303,7 +303,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>3</tmsc:Identifier>
         <ScaleDenominator>1536000.0</ScaleDenominator>
         <CellSize>430.08</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>8</MatrixWidth>
@@ -313,7 +313,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>4</tmsc:Identifier>
         <ScaleDenominator>768000.0</ScaleDenominator>
         <CellSize>215.04</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>16</MatrixWidth>
@@ -323,7 +323,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>5</tmsc:Identifier>
         <ScaleDenominator>384000.0</ScaleDenominator>
         <CellSize>107.52</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>32</MatrixWidth>
@@ -333,7 +333,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>6</tmsc:Identifier>
         <ScaleDenominator>192000.0</ScaleDenominator>
         <CellSize>53.76</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>64</MatrixWidth>
@@ -343,7 +343,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>7</tmsc:Identifier>
         <ScaleDenominator>96000.0</ScaleDenominator>
         <CellSize>26.88</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>128</MatrixWidth>
@@ -353,7 +353,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>8</tmsc:Identifier>
         <ScaleDenominator>48000.0</ScaleDenominator>
         <CellSize>13.44</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>256</MatrixWidth>
@@ -363,7 +363,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>9</tmsc:Identifier>
         <ScaleDenominator>24000.0</ScaleDenominator>
         <CellSize>6.72</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>512</MatrixWidth>
@@ -373,7 +373,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>10</tmsc:Identifier>
         <ScaleDenominator>12000.0</ScaleDenominator>
         <CellSize>3.36</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>1024</MatrixWidth>
@@ -383,7 +383,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>11</tmsc:Identifier>
         <ScaleDenominator>6000.0</ScaleDenominator>
         <CellSize>1.68</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>2048</MatrixWidth>
@@ -393,7 +393,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>12</tmsc:Identifier>
         <ScaleDenominator>3000.0</ScaleDenominator>
         <CellSize>0.84</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>4096</MatrixWidth>
@@ -403,7 +403,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>13</tmsc:Identifier>
         <ScaleDenominator>1500.0</ScaleDenominator>
         <CellSize>0.42</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>8192</MatrixWidth>
@@ -413,7 +413,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>14</tmsc:Identifier>
         <ScaleDenominator>750.0</ScaleDenominator>
         <CellSize>0.21</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>16384</MatrixWidth>
@@ -423,7 +423,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>15</tmsc:Identifier>
         <ScaleDenominator>375.0</ScaleDenominator>
         <CellSize>0.105</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>32768</MatrixWidth>
@@ -433,7 +433,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:Identifier>16</tmsc:Identifier>
         <ScaleDenominator>187.5</ScaleDenominator>
         <CellSize>0.0525</CellSize>
-        <PointOfOrigin>-285401.92 903402.0</PointOfOrigin>
+        <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>65536</MatrixWidth>
