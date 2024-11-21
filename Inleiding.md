@@ -29,8 +29,8 @@ Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel v
 
 ## Doelgroep
 De praktijkrichtlijn is bedoeld voor o.a.:
--   aanbieders van vector tiles
--   gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
+-   aanbieders van vector tiles  <!-- Ook raster tiles?-->
+-   gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars. <!-- Ook raster tiles?-->
 
 ## Leeswijzer
 Na dit hoofdstuk komt eerst de [Scope](#Scope) van deze Praktijkrichtlijn. [Hoofdstuk 3](#TegelSpec) bevat vervolgens de specificaties waarop deze Praktijkrichtlijn gebaseerd is. [Hoofdstuk 4 TileMatrixSet](#TegelSchema) werkt de details van de te gebruiken _TileMatrixSets_ uit. [Hoofdstuk 5 Publicatie](#Publicatie) behandelt hoe de vector tiles aan te bieden.

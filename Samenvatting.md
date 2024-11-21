@@ -5,4 +5,4 @@ Enkele van de belangrijkste punten zijn:
 * biedt vector tiles aan in tenminste één van de _TileMatrixSets_ voor Web Mercator (EPSG:3857), ETRS89 in een projectie Lambert Azimuthal Equal Area (EPSG:3035) of het Rijksdriehoekstelsel (EPSG:28992)
 * lever styling aan conform [[OGC-API-Styles]] en biedt een standaard stijl aan.
 
-Aanvullend op de praktijkrichtlijn is er een document met [Best practices](https://geonovum.github.io/vector-tiling-best-practices/).
+Aanvullend op de praktijkrichtlijn is er een document met [Best practices](https://geonovum.github.io/vector-tiling-best-practices/). <!-- Ook de best practices bekijken?-->
