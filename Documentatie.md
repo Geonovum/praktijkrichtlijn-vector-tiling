@@ -47,9 +47,11 @@ _AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lage
 
 ### Aanbeveling: Overzooming
 <div class="informative">
-De _layer definition_ met `maxTileMatrix` en `minTileMatrix` level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.
 
-_AANBEVELING_ `maxTileMatrix` en `minTileMatrix` definiËren in de data lagen beschrijving.
+Voor een tiles endpoint is in de OGC API een tileMatrixSet te definieren. Deze tilematrix kan voorzien worden van [tileMatrixsetlimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12) met `maxTileRow` en `minTileRow` en `maxTileRow` en `minTileRow` `tileMatrix` level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
+
+_AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
+
 </div>
 
 ### Aanbeveling: Data Attributen
@@ -67,15 +69,14 @@ Optioneel kan ook een TileJSON worden toegevoegd.
 
 <div class="advisement">
 _AANBEVELING_ Lever een TileJSON document aan bij een vector tile set. 
-
-In TILEJSON:
+</div>
 
 ### Aanbeveling: Data lagen TileJSON
 <div class="informative">
 _AANBEVELING_ Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel `"Vector Layers"`
 </div>
 
-### Aanbeveling: Overzooming TileJSON
+### Aanbeveling: Over- en underzooming TileJSON
 Eén van de voordelen van het gebruik van een TileJSON bestand voor vector tiles is zogenaamde _overzooming_ op lagen.
 
 De _layer definition_ met `minzoom` en `maxzoom` level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.
