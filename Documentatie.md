@@ -48,7 +48,7 @@ _AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lage
 ### Aanbeveling: Overzooming
 <div class="informative">
 
-Voor een tiles endpoint is in de OGC API een tileMatrixSet te definieren. Deze tilematrix kan voorzien worden van [tileMatrixsetlimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12) met `maxTileRow` en `minTileRow` en `maxTileRow` en `minTileRow` `tileMatrix` level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
+Voor een tiles endpoint is in de OGC API een tileMatrixSet te definieren. Deze tilematrix kan voorzien worden van [tileMatrixsetlimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12). Op basis van `maxTileRow` en `minTileRow` en `maxTileRow` en `minTileRow` per `tileMatrix` wordt aangegeven welke tegels beschikbaar zijn en voor welke zoomlevels. Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
 
 _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
 
