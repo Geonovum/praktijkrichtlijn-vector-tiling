@@ -104,7 +104,7 @@ Verder raden wij aan ook te kijken naar de [[API-Designrules]] voor de Nederland
 _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 
 ### Aanbeveling: tile bestandsgrootte
-In tegenstelling tot png tiles die een maximale grootte hebben kunnen vectortiles veel groter worden naar mate er meer vectoren in de tiles zitten. 
+In tegenstelling tot png tiles, die een maximale grootte hebben, kunnen vectortiles veel groter worden naar mate er meer vectoren in de tiles zitten. 
 Hierom is het wenselijk om tilegrootte te beperken.  
 
 <div class="informative">
