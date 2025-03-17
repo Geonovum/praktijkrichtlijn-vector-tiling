@@ -16,7 +16,7 @@ Essentiele elementen van deze metadata zijn:
 - Beschikbare Tilematrixset links
 - De URI van de TileMatrixSet
 - Het Coordinaat Referentie Systeem (een URI heeft de voorkeur).
-- Een dynamische link (URI) naar de inidividuele tiles.
+- Een dynamische link (URI) naar de inidividuele s.
 - Beschrijving van de data types (bestaat deze uit vector, coverage of map tiles).
 
 De metadata kan aanvullende informatie bevatten als: 
@@ -48,7 +48,7 @@ _AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lage
 ### Aanbeveling: Overzooming
 <div class="informative">
 
-Voor een tiles endpoint is in de OGC API een tileMatrixSet te definiëren. Iedere tilematrix kan voorzien worden van [tileMatrixSetLimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12). Hierin wordt door middel van `maxTileRow`, `minTileRow`, `maxTileCol` en `minTileCol` voor ieder `tileMatrix` aangegeven welke tegels beschikbaar zijn voor welke zoomlevels . Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
+Voor een tiles endpoint is in de OGC API een tileMatrixSet te definiëren. Iedere tilematrix kan voorzien worden van [tileMatrixSetLimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12). Hierin wordt door middel van `maxTileRow`, `minTileRow`, `maxTileCol` en `minTileCol` voor ieder `tileMatrix` aangegeven welke tiles beschikbaar zijn voor welke zoomlevels . Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
 
 _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
 
@@ -108,5 +108,5 @@ In tegenstelling tot png tiles, die een maximale grootte hebben, kunnen vectorti
 Hierom is het wenselijk om tilegrootte te beperken.  
 
 <div class="informative">
-_AANBEVELING_ Beperk de bestandsgrootte van een tegel, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
+_AANBEVELING_ Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
 </div>
