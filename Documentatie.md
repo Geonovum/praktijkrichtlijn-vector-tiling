@@ -66,9 +66,21 @@ _AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of v
 Optioneel kan ook een TileJSON worden toegevoegd. 
 
 <div class="advisement">
-_AANBEVELING_ Lever een TileJSON document aan bij een vector tile set. 
+_AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vector tile set.
 
 In TILEJSON:
+
+### Aanbeveling: Projection in TileJson
+<div class="informative">
+_AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt. Gebruik hiervoor een [Custom projection TileJson](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
+</div>
+
+### Aanbeveling: Gebruik format is tilejson parameter in het tilejson path
+<div class="informative">
+Voeg 'f=tilejson' als parameter to aan de url die de tilejson levert.
+Voorbeeld:
+* https://api.pdok.nl/brt/top10nl/ogc/v1/tiles/NetherlandsRDNewQuad?f=tilejson
+<div class="informative">
 
 ### Aanbeveling: Data lagen TileJSON
 <div class="informative">
