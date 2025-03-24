@@ -72,7 +72,8 @@ In TILEJSON:
 
 ### Aanbeveling: Projection in TileJson
 <div class="informative">
-_AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt. Gebruik hiervoor een [Custom projection TileJson](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
+_AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
+Gebruik hiervoor een [Custom projection TileJSON](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
 </div>
 
 ### Aanbeveling: Gebruik format is tilejson parameter in het tilejson path
