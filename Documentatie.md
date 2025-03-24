@@ -78,7 +78,7 @@ Gebruik hiervoor een [Custom projection TileJSON](https://github.com/maptiler/ti
 
 ### Aanbeveling: Gebruik format is tilejson parameter in het tilejson path
 <div class="informative">
-Voeg 'f=tilejson' als parameter to aan de url die de tilejson levert.
+Voeg 'f=tilejson' als parameter toe aan de url die de TileJSON levert.
 Voorbeeld:
 * https://api.pdok.nl/brt/top10nl/ogc/v1/tiles/NetherlandsRDNewQuad?f=tilejson
 <div class="informative">
