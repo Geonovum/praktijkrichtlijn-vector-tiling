@@ -22,7 +22,7 @@ In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie `.mvt
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-_EIS_ De bestandsextensie voor vectortiles is vrij in te vullen. Het Media Type van vectortiles volgens mapbox specificatie moet altijd `application/vnd.mapbox-vector-tile` zijn.
+_EIS_ De bestandsextensie voor vectortiles is vrij in te vullen. Het Media Type van vectortiles moet volgens mapbox specificatie altijd `application/vnd.mapbox-vector-tile` zijn.
 
 Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification.
 </div>
