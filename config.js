@@ -1,14 +1,14 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "GN-DEF",                // Werk Versie = WV, Consultatie versie = CV
+  specStatus: "WV",                // Werk Versie = WV, Consultatie versie = CV
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
   specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2021-08-30",  	    // Format is "YYY-MM-DD"
+  //-- publishDate: "2024-08-29",  	    // Format is "YYYY-MM-DD"
   //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
@@ -72,19 +72,20 @@ var respecConfig =
     },
     "OGC-API-Tiles-Core": {
       title: "OGC API - Tiles - Part 1: Core",
-      href: "https://ogcapi.ogc.org/tiles/", // TODO: precise link to final version, if published
-      status: "DRAFT",
+      href: "https://docs.ogc.org/is/20-057/20-057.html",
+      status: "1.0",
       publisher: "OGC",
     },
-    "OGC-Two-Dimensional-Tile-Matrix-Set": {
-      title: "OGC Two Dimensional Tile Matrix Set",
-      href: "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html",
-      status: "1.0",
+    "OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata": { // Nieuwste standaard. Goed?
+      title: "OGC Two Dimensional Tile Matrix Set and Tile Set Metadata",
+      href: "https://docs.ogc.org/is/17-083r4/17-083r4.html",
+      status: "2.0",
       publisher: "OGC",
     },
     "OGC-API-Styles": {
       title: "OGC API Styles",
-      href: "https://www.ogc.org/projects/groups/stylesapiswg",
+      href: "https://docs.ogc.org/DRAFTS/20-009.html",
+      status: "DRAFT",
       publisher: "OGC",
     },
     "Mapbox-Style-Specification" : {
@@ -96,8 +97,8 @@ var respecConfig =
   },
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  previousPublishDate: "2021-04-15",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels
+  previousPublishDate: "2021-08-30",  	    // Format is "YYY-MM-DD"
+  previousMaturity: "GN-DEF",                   // kies 1 van deze 2 regels
   //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:

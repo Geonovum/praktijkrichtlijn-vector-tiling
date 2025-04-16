@@ -7,6 +7,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
 ```json
 {
     "title": "Amersfoort / RD New schema for the Netherlands",
+
     "id": "NetherlandsRDNewQuad",
     "boundingBox": {
         "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
@@ -68,6 +69,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
+            "cornerOfOrigin": "topLeft"
             "scaleDenominator": 1536000.0,
             "cellSize": 430.08,
             "tileWidth": 256,
@@ -76,7 +78,9 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "matrixHeight": 8
         },
         {
-            "id": "4",
+           "id": "4",
+           "type": "TileMatrixType",
+            "identifier": "4",
             "pointOfOrigin": [
                 -285401.92,
                 903401.92
@@ -89,6 +93,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             "matrixHeight": 16
         },
         {
+
             "id": "5",
             "pointOfOrigin": [
                 -285401.92,
@@ -159,6 +164,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
+            "cornerOfOrigin": "topLeft"
             "scaleDenominator": 12000.0,
             "cellSize": 3.36,
             "tileWidth": 256,
@@ -220,12 +226,12 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         },
         {
             "id": "15",
-            "scaleDenominator": 375.0,
-            "cellSize": 0.105,
             "pointOfOrigin": [
                 -285401.92,
                 903401.92
             ],
+            "scaleDenominator": 375.0,
+            "cellSize": 0.105,
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 32768,
@@ -233,12 +239,13 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         },
         {
             "id": "16",
-            "scaleDenominator": 187.5,
-            "cellSize": 0.0525,
             "pointOfOrigin": [
                 -285401.92,
                 903401.92
             ],
+            "scaleDenominator": 187.5,
+            "cellSize": 0.0525,
+            "cornerOfOrigin": "topLeft"
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 65536,
@@ -274,6 +281,11 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <ScaleDenominator>1.2288E7</ScaleDenominator>
         <CellSize>3440.64</CellSize>
         <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
+    <TileMatrix>
+        <tmsc:Identifier>0</tmsc:Identifier>
+        <ScaleDenominator>1.2288E7</ScaleDenominator>
+        <CellSize>3440.64</CellSize>
+        <pointOfOrigin>-285401.92 903402.0</pointOfOrigin>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
         <MatrixWidth>1</MatrixWidth>
@@ -300,6 +312,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <MatrixHeight>4</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
+
         <tmsc:Identifier>3</tmsc:Identifier>
         <ScaleDenominator>1536000.0</ScaleDenominator>
         <CellSize>430.08</CellSize>
@@ -310,6 +323,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <MatrixHeight>8</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
+
         <tmsc:Identifier>4</tmsc:Identifier>
         <ScaleDenominator>768000.0</ScaleDenominator>
         <CellSize>215.04</CellSize>
@@ -320,6 +334,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <MatrixHeight>16</MatrixHeight>
     </TileMatrix>
     <TileMatrix>
+
         <tmsc:Identifier>5</tmsc:Identifier>
         <ScaleDenominator>384000.0</ScaleDenominator>
         <CellSize>107.52</CellSize>

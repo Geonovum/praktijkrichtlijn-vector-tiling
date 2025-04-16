@@ -8,7 +8,7 @@ Meer concreet gaat het om 2D vector tiles voor visualisatie / _portrayal_ door d
 
 Deze vector tiles kunnen aangeboden worden als service / via een API of als bulk download. In dit document wordt er voor vector tiles via een service geen verschil gemaakt of de vector tiles al voorberekend zijn ("pre-cooked" / "pre-processed") en al dan niet uit een _cache_ aangeboden worden, of dynamisch worden opgebouwd (_on-the-fly_).
 
-Door ons te beperken tot visualisatie het gevolg dat niet alle geschikte mogelijkheden van vector tiles hier behandeld worden. Maar het doel van deze praktijkrichtlijn is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook te combineren met de OGC standaarden, zoals WMS, WFS, met gangbare online kaartdiensten/platformen (Google Maps, Mapbox, etc) en de toekomstige OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden.
+Door ons te beperken tot visualisatie ontstaat het gevolg dat niet alle geschikte mogelijkheden van vector tiles hier behandeld worden. Maar het doel van deze praktijkrichtlijn is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook te combineren met de OGC standaarden, zoals WMS, WFS, met gangbare online kaartdiensten/platformen (Google Maps, Mapbox, etc) en met de OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden.
 
 ## Buiten scope
 

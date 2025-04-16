@@ -4,7 +4,7 @@ Dit hoofdstuk beschrijft de specificaties waar deze praktijkrichtlijn op gebasee
 
 ## Vector tiles maken
 
-Bij het maken van vector tiles gaan deze richtlijn uit van het gebruik van de technische specificatie zoals beschreven door de [[Mapbox-Vector-Tile-Specification]]. Deze specificatie bevat de belangrijkste standaarden en instellingen over hoe geografische data opgeslagen en gecodeerd wordt in een vector tile. Deze bevat informatie over bestandsformaten, extensies, projecties, _bounds_, en de interne structuur van een vector tile.
+Bij het maken van vector tiles gaat deze richtlijn uit van het gebruik van de technische specificatie zoals beschreven door de [[Mapbox-Vector-Tile-Specification]]. Deze specificatie bevat de belangrijkste standaarden en instellingen over hoe geografische data opgeslagen en gecodeerd wordt in een vector tile. Deze bevat informatie over bestandsformaten, extensies, projecties, _bounds_, en de interne structuur van een vector tile.
 
 ## Eis: Mapbox Vector Tile specification versie 2.1
 <div class="advisement">
@@ -44,9 +44,9 @@ _EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde _wi
 
 Voor het aanbieden en publiceren van vector tiles via het web is nog geen open standaard gereed. De vector tiles kunnen als download aangeboden worden of als webservice, via een API, of als statische _directory structure_.
 
-Het OGC werkt aan verscheidene nieuwe specificaties voor het publiceren en aanbieden van geografische data via APIs: voor _features_, _maps_ en _vector tiles_. Voor vector tiles is de [[OGC-API-Tiles-Core]] specificatie relevant.
+Het OGC biedt verscheidene nieuwe specificaties aan voor het publiceren en aanbieden van geografische data via APIs: voor _features_, _maps_ en _vector tiles_. Zie de website [OGC APIs Building Blocks for Location](https://ogcapi.ogc.org/) voor een overzicht van APIs voor het web. Voor vector tiles is de [[OGC-API-Tiles-Core]] specificatie relevant.
 
-Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles door middel van web services. [[OGC-API-Tiles-Core]] lijkt hier wel de open standaard voor te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn daarom [[OGC-API-Tiles-Core]] voor.
+Deze praktijkrichtlijn schrijft het gebruik van [[OGC-API-Tiles-Core]] voor. Dit is een open standaard voor publicatie van vector tiles door middel van web services. Deze standaard is door OGC vastgesteld. 
 
 ### Eis: OGC API Tiles
 <div class="advisement">
