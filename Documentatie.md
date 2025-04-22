@@ -63,7 +63,8 @@ _AANBEVELING_  Geef aan welke attributen (`properties`) er beschikbaar zijn per 
 _AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.
 </div>
 
-Optioneel kan ook een TileJSON worden toegevoegd. 
+Optioneel kan ook een TileJSON worden toegevoegd.
+De bijlage [TileJson voorbeeld](#TileJson) bevat als voorbeeld een een minimale TileJson response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
 <div class="advisement">
 _AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vector tile set.
