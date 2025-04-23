@@ -104,8 +104,17 @@ Verder raden wij aan ook te kijken naar de [[API-Designrules]] voor de Nederland
 _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 
 ### Aanbeveling: tile bestandsgrootte
-In tegenstelling tot png tiles, die een maximale grootte hebben, kunnen vectortiles veel groter worden naar mate er meer vectoren in de tiles zitten. 
-Hierom is het wenselijk om tilegrootte te beperken.  
+De bestandsgrootte van rastertiles wordt beprerkt door het aantal pixels (breedte en hoogte), de kleurdiepte en de variatie in pixelwaarden. De bestandsgrootte van vectortiles wordt bepaald door meerdere factoren:
+- het aantal objecten dat in een vectortile zitten
+- het aantal coördinaten dat de contouren van die objecten beschrijft
+- het aantal atributen van het object
+- de attribuutwaarden van het object
+
+Het zorgvuldig kiezen van welke attributen worden opgenomen in tiles-datasets is van belang voor efficiënt gegevensbeheer. Door enkel de essentiële attributen toe te voegen, wordt onnodige gegevensuitwisseling voorkomen, wat de prestaties verbetert en de netwerkbelasting vermindert. Daarnaast kan het selectief opnemen van attributen waarop veelvuldig gefilterd wordt helpen bij het optimaliseren van de dataset voor specifieke gebruiksscenario's.
+
+Het opvragen van extra informatie via een andere server op basis van een unieke identificatie die wel in de vectortegel beschikbaar is biedt real-time toegang tot actuele gegevens. Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vectortiles herhaaldelijk gegenereerd moeten worden, of in situaties waar een hoge mate van actualiteit vereist is.
+
+Bovendien maakt deze aanpak gecontroleerde toegang mogelijk op basis van autorisatie, waardoor bijvoorbeeld de privacy en beveiliging van persoonsgegevens worden gewaarborgd.
 
 <div class="informative">
 _AANBEVELING_ Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
