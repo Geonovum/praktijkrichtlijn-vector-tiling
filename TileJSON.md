@@ -1,4 +1,5 @@
-# Bijlage TileJson voorbeeld
+# Bijlage TileJSON voorbeeld
+
 
 Deze bijlage bevat een voorbeeld van een (minimale) TileJSON response met de NetherlandsRDNewQuad tilematrixset in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
