@@ -1,6 +1,6 @@
 # Bijlage TileJson voorbeeld
 
-Deze bijlage bevat een voorbeeld van een (minimale) TileJson response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
+Deze bijlage bevat een voorbeeld van een (minimale) TileJSON response met de NetherlandsRDNewQuad tilematrixset in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
 ## JSON encoding
 
@@ -12,7 +12,7 @@ Deze bijlage bevat een voorbeeld van een (minimale) TileJson response met een Cu
   "version": "1.0.0",
   "scheme": "xyz",
   "tiles": [
-    "https://api.pdok.nl/brt/top10nl/ogc/v1/tiles/NetherlandsRDNewQuad/{z}/{y}/{x}?f=mvt"
+    "https://example.com/ogc/v1/tiles/NetherlandsRDNewQuad/{z}/{y}/{x}?f=mvt"
   ],
   "minzoom": 9,
   "maxzoom": 11,
