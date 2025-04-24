@@ -64,14 +64,14 @@ _AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of v
 </div>
 
 Optioneel kan ook een TileJSON worden toegevoegd.
-De bijlage [TileJson voorbeeld](#TileJson) bevat als voorbeeld een een minimale TileJson response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
+De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een een minimale TileJson response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
 <div class="advisement">
 _AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vector tile set.
 
 In TILEJSON:
 
-### Aanbeveling: Projection in TileJson
+### Aanbeveling: Projection in TileJSON
 <div class="informative">
 _AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
 Gebruik hiervoor een [Custom projection TileJSON](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
