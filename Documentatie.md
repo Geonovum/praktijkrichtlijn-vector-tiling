@@ -16,7 +16,7 @@ Essentiele elementen van deze metadata zijn:
 - Beschikbare Tilematrixset links
 - De URI van de TileMatrixSet
 - Het Coordinaat Referentie Systeem (een URI heeft de voorkeur).
-- Een dynamische link (URI) naar de inidividuele s.
+- Een dynamische link (URI) naar de inidividuele tegels.
 - Beschrijving van de data types (bestaat deze uit vector, coverage of map tiles).
 
 De metadata kan aanvullende informatie bevatten als: 
@@ -48,7 +48,11 @@ _AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lage
 ### Aanbeveling: Overzooming
 <div class="informative">
 
-Voor een tiles endpoint is in de OGC API een tileMatrixSet te definiëren. Iedere tilematrix kan voorzien worden van [tileMatrixSetLimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12). Hierin wordt door middel van `maxTileRow`, `minTileRow`, `maxTileCol` en `minTileCol` voor ieder `tileMatrix` aangegeven welke tiles beschikbaar zijn voor welke zoomlevels . Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
+Voor een tiles endpoint is in de OGC API een tileMatrixSet te definiëren.
+Iedere tilematrix kan voorzien worden van [tileMatrixSetLimits](https://docs.ogc.org/is/17-083r4/17-083r4.html#table12).
+Hierin wordt door middel van `maxTileRow`, `minTileRow`, `maxTileCol` en `minTileCol` voor ieder `tileMatrix` aangegeven welke tiles beschikbaar zijn voor welke zoomlevels .
+Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles.
+Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
 
 _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
 
@@ -124,9 +128,12 @@ De bestandsgrootte van rastertiles wordt beprerkt door het aantal pixels (breedt
 - het aantal atributen van het object
 - de attribuutwaarden van het object
 
-Het zorgvuldig kiezen van welke attributen worden opgenomen in tiles-datasets is van belang voor efficiënt gegevensbeheer. Door enkel de essentiële attributen toe te voegen, wordt onnodige gegevensuitwisseling voorkomen, wat de prestaties verbetert en de netwerkbelasting vermindert. Daarnaast kan het selectief opnemen van attributen waarop veelvuldig gefilterd wordt helpen bij het optimaliseren van de dataset voor specifieke gebruiksscenario's.
+Het zorgvuldig kiezen van welke attributen worden opgenomen in tiles-datasets is van belang voor efficiënt gegevensbeheer.
+Door enkel de essentiële attributen toe te voegen, wordt onnodige gegevensuitwisseling voorkomen, wat de prestaties verbetert en de netwerkbelasting vermindert.
+Daarnaast kan het selectief opnemen van attributen waarop veelvuldig gefilterd wordt helpen bij het optimaliseren van de dataset voor specifieke gebruiksscenario's.
 
-Het opvragen van extra informatie via een andere server op basis van een unieke identificatie die wel in de vectortegel beschikbaar is biedt real-time toegang tot actuele gegevens. Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vectortiles herhaaldelijk gegenereerd moeten worden, of in situaties waar een hoge mate van actualiteit vereist is.
+Het opvragen van extra informatie via een andere server op basis van een unieke identificatie die wel in de vectortegel beschikbaar is biedt real-time toegang tot actuele gegevens.
+Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vectortiles herhaaldelijk gegenereerd moeten worden, of in situaties waar een hoge mate van actualiteit vereist is.
 
 Bovendien maakt deze aanpak gecontroleerde toegang mogelijk op basis van autorisatie, waardoor bijvoorbeeld de privacy en beveiliging van persoonsgegevens worden gewaarborgd.
 
