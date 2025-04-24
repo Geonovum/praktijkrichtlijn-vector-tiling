@@ -36,7 +36,8 @@ _EIS_ Gebruik voor de encoding van de data [[PBF]] (Google Protobuf)
 ### Eis: Clockwise Winding order
 [[Mapbox-Vector-Tile-Specification]] vereist een clockwise _Winding order_. Zie de de [Mapbox documentatie over _Winding order_](https://docs.mapbox.com/vector-tiles/specification/#winding-order) voor een toelichting.
 Omdat de _winding order_ vaak mis gaat bij implementaties, bevat de Praktijkrichtlijn hiervoor een expliciete eis.
-Het niet aanhouden van de correcte winding order levert problemen op in _sommige_ vectortile clients.  
+Het niet aanhouden van de correcte winding order levert problemen op in _sommige_ vectortile clients.
+Het probleem wat in deze situatie kan optreden is dat voor vectoren die gaten bevatten, het gat niet door de betreffende client kan worden herkend en worden ingekleurd.
 
 > Let op! de winding order van vector tiles is tegengesteld aan de _Winding order_ voor geschreven door OGC in o.a. de OGC Simple Features.
 
