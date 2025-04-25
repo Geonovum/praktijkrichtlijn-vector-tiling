@@ -7,7 +7,6 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
 ```json
 {
     "title": "Amersfoort / RD New schema for the Netherlands",
-
     "id": "NetherlandsRDNewQuad",
     "boundingBox": {
         "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
@@ -69,7 +68,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
-            "cornerOfOrigin": "topLeft"
+            "cornerOfOrigin": "topLeft",
             "scaleDenominator": 1536000.0,
             "cellSize": 430.08,
             "tileWidth": 256,
@@ -164,7 +163,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
-            "cornerOfOrigin": "topLeft"
+            "cornerOfOrigin": "topLeft",
             "scaleDenominator": 12000.0,
             "cellSize": 3.36,
             "tileWidth": 256,
@@ -245,7 +244,7 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             ],
             "scaleDenominator": 187.5,
             "cellSize": 0.0525,
-            "cornerOfOrigin": "topLeft"
+            "cornerOfOrigin": "topLeft",
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 65536,

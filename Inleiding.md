@@ -20,6 +20,8 @@ Onder andere de volgende mensen hebben een bijdrage geleverd aan deze praktijkri
 *   Edward Mac Gillavry, Webmapper
 *   Just van den Broecke, Just Objects
 *   Wouter Visscher, Kadaster
+*   Roel van den Berg, Kadaster
+*   John Schaap, Kadaster
 
 ## Aansluiten bij internationale standaarden
 Deze Prakrijktrichtlijn gebruikt zoveel mogelijk internationale standaarden en specificaties. Waar dat nog niet goed mogelijk is, kiezen we de meest gangbare oplossing uit de praktijk. Deze richtlijn is niet gebonden aan specifieke software.

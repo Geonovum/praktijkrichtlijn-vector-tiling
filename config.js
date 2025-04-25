@@ -1,7 +1,7 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "WV",                // Werk Versie = WV, Consultatie versie = CV
+  specStatus: "CV",                // Werk Versie = WV, Consultatie versie = CV
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
   specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
@@ -21,6 +21,11 @@ var respecConfig =
     },
     {
       name:       "Thijs Brentjens",
+      company:    "Geonovum",
+      companyURL: "https://geonovum.nl"
+    },
+    {
+      name:       "Rolf Jonker",
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
     },
