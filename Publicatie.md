@@ -16,7 +16,7 @@ Omdat deze Prakrijktrichtlijn voorschrijft om [Mapbox Vector Tile specification 
 
 <div class="advisement">
 _EIS_ Gebruik `application/vnd.mapbox-vector-tile` als media type (_MIME_) bij het aanbieden via het web.
-</div> <!-- verwijzen naar application/netcdf or application/x-netcdf voor coverages en JPEG (image/jpeg) or a PNG (image/png) voor maps? Staat in de Docs OGC -->
+</div>
 
 ## Eis: gebruik HTTP Header Content-Encoding gzip
 Voor allerlei bestanden wordt _gzip_ compressie toegepast om de bestanden kleiner te maken bij het ophalen van de webserver. Via de generieke HTTP Header `Content-Encoding: gzip` wordt dit aangegeven. Ook voor vector tiles is deze gzip compressie vaak in gebruik. Als de gzip compressie niet kenbaar is gemaakt via de HTTP Header Content-Encoding, kunnen (bepaalde) clients de tiles niet goed verwerken. Bijvoorbeeld van [OpenLayers](https://openlayers.org/) is bekend dat deze de vector tiles dan helemaal niet kan verwerken.
