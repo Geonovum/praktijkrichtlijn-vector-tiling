@@ -21,7 +21,6 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
     },
     "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
     "orderedAxes": ["X", "Y"],
-    "wellKnownScaleSet": " urn:ogc:def:wkss:OGC:1.0:NLDEPSG28992Scale",
     "tileMatrices": [
         {
             "id": "0",
@@ -274,12 +273,12 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <tmsc:URI>http://www.opengis.net/def/crs/EPSG/0/28992</tmsc:URI>
     </tmsc:CRS>
     <OrderedAxes>X,Y</OrderedAxes>
-    <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:NLDEPSG28992Scale"</WellKnownScaleSet>
     <TileMatrix>
         <tmsc:Identifier>0</tmsc:Identifier>
         <ScaleDenominator>1.2288E7</ScaleDenominator>
         <CellSize>3440.64</CellSize>
         <PointOfOrigin>-285401.92 903401.92</PointOfOrigin>
+    </TileMatrix>
     <TileMatrix>
         <tmsc:Identifier>0</tmsc:Identifier>
         <ScaleDenominator>1.2288E7</ScaleDenominator>
