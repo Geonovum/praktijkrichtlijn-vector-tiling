@@ -68,7 +68,6 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
-            "cornerOfOrigin": "topLeft",
             "scaleDenominator": 1536000.0,
             "cellSize": 430.08,
             "tileWidth": 256,
@@ -163,7 +162,6 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
                 -285401.92,
                 903401.92
             ],
-            "cornerOfOrigin": "topLeft",
             "scaleDenominator": 12000.0,
             "cellSize": 3.36,
             "tileWidth": 256,
@@ -244,7 +242,6 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
             ],
             "scaleDenominator": 187.5,
             "cellSize": 0.0525,
-            "cornerOfOrigin": "topLeft",
             "tileWidth": 256,
             "tileHeight": 256,
             "matrixWidth": 65536,
@@ -252,8 +249,8 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         }
     ]
 }
-```
 
+```
 
 ## XML Encoding
 
@@ -455,4 +452,5 @@ Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.
         <MatrixHeight>65536</MatrixHeight>
     </TileMatrix>
 </TileMatrixSet>
+
 ```
