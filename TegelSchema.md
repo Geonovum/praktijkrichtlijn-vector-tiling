@@ -23,7 +23,7 @@ _EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSet
 
 * Web Mercator: EPSG:3857. TileMatrixSetId van OGC: `WebMercatorQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad](http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad).
 * ETRS89, projectie Lambert Azimuthal Equal Area, EPSG:3035. TileMatrixSetId van OGC: `EuropeanETRS89_LAEAQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad](http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad). Dit kan voor Europese toepassingen, met hogere nauwkeurigheid dan 1 meter, geschikt zijn.
-* Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad]>(http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn. 
+* Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: `NetherlandsRDNewQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad](http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad). Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn. 
 </div>
 
 Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de vector tiles. Daarmee is het gebruikte CRS gepubliceerd. 
