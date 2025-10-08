@@ -4,7 +4,7 @@
 
 De Praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, van data van Nederlandse organisaties.
 
-Meer concreet gaat het om 2D vector tiles voor visualisatie / _portrayal_ door derden (applicatie onwikkelaars en geo-specialisten), zoals voor achtergrondkaarten. Het gaat dus niet om het delen van objectgegevens / features of nauwkeurige metingen. Typisch gebruik van vector tiles is het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanname is dat de data hiervoor voorbewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. En als gevolg daarvan niet per se de kwalitatief nauwkeurige coördinaten van de orginele geodata bevat.
+Meer concreet gaat het om 2D vector tiles voor visualisatie / _portrayal_ door derden (applicatie onwikkelaars en geo-specialisten), zoals voor achtergrondkaarten. Het gaat dus niet om het delen van objectgegevens / features of nauwkeurige metingen. Typisch gebruik van vector tiles is het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanname is dat de data hiervoor voorbewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. En als gevolg daarvan niet per se de kwalitatief nauwkeurige coördinaten van de originele geodata bevat.
 
 Deze vector tiles kunnen aangeboden worden als service / via een API of als bulk download. In dit document wordt er voor vector tiles via een service geen verschil gemaakt of de vector tiles al voorberekend zijn ("pre-cooked" / "pre-processed") en al dan niet uit een _cache_ aangeboden worden, of dynamisch worden opgebouwd (_on-the-fly_).
 
