@@ -26,7 +26,6 @@ _EIS_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Heade
 </div>
 
 <aside class="example" title="Voorbeeld HTTP Headers vector tile met gzip compressie">
-
 Onderstaande HTTP Header illustreert gzip compressie voor een vector tile die in Mapbox vector tile format is aangeboden:
 
 ```

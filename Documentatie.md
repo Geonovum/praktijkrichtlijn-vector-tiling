@@ -48,8 +48,10 @@ Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles.
 Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
 
 _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
+</div>
 
-|Voorbeeld in json:
+<aside class="example" title="Voorbeeld in json">
+Onderstaande voorbeeld laat het de TileMatrtixSetLimits in json zien. 
 ```json
 "tileMatrixSetLimits": [
     {
@@ -61,8 +63,7 @@ _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix b
     }
    ]
 ```
-
-</div>
+</aside>
 
 ### Aanbeveling: Data Attributen
 <div class="informative">
@@ -80,6 +81,7 @@ De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een minimale Tile
 
 <div class="informative">
 _AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vectortile set.
+</div>
 
 In TILEJSON:
 
