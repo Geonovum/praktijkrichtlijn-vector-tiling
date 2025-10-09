@@ -14,7 +14,7 @@ _AANBEVELING_ Lever de styling aan door middel van de OGC API Styles specificati
 
 [[OGC-API-Styles]] ondersteunt verschillende styling encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling.
 
-In de praktijk ondersteund veel tooling de [[Mapbox-Style-Specification]] en zien we dat deze het meest wordt gebruikt.
+In de praktijk ondersteunt veel tooling de [[Mapbox-Style-Specification]] en zien we dat deze het meest wordt gebruikt.
 
 <div class="informative">
 _AANBEVELING_ Specificeer de stijl conform de [[Mapbox-Style-Specification]]
