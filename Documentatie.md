@@ -81,6 +81,7 @@ De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een minimale Tile
 
 <div class="informative">
 _AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vectortile set.
+</div>
 
 In TILEJSON:
 
