@@ -20,7 +20,7 @@ WGS84 wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige 
 
 Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.
 
-Voor publicatiedoeleinden bij de meeste (web)applicatie geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
+Voor publicatiedoeleinden bij de meeste (web)applicaties geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
 
 <aside class="example" title="Resolutie en nauwkeurigheid WebMercator">
 Voor [de TileMatrixSet van WebMercator](http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json) geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:

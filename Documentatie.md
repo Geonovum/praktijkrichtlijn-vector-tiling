@@ -3,41 +3,34 @@
 Het is belangrijk bij het aanleveren van een vector tile set (download of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen en tegelijkertijd ook voordelen voor het delen, vinden en hergebruiken van bronnen.
 
 ## Eis: OGC API Tiles **"TileSet" requirement class**
+Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core van de OGC standaard een [TileSet requirement class](http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/tileset) beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster).
+
 <div class="advisement">
-_EIS_ Sluit aan bij de OGC API Tiles definitie en de **"TileSet" requirement class** endpoint.
+_EIS_ Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.
 </div>
 
-Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een **"TileSet" requirement class** beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster).
-
-The response voorziet in metadata zoals beschreven door [[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard]] . <!-- LINK VAN MAKEN--> 
+De respons voorziet in metadata zoals beschreven door [OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard](https://docs.ogc.org/is/17-083r4/17-083r4.html). 
 
 Essentiele elementen van deze metadata zijn: 
 
 - Beschikbare Tilematrixset links
 - De URI van de TileMatrixSet
 - Het Coordinaat Referentie Systeem (een URI heeft de voorkeur).
-- Een dynamische link (URI) naar de inidividuele tegels.
+- Een dynamische link (URI) naar de individuele tegels.
 - Beschrijving van de data types (bestaat deze uit vector, coverage of map tiles).
 
 De metadata kan aanvullende informatie bevatten als: 
 
 - een titel
 - Beschrijving van de dataset
-- De limieten van de tilset wanneer het niet de volledige omvang van de TilMatrixSet beslaat. 
-- De geodata bronnen voor het creeëren van de tiles. 
+- De limieten van de tileset wanneer het niet de volledige omvang van de TilMatrixSet beslaat. 
+- De geodata bronnen voor het creëren van de tiles. 
 - Een schema van de beschikbare properties van de tiles. 
 - De styling die gebruikt wordt 
 - Het middenpunt waar een viewer initieel op kan focussen. 
 - Bronvermelding (Attribution)
 
-<!-- verwijzen naar https://docs.ogc.org/is/17-083r4/17-083r4.html#toc20 ?-->
-
-**Requirement Class "TileSet"** The tileset Requirements Class provides a mechanism to retrieve metadata for a set of tiles of geospatial data tiled according to one specific TileMatrixSet. This Class also provides a mechanism to obtain a templated link to retrieve individual tiles as defined in the core conformance class.
-
-This Class describes the HTTP GET operation for accessing a tileset resource and its response but does not prescribe a specific path. The response provides metadata as per the OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard.
-
 ## Minimale aanbevelingen
-
 In deze paragraaf staan meer details voor de verschillende metadata onderdelen die men kan aanleveren bij een vector tile set.
 
 ### Aanbeveling: Data lagen 
@@ -56,6 +49,19 @@ Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom
 
 _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
 
+|Voorbeeld in json:
+```json
+"tileMatrixSetLimits": [
+    {
+     "tileMatrix": "12",
+     "minTileRow": 0,
+     "maxTileRow": 4095,
+     "minTileCol": 0,
+     "maxTileCol": 4095
+    }
+   ]
+```
+
 </div>
 
 ### Aanbeveling: Data Attributen
@@ -70,9 +76,9 @@ _AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of v
 </div>
 
 Optioneel kan ook een TileJSON worden toegevoegd.
-De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een een minimale TileJSON response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
+De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een minimale TileJSON response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
-<div class="advisement">
+<div class="informative">
 _AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vectortile set.
 
 In TILEJSON:
@@ -123,7 +129,7 @@ Verder raden wij aan ook te kijken naar de [[API-Designrules]] voor de Nederland
 _AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 
 ### Aanbeveling: tile bestandsgrootte
-De bestandsgrootte van rastertiles wordt beprerkt door het aantal pixels (breedte en hoogte), de kleurdiepte en de variatie in pixelwaarden. De bestandsgrootte van vectortiles wordt bepaald door meerdere factoren:
+De bestandsgrootte van rastertiles wordt beperkt door het aantal pixels (breedte en hoogte), de kleurdiepte en de variatie in pixelwaarden. De bestandsgrootte van vectortiles wordt bepaald door meerdere factoren:
 - het aantal objecten dat in een vectortile zitten
 - het aantal coördinaten dat de contouren van die objecten beschrijft
 - het aantal atributen van het object
