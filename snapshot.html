@@ -31,7 +31,7 @@ aside.example div.example span.example-title {
         <!-- meta tags - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
         
         <!-- Invullen: de titel van de standaard of het document - - - - - - - - - - - - - - - - - - -->
-        <title>Praktijkrichtlijn Vector Tiling</title>
+        <title>Praktijkrichtlijn Vector Tiling</title> <!-- Ook raster tiles?-->
         <!-- link rel="stylesheet" type="text/css" href="./media/style.css" -->
         <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico">
         
@@ -276,7 +276,7 @@ h6>a.self-link::before {
     display: none;
   }
 }
-</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-DEF.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><style>/*
+</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><style>/*
 
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
@@ -376,10 +376,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   font-weight: bold;
 }
 </style><script id="initialUserConfig" type="application/json">{
-  "specStatus": "GN-DEF",
+  "specStatus": "def",
   "specType": "PR",
   "format": "markdown",
-  "publishDate": "2021-08-30",
+  "publishDate": "2025-10-13",
   "github": "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   "editors": [
     {
@@ -389,6 +389,11 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     },
     {
       "name": "Thijs Brentjens",
+      "company": "Geonovum",
+      "companyURL": "https://geonovum.nl"
+    },
+    {
+      "name": "Rolf Jonker",
       "company": "Geonovum",
       "companyURL": "https://geonovum.nl"
     }
@@ -428,21 +433,22 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     },
     "OGC-API-Tiles-Core": {
       "title": "OGC API - Tiles - Part 1: Core",
-      "href": "https://ogcapi.ogc.org/tiles/",
-      "status": "DRAFT",
+      "href": "https://docs.ogc.org/is/20-057/20-057.html",
+      "status": "1.0",
       "publisher": "OGC",
       "id": "ogc-api-tiles-core"
     },
-    "OGC-Two-Dimensional-Tile-Matrix-Set": {
-      "title": "OGC Two Dimensional Tile Matrix Set",
-      "href": "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html",
-      "status": "1.0",
+    "OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata": {
+      "title": "OGC Two Dimensional Tile Matrix Set and Tile Set Metadata",
+      "href": "https://docs.ogc.org/is/17-083r4/17-083r4.html",
+      "status": "2.0",
       "publisher": "OGC",
-      "id": "ogc-two-dimensional-tile-matrix-set"
+      "id": "ogc-two-dimensional-tile-matrix-set-and-tile-set-metadata"
     },
     "OGC-API-Styles": {
       "title": "OGC API Styles",
-      "href": "https://www.ogc.org/projects/groups/stylesapiswg",
+      "href": "https://docs.ogc.org/DRAFTS/20-009.html",
+      "status": "DRAFT",
       "publisher": "OGC",
       "id": "ogc-api-styles"
     },
@@ -454,10 +460,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       "id": "mapbox-style-specification"
     }
   },
-  "previousPublishDate": "2021-04-15",
-  "previousMaturity": "GN-CV",
-  "publishISODate": "2021-08-30T00:00:00.000Z",
-  "generatedSubtitle": "Vastgestelde versie 30 augustus 2021"
+  "previousPublishDate": "2021-08-30",
+  "previousMaturity": "GN-DEF",
+  "publishISODate": "2025-10-13T00:00:00.000Z",
+  "generatedSubtitle": "undefined 13 oktober 2025"
 }</script><meta name="description" content="De Praktijkrichtlijn Vector Tiling formuleert eisen en aanbevelingen hoe vector tiles te gebruiken voor Nederlandse toepassingen. De praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, waarbij visualisatie het hoofddoel is. Dit moet het voor gebruikers makkelijker maken vector tiles van derden te gebruiken."><script type="application/ld+json">{
   "@context": [
     "http://schema.org",
@@ -479,21 +485,21 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       }
     }
   ],
-  "id": "https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/",
+  "id": "https://docs.geostandaarden.nl/serv/-pr-vt-20251013/",
   "type": [
     "TechArticle"
   ],
   "name": "Praktijkrichtlijn Vector Tiling",
   "inLanguage": "nl",
   "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
-  "datePublished": "2021-08-30",
+  "datePublished": "2025-10-13",
   "copyrightHolder": {
     "name": "Geonovum",
     "url": "https://www.geonovum.nl/"
   },
   "discussionUrl": "https://github.com/geonovum/praktijkrichtlijn-vector-tiling/issues",
   "alternativeHeadline": "",
-  "isBasedOn": "https://docs.geostandaarden.nl/serv/cv-pr-vt-20210415/",
+  "isBasedOn": "https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/",
   "description": "De Praktijkrichtlijn Vector Tiling formuleert eisen en aanbevelingen hoe vector tiles te gebruiken voor Nederlandse toepassingen. De praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, waarbij visualisatie het hoofddoel is. Dit moet het voor gebruikers makkelijker maken vector tiles van derden te gebruiken.",
   "editor": [
     {
@@ -507,6 +513,14 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     {
       "type": "Person",
       "name": "Thijs Brentjens",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "https://geonovum.nl"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Rolf Jonker",
       "worksFor": {
         "name": "Geonovum",
         "url": "https://geonovum.nl"
@@ -527,16 +541,16 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       "url": "https://developers.google.com/protocol-buffers/"
     },
     {
-      "id": "https://ogcapi.ogc.org/tiles/",
+      "id": "https://docs.ogc.org/is/20-057/20-057.html",
       "type": "TechArticle",
       "name": "OGC API - Tiles - Part 1: Core",
-      "url": "https://ogcapi.ogc.org/tiles/"
+      "url": "https://docs.ogc.org/is/20-057/20-057.html"
     },
     {
-      "id": "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html",
+      "id": "https://docs.ogc.org/is/17-083r4/17-083r4.html",
       "type": "TechArticle",
-      "name": "OGC Two Dimensional Tile Matrix Set",
-      "url": "https://docs.opengeospatial.org/is/17-083r2/17-083r2.html"
+      "name": "OGC Two Dimensional Tile Matrix Set and Tile Set Metadata",
+      "url": "https://docs.ogc.org/is/17-083r4/17-083r4.html"
     },
     {
       "id": "https://docs.geostandaarden.nl/api/API-Designrules/",
@@ -545,10 +559,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       "url": "https://docs.geostandaarden.nl/api/API-Designrules/"
     },
     {
-      "id": "https://www.ogc.org/projects/groups/stylesapiswg",
+      "id": "https://docs.ogc.org/DRAFTS/20-009.html",
       "type": "TechArticle",
       "name": "OGC API Styles",
-      "url": "https://www.ogc.org/projects/groups/stylesapiswg"
+      "url": "https://docs.ogc.org/DRAFTS/20-009.html"
     },
     {
       "id": "https://docs.mapbox.com/mapbox-gl-js/style-spec/",
@@ -565,19 +579,19 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   ]
 }</script></head>
 
-    <body class="h-entry"><div class="head">
-  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132" height="67"></a>
+    <body class="h-entry toc-inline"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
   <h1 class="title p-name" id="title">Praktijkrichtlijn Vector Tiling</h1>
   
   <h2>Geonovum Praktijkrichtlijn<br>
-  Vastgestelde versie <time class="dt-published" datetime="2021-08-30">30 augustus 2021</time></h2>
+   <time class="dt-published" datetime="2025-10-13">13 oktober 2025</time></h2>
   <dl>
-    <dt>Deze versie:</dt><dd><a class="u-url" href="https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/">https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd><a href="https://docs.geostandaarden.nl/serv/vt/">https://docs.geostandaarden.nl/serv/vt/</a></dd>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://docs.geostandaarden.nl/serv/-pr-vt-20251013/">https://docs.geostandaarden.nl/serv/-pr-vt-20251013/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd><a href="https://docs.geostandaarden.nl/serv/vt/">https://docs.geostandaarden.nl/serv/vt/</a></dd>
     
-    <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/serv/cv-pr-vt-20210415/">https://docs.geostandaarden.nl/serv/cv-pr-vt-20210415/</a></dd>
+    <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/">https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/</a></dd>
     <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/praktijkrichtlijn-vector-tiling/">https://geonovum.github.io/praktijkrichtlijn-vector-tiling/</a></dd>
     <dt>Redacteurs:</dt>
-    <dd class="p-author h-card vcard"><span class="p-name fn">Niene Boeijen</span>, <a class="p-org org h-org h-card" href="https://nieneb.nl/">This Way Cartography</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Thijs Brentjens</span>, <a class="p-org org h-org h-card" href="https://geonovum.nl">Geonovum</a></dd>
+    <dd class="p-author h-card vcard"><span class="p-name fn">Niene Boeijen</span>, <a class="p-org org h-org h-card" href="https://nieneb.nl/">This Way Cartography</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Thijs Brentjens</span>, <a class="p-org org h-org h-card" href="https://geonovum.nl">Geonovum</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Rolf Jonker</span>, <a class="p-org org h-org h-card" href="https://geonovum.nl">Geonovum</a></dd>
     
     <dt>Doe mee:</dt><dd>
       <a href="https://github.com/geonovum/praktijkrichtlijn-vector-tiling/">GitHub geonovum/praktijkrichtlijn-vector-tiling</a>
@@ -596,7 +610,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           <dd>
             <div class="copyright" style="margin: 0.25em 0;">
               <abbr title="Creative Commons Attribution 4.0 International Public License">
-              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License" width="115" height="40"></a>
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
             </abbr>
               <div style="display:inline-block; vertical-align:top">
                 <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
@@ -613,8 +627,6 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     <em>Deze paragraaf beschrijft de status van dit document ten tijde van publicatie. Het is mogelijk dat er actuelere versies van dit document bestaan. Een lijst van Geonovum publicaties en de laatste gepubliceerde versie van dit document zijn te vinden op <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden">https://www.geonovum.nl/geo-standaarden/alle-standaarden</a>.</em>
   </p><p>
 
-    Dit is de definitieve versie van de praktijkrichtlijn. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.
-
 
 
 
@@ -622,7 +634,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 
  Dit is de definitieve versie van de praktijkrichtlijn. Een praktijkrichtlijn is een product dat informatie geeft, vaak met een technisch karakter, dat nodig is voor het toepassen van een standaard. Een praktijkrichtlijn hoort altijd bij een standaard/norm.
-</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#Inleiding"><span class="secno">1. </span>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel"><span class="secno">1.1 </span>Doel</a></li><li class="tocline"><a class="tocxref" href="#totstandkoming"><span class="secno">1.2 </span>Totstandkoming</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#werkgroepleden"><span class="secno">1.2.1 </span>Werkgroepleden</a></li></ol></li><li class="tocline"><a class="tocxref" href="#aansluiten-bij-internationale-standaarden"><span class="secno">1.3 </span>Aansluiten bij internationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#best-practices"><span class="secno">1.4 </span>Best practices</a></li><li class="tocline"><a class="tocxref" href="#doelgroep"><span class="secno">1.5 </span>Doelgroep</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><span class="secno">1.6 </span>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Scope"><span class="secno">2. </span>Scope</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#binnen-scope"><span class="secno">2.1 </span>Binnen scope</a></li><li class="tocline"><a class="tocxref" href="#buiten-scope"><span class="secno">2.2 </span>Buiten scope</a></li></ol></li><li class="tocline"><a class="tocxref" href="#TegelSpec"><span class="secno">3. </span>Basis specificaties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vector-tiles-maken"><span class="secno">3.1 </span>Vector tiles maken</a></li><li class="tocline"><a class="tocxref" href="#eis-mapbox-vector-tile-specification-versie-2-1"><span class="secno">3.2 </span>Eis: Mapbox Vector Tile specification versie 2.1</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-vrije-bestands-extensie"><span class="secno">3.2.1 </span>Eis: Vrije Bestands Extensie</a></li><li class="tocline"><a class="tocxref" href="#eis-encoding-pbf"><span class="secno">3.2.2 </span>Eis: Encoding PBF</a></li><li class="tocline"><a class="tocxref" href="#eis-winding-order-conform-ogc"><span class="secno">3.2.3 </span>Eis: Winding order conform OGC</a></li></ol></li><li class="tocline"><a class="tocxref" href="#vector-tiles-aanbieden"><span class="secno">3.3 </span>Vector tiles aanbieden</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-ogc-api-tiles"><span class="secno">3.3.1 </span>Eis: OGC API Tiles</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#TegelSchema"><span class="secno">4. </span>TileMatrixSet</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#coordinaat-referentie-systemen"><span class="secno">4.1 </span>Coördinaat Referentie Systemen</a></li><li class="tocline"><a class="tocxref" href="#eis-te-gebruiken-tilematrixsets"><span class="secno">4.2 </span>Eis: te gebruiken TileMatrixSets</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Publicatie"><span class="secno">5. </span>Vector tiles aanbieden</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-gebruik-ogc-api-tiles"><span class="secno">5.1 </span>Eis: gebruik OGC API Tiles</a></li><li class="tocline"><a class="tocxref" href="#eis-content-type"><span class="secno">5.2 </span>Eis: Content-Type</a></li><li class="tocline"><a class="tocxref" href="#eis-gebruik-http-header-content-encoding-gzip"><span class="secno">5.3 </span>Eis: gebruik HTTP Header Content-Encoding gzip</a></li><li class="tocline"><a class="tocxref" href="#downloaden-van-vector-tiles"><span class="secno">5.4 </span>Downloaden van vector tiles</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Documentatie"><span class="secno">6. </span>Documentatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-ogc-api-tiles-tileset-requirement-class"><span class="secno">6.1 </span>Eis: OGC API Tiles <strong>"TileSet" requirement class</strong></a></li><li class="tocline"><a class="tocxref" href="#eis-tilejson"><span class="secno">6.2 </span>Eis: TileJSON</a></li><li class="tocline"><a class="tocxref" href="#minimale-aanbevelingen"><span class="secno">6.3 </span>Minimale aanbevelingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanbeveling-data-lagen"><span class="secno">6.3.1 </span>Aanbeveling: Data lagen</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-overzooming"><span class="secno">6.3.2 </span>Aanbeveling: Overzooming</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-data-attributen"><span class="secno">6.3.3 </span>Aanbeveling: Data Attributen</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-bron-annotatie"><span class="secno">6.3.4 </span>Aanbeveling: Bron annotatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#api-design-rules-nederlandse-overheid"><span class="secno">6.4 </span>API design rules Nederlandse Overheid</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Styling"><span class="secno">7. </span>Styling</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanbeveling-styling-publiceren-via-ogc-api-styles"><span class="secno">7.1 </span>Aanbeveling: Styling publiceren via OGC API Styles</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-styling-specificatie-encoding"><span class="secno">7.2 </span>Aanbeveling: Styling specificatie encoding</a></li><li class="tocline"><a class="tocxref" href="#eis-standaard-stijl"><span class="secno">7.3 </span>Eis: Standaard stijl</a></li><li class="tocline"><a class="tocxref" href="#best-practices-styling"><span class="secno">7.4 </span>Best practices styling</a></li></ol></li><li class="tocline"><a class="tocxref" href="#CRSachtergrond"><span class="secno">A. </span>Coördinaat referentie systemen voor vector tiles</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#coordinaat-referentie-systemen-bij-beoogd-gebruik"><span class="secno">A.1 </span>Coördinaat referentie systemen bij beoogd gebruik</a></li><li class="tocline"><a class="tocxref" href="#onnauwkeurigheid-wgs84-en-bijstelling"><span class="secno">A.2 </span>Onnauwkeurigheid WGS84 en bijstelling</a></li><li class="tocline"><a class="tocxref" href="#impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><span class="secno">A.3 </span>Impact onnauwkeurigheid gering voor beoogde vector tiling toepassingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#TileMatrixSetRD"><span class="secno">B. </span>Bijlage TileMatrixSet Rijksdriehoekstelsel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#json-encoding"><span class="secno">B.1 </span>JSON encoding</a></li><li class="tocline"><a class="tocxref" href="#xml-encoding"><span class="secno">B.2 </span>XML Encoding</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><span class="secno">C. </span>Lijst van afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#references"><span class="secno">D. </span>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><span class="secno">D.1 </span>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><span class="secno">D.2 </span>Informatieve referenties</a></li></ol></li></ol></nav><section id="Inleiding" data-format="markdown"><!--OddPage--><h2 id="x1-inleiding"><span class="secno">1. </span>Inleiding</h2><section id="doel"><h3 id="x1-1-doel"><span class="secno">1.1 </span>Doel</h3><p>De Prakrijktrichtlijn specificeert hoe het beste vector tiles aangeboden kunnen worden om breed gebruik mogelijk te maken (maximale interoperabiliteit), voor Nederlandse toepassingen. Dit moet het ook makkelijker maken om vector tiles van derden te gebruiken. Zie verder <a href="#Scope">het hoofdstuk over de scope</a>.</p><p>Deze praktijkrichtlijn is geen verplichting.</p></section><section id="totstandkoming"><h3 id="x1-2-totstandkoming"><span class="secno">1.2 </span>Totstandkoming</h3><p>Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlandse experts in enkele werksessies afgestemd.</p><section id="werkgroepleden"><h4 id="x1-2-1-werkgroepleden"><span class="secno">1.2.1 </span>Werkgroepleden</h4><p>Onder andere de volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:</p><ul>
+</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#Inleiding"><span class="secno">1. </span>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel"><span class="secno">1.1 </span>Doel</a></li><li class="tocline"><a class="tocxref" href="#totstandkoming"><span class="secno">1.2 </span>Totstandkoming</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#werkgroepleden"><span class="secno">1.2.1 </span>Werkgroepleden</a></li></ol></li><li class="tocline"><a class="tocxref" href="#aansluiten-bij-internationale-standaarden"><span class="secno">1.3 </span>Aansluiten bij internationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#best-practices"><span class="secno">1.4 </span>Best practices</a></li><li class="tocline"><a class="tocxref" href="#doelgroep"><span class="secno">1.5 </span>Doelgroep</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><span class="secno">1.6 </span>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Scope"><span class="secno">2. </span>Scope</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#binnen-scope"><span class="secno">2.1 </span>Binnen scope</a></li><li class="tocline"><a class="tocxref" href="#buiten-scope"><span class="secno">2.2 </span>Buiten scope</a></li></ol></li><li class="tocline"><a class="tocxref" href="#TegelSpec"><span class="secno">3. </span>Basis specificaties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vector-tiles-maken"><span class="secno">3.1 </span>Vector tiles maken</a></li><li class="tocline"><a class="tocxref" href="#eis-mapbox-vector-tile-specification-versie-2-1"><span class="secno">3.2 </span>Eis: Mapbox Vector Tile specification versie 2.1</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-vrije-bestands-extensie"><span class="secno">3.2.1 </span>Eis: Vrije Bestands Extensie</a></li><li class="tocline"><a class="tocxref" href="#eis-encoding-pbf"><span class="secno">3.2.2 </span>Eis: Encoding PBF</a></li><li class="tocline"><a class="tocxref" href="#eis-clockwise-winding-order"><span class="secno">3.2.3 </span>Eis: Clockwise Winding order</a></li></ol></li><li class="tocline"><a class="tocxref" href="#vector-tiles-aanbieden"><span class="secno">3.3 </span>Vector tiles aanbieden</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-ogc-api-tiles"><span class="secno">3.3.1 </span>Eis: OGC API Tiles</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#TegelSchema"><span class="secno">4. </span>TileMatrixSet</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#coordinaat-referentie-systemen"><span class="secno">4.1 </span>Coördinaat Referentie Systemen</a></li><li class="tocline"><a class="tocxref" href="#eis-te-gebruiken-tilematrixsets"><span class="secno">4.2 </span>Eis: te gebruiken TileMatrixSets</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Publicatie"><span class="secno">5. </span>Vector tiles aanbieden</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-gebruik-ogc-api-tiles"><span class="secno">5.1 </span>Eis: gebruik OGC API Tiles</a></li><li class="tocline"><a class="tocxref" href="#eis-content-type"><span class="secno">5.2 </span>Eis: Content-Type</a></li><li class="tocline"><a class="tocxref" href="#eis-gebruik-http-header-content-encoding-gzip"><span class="secno">5.3 </span>Eis: gebruik HTTP Header Content-Encoding gzip</a></li><li class="tocline"><a class="tocxref" href="#downloaden-van-vector-tiles"><span class="secno">5.4 </span>Downloaden van vector tiles</a></li></ol></li><li class="tocline"><a class="tocxref" href="#Documentatie"><span class="secno">6. </span>Documentatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eis-ogc-api-tiles-tileset-requirement-class"><span class="secno">6.1 </span>Eis: OGC API Tiles <strong>"TileSet" requirement class</strong></a></li><li class="tocline"><a class="tocxref" href="#minimale-aanbevelingen"><span class="secno">6.2 </span>Minimale aanbevelingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanbeveling-data-lagen"><span class="secno">6.2.1 </span>Aanbeveling: Data lagen</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-overzooming"><span class="secno">6.2.2 </span>Aanbeveling: Overzooming</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-data-attributen"><span class="secno">6.2.3 </span>Aanbeveling: Data Attributen</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-bron-annotatie"><span class="secno">6.2.4 </span>Aanbeveling: Bron annotatie</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-projection-in-tilejson"><span class="secno">6.2.5 </span>Aanbeveling: Projection in TileJSON</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path"><span class="secno">6.2.6 </span>Aanbeveling: Gebruik format is tilejson parameter in het TileJSON path</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-data-lagen-tilejson"><span class="secno">6.2.7 </span>Aanbeveling: Data lagen TileJSON</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-over-en-underzooming-tilejson"><span class="secno">6.2.8 </span>Aanbeveling: Over- en underzooming TileJSON</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-data-attributen-tilejson"><span class="secno">6.2.9 </span>Aanbeveling: Data Attributen TileJSON</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-bron-annotatie-tilejson"><span class="secno">6.2.10 </span>Aanbeveling: Bron annotatie TileJSON</a></li></ol></li><li class="tocline"><a class="tocxref" href="#api-design-rules-nederlandse-overheid"><span class="secno">6.3 </span>API design rules Nederlandse Overheid</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanbeveling-tile-bestandsgrootte"><span class="secno">6.3.1 </span>Aanbeveling: tile bestandsgrootte</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#Styling"><span class="secno">7. </span>Styling</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanbeveling-styling-publiceren-via-ogc-api-styles"><span class="secno">7.1 </span>Aanbeveling: Styling publiceren via OGC API Styles</a></li><li class="tocline"><a class="tocxref" href="#aanbeveling-styling-specificatie-encoding"><span class="secno">7.2 </span>Aanbeveling: Styling specificatie encoding</a></li><li class="tocline"><a class="tocxref" href="#eis-standaard-stijl"><span class="secno">7.3 </span>Eis: Standaard stijl</a></li><li class="tocline"><a class="tocxref" href="#best-practices-styling"><span class="secno">7.4 </span>Best practices styling</a></li></ol></li><li class="tocline"><a class="tocxref" href="#CRSachtergrond"><span class="secno">A. </span>Coördinaat referentie systemen voor vector tiles</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#coordinaat-referentie-systemen-bij-beoogd-gebruik"><span class="secno">A.1 </span>Coördinaat referentie systemen bij beoogd gebruik</a></li><li class="tocline"><a class="tocxref" href="#onnauwkeurigheid-wgs84-en-bijstelling"><span class="secno">A.2 </span>Onnauwkeurigheid WGS84 en bijstelling</a></li><li class="tocline"><a class="tocxref" href="#impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><span class="secno">A.3 </span>Impact onnauwkeurigheid gering voor beoogde vector tiling toepassingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#TileMatrixSetRD"><span class="secno">B. </span>Bijlage TileMatrixSet Rijksdriehoekstelsel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#json-encoding"><span class="secno">B.1 </span>JSON encoding</a></li><li class="tocline"><a class="tocxref" href="#xml-encoding"><span class="secno">B.2 </span>XML Encoding</a></li></ol></li><li class="tocline"><a class="tocxref" href="#TileJSON"><span class="secno">C. </span>Bijlage TileJSON voorbeeld</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#json-encoding-0"><span class="secno">C.1 </span>JSON encoding</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><span class="secno">D. </span>Lijst van afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#references"><span class="secno">E. </span>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><span class="secno">E.1 </span>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><span class="secno">E.2 </span>Informatieve referenties</a></li></ol></li></ol></nav><section id="Inleiding" data-format="markdown"><!--OddPage--><h2 id="x1-inleiding"><span class="secno">1. </span>Inleiding</h2><section id="doel"><h3 id="x1-1-doel"><span class="secno">1.1 </span>Doel</h3><p>De Prakrijktrichtlijn specificeert hoe het beste vector tiles aangeboden kunnen worden om breed gebruik mogelijk te maken (maximale interoperabiliteit), voor Nederlandse toepassingen. Dit moet het ook makkelijker maken om vector tiles van derden te gebruiken. Zie verder <a href="#Scope">het hoofdstuk over de scope</a>.</p><p>Deze praktijkrichtlijn is geen verplichting.</p></section><section id="totstandkoming"><h3 id="x1-2-totstandkoming"><span class="secno">1.2 </span>Totstandkoming</h3><p>Dit document is opgesteld onder redactie van Geonovum. De inhoud is met Nederlandse experts in enkele werksessies afgestemd.</p><section id="werkgroepleden"><h4 id="x1-2-1-werkgroepleden"><span class="secno">1.2.1 </span>Werkgroepleden</h4><p>Onder andere de volgende mensen hebben een bijdrage geleverd aan deze praktijkrichtlijn via de werksessies of op een andere manier:</p><ul>
 <li>Joris Bak, Esri Nederland</li>
 <li>Anton Bakker, Kadaster</li>
 <li>Niene Boeijen, This Way Cartography (redactie)</li>
@@ -632,13 +644,17 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 <li>Edward Mac Gillavry, Webmapper</li>
 <li>Just van den Broecke, Just Objects</li>
 <li>Wouter Visscher, Kadaster</li>
+<li>Roel van den Berg, Kadaster</li>
+<li>John Schaap, Kadaster</li>
 </ul></section></section><section id="aansluiten-bij-internationale-standaarden"><h3 id="x1-3-aansluiten-bij-internationale-standaarden"><span class="secno">1.3 </span>Aansluiten bij internationale standaarden</h3><p>Deze Prakrijktrichtlijn gebruikt zoveel mogelijk internationale standaarden en specificaties. Waar dat nog niet goed mogelijk is, kiezen we de meest gangbare oplossing uit de praktijk. Deze richtlijn is niet gebonden aan specifieke software.</p></section><section id="best-practices"><h3 id="x1-4-best-practices"><span class="secno">1.4 </span>Best practices</h3><p>Er zijn ook onderwerpen die niet per se gaan over interoperabiliteit, maar wel van belang kunnen zijn om op een goede, geschikte manier vector tiles aan te bieden. Deze staan in een apart <a href="https://geonovum.github.io/vector-tiling-best-practices/">Best practices document</a>.</p></section><section id="doelgroep"><h3 id="x1-5-doelgroep"><span class="secno">1.5 </span>Doelgroep</h3><p>De praktijkrichtlijn is bedoeld voor o.a.:</p><ul>
-<li>aanbieders van vector tiles</li>
-<li>gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.</li>
+<li>aanbieders van vector tiles
+</li>
+<li>gebruikers van vector tiles zoals (geo-)applicatie ontwikkelaars.
+</li>
 </ul></section><section id="leeswijzer"><h3 id="x1-6-leeswijzer"><span class="secno">1.6 </span>Leeswijzer</h3><p>Na dit hoofdstuk komt eerst de <a href="#Scope">Scope</a> van deze Praktijkrichtlijn. <a href="#TegelSpec">Hoofdstuk 3</a> bevat vervolgens de specificaties waarop deze Praktijkrichtlijn gebaseerd is. <a href="#TegelSchema">Hoofdstuk 4 TileMatrixSet</a> werkt de details van de te gebruiken <em>TileMatrixSets</em> uit. <a href="#Publicatie">Hoofdstuk 5 Publicatie</a> behandelt hoe de vector tiles aan te bieden.
 <a href="#Documentatie">Hoofdstuk 6 Documentatie</a> specificeert hoe de aangeboden vector tiles en API te documenteren. Het weergeven van vector tiles is onderwerp van <a href="#Styling">hoofdstuk 7 Styling</a>.</p><p>De bijlagen bevatten verdiepende informatie over Coördinaat Referentie Systemen en de uitwerking van de <em>TileMatrixSet</em> voor het Rijksdriehoekstelsel.</p><p>Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).</p><p>De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen <em>EIS</em> en <em>AANBEVELING</em> om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.</p><p>Eisen staan geformuleerd in oranje blokken, bijvoorbeeld:</p><div class="advisement"><p><em>EIS</em> Dit is een vereist kenmerk</p>
 </div><p>Aanbevelingen zonder extra opmaak:</p><div class="informative"><p><em>AANBEVELING</em> Dit is een aanbeveling</p>
-</div></section></section><section id="Scope" data-format="markdown"><!--OddPage--><h2 id="x2-scope"><span class="secno">2. </span>Scope</h2><section id="binnen-scope"><h3 id="x2-1-binnen-scope"><span class="secno">2.1 </span>Binnen scope</h3><p>De Praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, van data van Nederlandse organisaties.</p><p>Meer concreet gaat het om 2D vector tiles voor visualisatie / <em>portrayal</em> door derden (applicatie onwikkelaars en geo-specialisten), zoals voor achtergrondkaarten. Het gaat dus niet om het delen van objectgegevens / features of nauwkeurige metingen. Typisch gebruik van vector tiles is het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanname is dat de data hiervoor voorbewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. En als gevolg daarvan niet per se de kwalitatief nauwkeurige coördinaten van de orginele geodata bevat.</p><p>Deze vector tiles kunnen aangeboden worden als service / via een API of als bulk download. In dit document wordt er voor vector tiles via een service geen verschil gemaakt of de vector tiles al voorberekend zijn ("pre-cooked" / "pre-processed") en al dan niet uit een <em>cache</em> aangeboden worden, of dynamisch worden opgebouwd (<em>on-the-fly</em>).</p><p>Door ons te beperken tot visualisatie het gevolg dat niet alle geschikte mogelijkheden van vector tiles hier behandeld worden. Maar het doel van deze praktijkrichtlijn is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook te combineren met de OGC standaarden, zoals WMS, WFS, met gangbare online kaartdiensten/platformen (Google Maps, Mapbox, etc) en de toekomstige OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden.</p></section><section id="buiten-scope"><h3 id="x2-2-buiten-scope"><span class="secno">2.2 </span>Buiten scope</h3><p>Hoewel het mogelijk is om vector tiling te gebruiken om alleen de (feature/object) data uit te wisselen (al dan niet met nauwkeurige geometrie), is dit buiten scope van deze Praktijkrichtlijn.</p><p>Buiten scope van de Praktijkrichtlijn zijn:</p><ul>
+</div></section></section><section id="Scope" data-format="markdown"><!--OddPage--><h2 id="x2-scope"><span class="secno">2. </span>Scope</h2><section id="binnen-scope"><h3 id="x2-1-binnen-scope"><span class="secno">2.1 </span>Binnen scope</h3><p>De Praktijkrichtlijn richt zich op het aanbieden, publiceren en gebruiken van vector tiles in (web)applicaties, van data van Nederlandse organisaties.</p><p>Meer concreet gaat het om 2D vector tiles voor visualisatie / <em>portrayal</em> door derden (applicatie onwikkelaars en geo-specialisten), zoals voor achtergrondkaarten. Het gaat dus niet om het delen van objectgegevens / features of nauwkeurige metingen. Typisch gebruik van vector tiles is het visualiseren van grotere datasets en cartografische producten zoals topografische achtergrond kaarten. Waarbij de aanname is dat de data hiervoor voorbewerkt is en versimpeld om tot een goed uitgewerkte visualisatie te komen. En als gevolg daarvan niet per se de kwalitatief nauwkeurige coördinaten van de originele geodata bevat.</p><p>Deze vector tiles kunnen aangeboden worden als service / via een API of als bulk download. In dit document wordt er voor vector tiles via een service geen verschil gemaakt of de vector tiles al voorberekend zijn ("pre-cooked" / "pre-processed") en al dan niet uit een <em>cache</em> aangeboden worden, of dynamisch worden opgebouwd (<em>on-the-fly</em>).</p><p>Door ons te beperken tot visualisatie ontstaat het gevolg dat niet alle geschikte mogelijkheden van vector tiles hier behandeld worden. Maar het doel van deze praktijkrichtlijn is om de verschillende vector tile aanbieders hun vector tile sets zo aan te laten bieden dat deze makkelijk te gebruiken, combineren en hergebruiken zijn. Niet alleen met andere vector tile sets maar ook te combineren met de OGC standaarden, zoals WMS, WFS, met gangbare online kaartdiensten/platformen (Google Maps, Mapbox, etc) en met de OGC API standaarden. Daarom sluiten we in deze praktijktichtlijn ook zo veel mogelijk aan bij bestaande richtlijnen en standaarden.</p></section><section id="buiten-scope"><h3 id="x2-2-buiten-scope"><span class="secno">2.2 </span>Buiten scope</h3><p>Hoewel het mogelijk is om vector tiling te gebruiken om alleen de (feature/object) data uit te wisselen (al dan niet met nauwkeurige geometrie), is dit buiten scope van deze Praktijkrichtlijn.</p><p>Buiten scope van de Praktijkrichtlijn zijn:</p><ul>
 <li>3D vector tiles</li>
 <li>"silo" applicaties: applicaties die niet beogen vector tiles te delen met derden.</li>
 <li>gebruik en advies over software en tooling voor het maken, serveren en consumeren van vector tiles</li>
@@ -647,51 +663,109 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 <li>Pre-processing van data</li>
 <li>Styling best practises</li>
 <li>beveiligingsaspecten, zoals API Keys, beveiliging met naam/wachtwoord</li>
-</ul><p>Voor eigen applicaties en specifieke toepassingen staat het uiteraard vrij om op een andere manier vector tiles aan te bieden dan deze praktijkrichtlijn beschrijft.</p></section></section><section id="TegelSpec" data-format="markdown"><!--OddPage--><h2 id="x3-basis-specificaties"><span class="secno">3. </span>Basis specificaties</h2><p>Dit hoofdstuk beschrijft de specificaties waar deze praktijkrichtlijn op gebaseerd is.</p><section id="vector-tiles-maken"><h3 id="x3-1-vector-tiles-maken"><span class="secno">3.1 </span>Vector tiles maken</h3><p>Bij het maken van vector tiles gaan deze richtlijn uit van het gebruik van de technische specificatie zoals beschreven door de [<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>]. Deze specificatie bevat de belangrijkste standaarden en instellingen over hoe geografische data opgeslagen en gecodeerd wordt in een vector tile. Deze bevat informatie over bestandsformaten, extensies, projecties, <em>bounds</em>, en de interne structuur van een vector tile.</p></section><section id="eis-mapbox-vector-tile-specification-versie-2-1"><h3 id="x3-2-eis-mapbox-vector-tile-specification-versie-2-1"><span class="secno">3.2 </span>Eis: Mapbox Vector Tile specification versie 2.1</h3><div class="advisement"><p><em>EIS</em> Gebruik [<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen</p>
+</ul><p>Voor eigen applicaties en specifieke toepassingen staat het uiteraard vrij om op een andere manier vector tiles aan te bieden dan deze praktijkrichtlijn beschrijft.</p></section></section><section id="TegelSpec" data-format="markdown"><!--OddPage--><h2 id="x3-basis-specificaties"><span class="secno">3. </span>Basis specificaties</h2><p>Dit hoofdstuk beschrijft de specificaties waar deze praktijkrichtlijn op gebaseerd is.</p><section id="vector-tiles-maken"><h3 id="x3-1-vector-tiles-maken"><span class="secno">3.1 </span>Vector tiles maken</h3><p>Bij het maken van vector tiles gaat deze richtlijn uit van het gebruik van de technische specificatie zoals beschreven door de [<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>]. Deze specificatie bevat de belangrijkste standaarden en instellingen over hoe geografische data opgeslagen en gecodeerd wordt in een vector tile. Deze bevat informatie over bestandsformaten, extensies, projecties, <em>bounds</em>, en de interne structuur van een vector tile.</p></section><section id="eis-mapbox-vector-tile-specification-versie-2-1"><h3 id="x3-2-eis-mapbox-vector-tile-specification-versie-2-1"><span class="secno">3.2 </span>Eis: Mapbox Vector Tile specification versie 2.1</h3><div class="advisement"><p><em>EIS</em> Gebruik [<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen</p>
 </div><p>In het kort gaat deze specificatie uit van:</p><ul>
 <li>Google Protobuf encoding ([<cite><a class="bibref" href="#bib-pbf">PBF</a></cite>])</li>
-<li><em>Winding order</em> conform OGC</li>
+<li><em>Winding order</em> conform Mapbox Vectortile Specificatie ([<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>])</li>
 <li><a href="https://www.ogc.org/standards/sfa">OGC valide</a> geometriëen</li>
-</ul><p>In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie <code>.mvt</code> zoals genoemd in <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#21-file-extension">2.1 File extension</a> van de Mapbox specificatie. Ook wijken wij af van de paragraaf <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime">2.2 Multipurpose Internet Mail Extensions (MIME)</a>.</p><section id="eis-vrije-bestands-extensie"><h4 id="x3-2-1-eis-vrije-bestands-extensie"><span class="secno">3.2.1 </span>Eis: Vrije Bestands Extensie</h4><div class="advisement"><p><em>EIS</em> De bestands extensie voor de vector tiles is vrij in te vullen, alsmede het MIME type.</p>
+</ul><p>In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie <code>.mvt</code> zoals genoemd in <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#21-file-extension">2.1 File extension</a> van de Mapbox specificatie. Ook wijken wij af van de paragraaf <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime">2.2 Multipurpose Internet Mail Extensions (MIME)</a>.</p><section id="eis-vrije-bestands-extensie"><h4 id="x3-2-1-eis-vrije-bestands-extensie"><span class="secno">3.2.1 </span>Eis: Vrije Bestands Extensie</h4><div class="advisement"><p><em>EIS</em> De bestandsextensie voor vectortiles is vrij in te vullen.
+Het Media Type van vectortiles moet volgens mapbox specificatie altijd <code>application/vnd.mapbox-vector-tile</code> zijn.</p>
 <p>Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format">2. File Format</a> definities van de Mapbox Vector tile specification.</p>
 </div></section><section id="eis-encoding-pbf"><h4 id="x3-2-2-eis-encoding-pbf"><span class="secno">3.2.2 </span>Eis: Encoding PBF</h4><div class="advisement"><p><em>EIS</em> Gebruik voor de encoding van de data [<cite><a class="bibref" href="#bib-pbf">PBF</a></cite>] (Google Protobuf)</p>
-</div></section><section id="eis-winding-order-conform-ogc"><h4 id="x3-2-3-eis-winding-order-conform-ogc"><span class="secno">3.2.3 </span>Eis: Winding order conform OGC</h4><p>[<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>] vereist de OGC <em>Winding order</em>. Zie de de <a href="https://docs.mapbox.com/vector-tiles/specification/#winding-order">Mapbox documentatie over <em>Winding order</em></a> voor een toelichting. Omdat de <em>winding order</em> vaak mis gaat bij implementaties, bevat de Praktijkrichtlijn een expliciete eis hiervoor.</p><div class="advisement"><p><em>EIS</em> Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde <em>winding order</em> zoals in OGC Simple Features Access is gedefinieerd.</p>
-</div></section></section><section id="vector-tiles-aanbieden"><h3 id="x3-3-vector-tiles-aanbieden"><span class="secno">3.3 </span>Vector tiles aanbieden</h3><p>Voor het aanbieden en publiceren van vector tiles via het web is nog geen open standaard gereed. De vector tiles kunnen als download aangeboden worden of als webservice, via een API, of als statische <em>directory structure</em>.</p><p>Het OGC werkt aan verscheidene nieuwe specificaties voor het publiceren en aanbieden van geografische data via APIs: voor <em>features</em>, <em>maps</em> en <em>vector tiles</em>. Voor vector tiles is de [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] specificatie relevant.</p><p>Er is nu alleen nog geen open standaard gereed voor publicatie van vector tiles door middel van web services. [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] lijkt hier wel de open standaard voor te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn daarom [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] voor.</p><section id="eis-ogc-api-tiles"><h4 id="x3-3-1-eis-ogc-api-tiles"><span class="secno">3.3.1 </span>Eis: OGC API Tiles</h4><div class="advisement"><p><em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p>
-</div><p><a href="#Publicatie">Hoofdstuk 5</a> werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.</p></section></section></section><section id="TegelSchema" data-format="markdown"><!--OddPage--><h2 id="x4-tilematrixset"><span class="secno">4. </span>TileMatrixSet</h2><p>Het OGC definieert in [<cite><a class="bibref" href="#bib-ogc-two-dimensional-tile-matrix-set">OGC-Two-Dimensional-Tile-Matrix-Set</a></cite>] enkele zogenaamde <em>TileMatrixSets</em>, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn.</p><p>Een <em>TileMatrixSet</em> bestaat uit een oorsprong, grid indeling en zoomniveaus voor een bepaald Coördinaat Referentie Systeen (CRS).</p><section id="coordinaat-referentie-systemen"><h3 id="x4-1-coordinaat-referentie-systemen"><span class="secno">4.1 </span>Coördinaat Referentie Systemen</h3><div class="informative"><p>Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande standaarden. Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [<cite><a class="bibref" href="#bib-sdw-bp">SDW-BP</a></cite>] dat het CRS WGS84 vaak de voorkeur heeft. Web Mercator en andere WGS84 gebaseerde CRSen zijn veelgebruikt bij vector tiles en tools hebben hier brede ondersteuning voor.</p>
+</div></section><section id="eis-clockwise-winding-order"><h4 id="x3-2-3-eis-clockwise-winding-order"><span class="secno">3.2.3 </span>Eis: Clockwise Winding order</h4><p>[<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>] vereist een clockwise <em>Winding order</em>. Zie de de <a href="https://docs.mapbox.com/vector-tiles/specification/#winding-order">Mapbox documentatie over <em>Winding order</em></a> voor een toelichting.
+Omdat de <em>winding order</em> vaak mis gaat bij implementaties, bevat de Praktijkrichtlijn hiervoor een expliciete eis.
+Het niet aanhouden van de correcte winding order levert problemen op in <em>sommige</em> vectortile clients.
+Het probleem wat in deze situatie kan optreden is dat voor vectoren die gaten bevatten, het gat niet door de betreffende client kan worden herkend en worden ingekleurd.</p><blockquote>
+<p>Let op! de winding order van vector tiles is tegengesteld aan de <em>Winding order</em> voor geschreven door OGC in o.a. de OGC Simple Features.</p>
+</blockquote><div class="advisement"><p><em>EIS</em> Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clockwise (buitenste ring met de klok mee, binnenste ring tegen de klok in) <em>winding order</em> zoals in Mapbox vectortile specificatie is beschreven.</p>
+</div></section></section><section id="vector-tiles-aanbieden"><h3 id="x3-3-vector-tiles-aanbieden"><span class="secno">3.3 </span>Vector tiles aanbieden</h3><p>Voor het aanbieden en publiceren van vector tiles via het web is nog geen open standaard gereed. De vector tiles kunnen als download aangeboden worden of als webservice, via een API, of als statische <em>directory structure</em>.</p><p>Het OGC biedt verscheidene nieuwe specificaties aan voor het publiceren en aanbieden van geografische data via APIs: voor <em>features</em>, <em>maps</em> en <em>vector tiles</em>. Zie de website <a href="https://ogcapi.ogc.org/">OGC APIs Building Blocks for Location</a> voor een overzicht van APIs voor het web. Voor vector tiles is de [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] specificatie relevant.</p><p>Deze praktijkrichtlijn schrijft het gebruik van [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] voor. Dit is een open standaard voor publicatie van vector tiles door middel van web services. Deze standaard is door OGC vastgesteld.
+</p><section id="eis-ogc-api-tiles"><h4 id="x3-3-1-eis-ogc-api-tiles"><span class="secno">3.3.1 </span>Eis: OGC API Tiles</h4><div class="advisement"><p><em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p>
+</div><p><a href="#Publicatie">Hoofdstuk 5</a> werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.</p></section></section></section><section id="TegelSchema" data-format="markdown"><!--OddPage--><h2 id="x4-tilematrixset"><span class="secno">4. </span>TileMatrixSet</h2><p>Het OGC definieert in [<cite><a class="bibref" href="#bib-ogc-two-dimensional-tile-matrix-set-and-tile-set-metadata">OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata</a></cite>] enkele zogenaamde <em>TileMatrixSets</em>, internationaal te gebruiken tiling schema's voor raster en vector tiling. Deze nemen we als basis voor de praktijkrichtlijn.</p><p>Een <em>TileMatrixSet</em> bestaat uit een oorsprong, grid indeling en zoomniveaus voor een bepaald Coördinaat Referentie Systeen (CRS).</p><section id="coordinaat-referentie-systemen"><h3 id="x4-1-coordinaat-referentie-systemen"><span class="secno">4.1 </span>Coördinaat Referentie Systemen</h3><div class="informative"><p>Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande standaarden. Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [<cite><a class="bibref" href="#bib-sdw-bp">SDW-BP</a></cite>] dat het CRS WGS84 vaak de voorkeur heeft. Web Mercator en andere WGS84 gebaseerde CRSen zijn veelgebruikt bij vector tiles en tools hebben hier brede ondersteuning voor.</p>
 <p>Maar WGS84 is voor Nederland (en andere Europese landen) tot op zekere hoogte onnauwkeurig. Afhankelijk van de toepassing kan dit ongewenste effecten hebben. De bijlage <a href="#CRSachtergrond">Coördinaat referentie systemen voor vector tiles</a> bevat meer informatie over deze (on)nauwkeurigheid en wat de impact is voor vector tiles.</p>
 <p>Voor de meeste toepassingen die vector tiles gebruiken binnen de scope van deze Prakrijktrichtlijn is Web Mercator voldoende nauwkeurig.</p>
-</div></section><section id="eis-te-gebruiken-tilematrixsets"><h3 id="x4-2-eis-te-gebruiken-tilematrixsets"><span class="secno">4.2 </span>Eis: te gebruiken TileMatrixSets</h3><p>[<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [<cite><a class="bibref" href="#bib-ogc-two-dimensional-tile-matrix-set">OGC-Two-Dimensional-Tile-Matrix-Set</a></cite>]. Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Zie de bijlage: <a href="media/NetherlandsRDNewQuad.json">NetherlandsRDNewQuad.json</a></p><p>Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p><div class="advisement"><p><em>EIS</em> Biedt vector tiles aan in <em>tenminste</em> één van de volgende <em>TileMatrixSets</em> voor de coördinaat referentie systemen:</p>
+</div></section><section id="eis-te-gebruiken-tilematrixsets"><h3 id="x4-2-eis-te-gebruiken-tilematrixsets"><span class="secno">4.2 </span>Eis: te gebruiken TileMatrixSets</h3><p>[<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [<cite><a class="bibref" href="#bib-ogc-two-dimensional-tile-matrix-set-and-tile-set-metadata">OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata</a></cite>]. Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Zie de bijlage: <a href="media/NetherlandsRDNewQuad.json">NetherlandsRDNewQuad.json</a></p><p>Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p><div class="advisement"><p><em>EIS</em> Biedt vector tiles aan in <em>tenminste</em> één van de volgende <em>TileMatrixSets</em> voor de coördinaat referentie systemen:</p>
 <ul>
-<li>Web Mercator: EPSG:3857. TileMatrixSetId van OGC: <code>WebMercatorQuad</code>, URI: <a href="http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json">http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json</a>.</li>
-<li>ETRS89, projectie Lambert Azimuthal Equal Area, EPSG:3035. TileMatrixSetId van OGC: <code>EuropeanETRS89_LAEAQuad</code>, URI: <a href="http://schemas.opengis.net/tms/1.0/json/examples/EuropeanETRS89_LAEAQuad.json">http://schemas.opengis.net/tms/1.0/json/examples/EuropeanETRS89_LAEAQuad.json</a>. Dit kan voor Europese toepassingen, met hogere nauwkeurigheid dan 1 meter, geschikt zijn.</li>
-<li>Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: <code>NetherlandsRDNewQuad</code>, URI: <strong>NOG TE BEPALEN / PUBLICEREN</strong>
-<a href="media/NetherlandsRDNewQuad.json">NetherlandsRDNewQuad.json</a>. Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.</li>
+<li>Web Mercator: EPSG:3857. TileMatrixSetId van OGC: <code>WebMercatorQuad</code>, URI: <a href="http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad">http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad</a>.</li>
+<li>ETRS89, projectie Lambert Azimuthal Equal Area, EPSG:3035. TileMatrixSetId van OGC: <code>EuropeanETRS89_LAEAQuad</code>, URI: <a href="http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad">http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad</a>. Dit kan voor Europese toepassingen, met hogere nauwkeurigheid dan 1 meter, geschikt zijn.</li>
+<li>Rijksdriehoekstelsel (RD New), EPSG:28992. TileMatrixSetId: <code>NetherlandsRDNewQuad</code>, URI: <a href="http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad">http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad</a>. Dit kan voor nauwkeurige toepassingen met Nederlandse data het meest geschikt zijn.</li>
 </ul>
-</div><p>Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de vector tiles. Daarmee is het gebruikte CRS gepubliceerd.</p></section></section><section id="Publicatie" data-format="markdown"><!--OddPage--><h2 id="x5-vector-tiles-aanbieden"><span class="secno">5. </span>Vector tiles aanbieden</h2><section id="eis-gebruik-ogc-api-tiles"><h3 id="x5-1-eis-gebruik-ogc-api-tiles"><span class="secno">5.1 </span>Eis: gebruik OGC API Tiles</h3><p>Er is nu nog geen open standaard gereed voor publicatie. [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] lijkt dat wel te worden. Vooruitlopend op formele goedkeuring door OGC, schrijft deze praktijkrichtlijn deze API specificatie daarom voor.</p><div class="advisement"><p><em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p>
+</div><p>Als vector tiles via OGC API Tiles worden aangeboden, is de TileMatrixSetId onderdeel van de URL en beschrijving van de vector tiles. Daarmee is het gebruikte CRS gepubliceerd.</p></section></section><section id="Publicatie" data-format="markdown"><!--OddPage--><h2 id="x5-vector-tiles-aanbieden"><span class="secno">5. </span>Vector tiles aanbieden</h2><section id="eis-gebruik-ogc-api-tiles"><h3 id="x5-1-eis-gebruik-ogc-api-tiles"><span class="secno">5.1 </span>Eis: gebruik OGC API Tiles</h3><p>De OGC API Tiles [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>] is de open standaard voor het opstellen van tiles. Deze praktijkrichtlijn schrijft deze API-specificatie daarom voor.</p><div class="advisement"><p><em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" href="#bib-ogc-api-tiles-core">OGC-API-Tiles-Core</a></cite>].</p>
 </div></section><section id="eis-content-type"><h3 id="x5-2-eis-content-type"><span class="secno">5.2 </span>Eis: Content-Type</h3><div class="advisement"><p><em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header <code>Content-Type</code> om het gebruikte media type van de vector tiles weer te geven.</p>
 </div><p>Omdat deze Prakrijktrichtlijn voorschrijft om <a href="#eis-mapbox-vector-tile-specification-versie-2-1">Mapbox Vector Tile specification te gebruiken</a>, geldt:</p><div class="advisement"><p><em>EIS</em> Gebruik <code>application/vnd.mapbox-vector-tile</code> als media type (<em>MIME</em>) bij het aanbieden via het web.</p>
 </div></section><section id="eis-gebruik-http-header-content-encoding-gzip"><h3 id="x5-3-eis-gebruik-http-header-content-encoding-gzip"><span class="secno">5.3 </span>Eis: gebruik HTTP Header Content-Encoding gzip</h3><p>Voor allerlei bestanden wordt <em>gzip</em> compressie toegepast om de bestanden kleiner te maken bij het ophalen van de webserver. Via de generieke HTTP Header <code>Content-Encoding: gzip</code> wordt dit aangegeven. Ook voor vector tiles is deze gzip compressie vaak in gebruik. Als de gzip compressie niet kenbaar is gemaakt via de HTTP Header Content-Encoding, kunnen (bepaalde) clients de tiles niet goed verwerken. Bijvoorbeeld van <a href="https://openlayers.org/">OpenLayers</a> is bekend dat deze de vector tiles dan helemaal niet kan verwerken.</p><div class="advisement"><p><em>EIS</em> Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header <code>Content-Encoding: gzip</code> mee.</p>
 </div><aside class="example" id="example-1-voorbeeld-http-headers-vector-tile-met-gzip-compressie"><div class="marker">
       <a class="self-link" href="#example-1-voorbeeld-http-headers-vector-tile-met-gzip-compressie">Voorbeeld 1</a><span class="example-title">: Voorbeeld HTTP Headers vector tile met gzip compressie</span>
     </div><p>Onderstaande HTTP Header illustreert gzip compressie voor een vector tile die in Mapbox vector tile format is aangeboden:</p>
-<pre><code aria-busy="false" class="hljs css"><span class="hljs-attribute">Content</span>-Encoding: gzip
-Content-Type: application/vnd.mapbox-vector-tile</code></pre></aside></section><section id="downloaden-van-vector-tiles"><h3 id="x5-4-downloaden-van-vector-tiles"><span class="secno">5.4 </span>Downloaden van vector tiles</h3><p>Voor sommige doelen, zoals gebruik in offline systemen of voor het kopiëren van vector tiles voor installatie van een eigen vector tileserver, is het handig om meerdere vector tiles of een hele set van vector tiles in één bestand te kunnen downloaden. Er zijn meerdere manieren in gebruik, zoals in <em>filebased databases</em> als MBTiles of GeoPackage of het comprimeren (ZIPpen) van een directorystructuur met vector tiles. Elk van deze manieren kan geschikt zijn. Er is op dit moment geen specifieke eis of aanbeveling over op te nemen.</p></section></section><section id="Documentatie" data-format="markdown"><!--OddPage--><h2 id="x6-documentatie"><span class="secno">6. </span>Documentatie</h2><p>Het is belangrijk bij het aanleveren van een vector tile set (download of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen en tegelijkertijd ook voordelen voor het delen, vinden en hergebruiken van bronnen.</p><section id="eis-ogc-api-tiles-tileset-requirement-class"><h3 id="x6-1-eis-ogc-api-tiles-tileset-requirement-class"><span class="secno">6.1 </span>Eis: OGC API Tiles <strong>"TileSet" requirement class</strong></h3><div class="advisement"><p><em>EIS</em> Sluit zoveel mogelijk aan bij de OGC API Tiles definitie en de <strong>"TileSet" requirement class</strong> endpoint.</p>
-</div><p>Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core een <strong>"TileSet" requirement class</strong> beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster). De response heeft 2 formaten: TileJSON en OGC JSON.</p><p>Deze beschrijvingen bevatten o.a. :</p><ul>
+<pre><code aria-busy="false" class="hljs http"><span class="hljs-attribute">Content-Encoding</span><span class="hljs-punctuation">: </span>gzip
+<span class="hljs-attribute">Content-Type</span><span class="hljs-punctuation">: </span>application/vnd.mapbox-vector-tile</code></pre></aside></section><section id="downloaden-van-vector-tiles"><h3 id="x5-4-downloaden-van-vector-tiles"><span class="secno">5.4 </span>Downloaden van vector tiles</h3><p>Voor sommige doelen, zoals gebruik in offline systemen of voor het kopiëren van vector tiles voor installatie van een eigen vector tileserver, is het handig om meerdere vector tiles of een hele set van vector tiles in één bestand te kunnen downloaden. Er zijn meerdere manieren in gebruik, zoals in <em>filebased databases</em> als MBTiles of GeoPackage of het comprimeren (ZIPpen) van een directorystructuur met vector tiles. Elk van deze manieren kan geschikt zijn. Er is op dit moment geen specifieke eis of aanbeveling over op te nemen.</p></section></section><section id="Documentatie" data-format="markdown"><!--OddPage--><h2 id="x6-documentatie"><span class="secno">6. </span>Documentatie</h2><p>Het is belangrijk bij het aanleveren van een vector tile set (download of service) om de juiste metadata beschrijvingen en bron beschrijvingen mee te geven. Dit heeft een aantal technische voordelen en tegelijkertijd ook voordelen voor het delen, vinden en hergebruiken van bronnen.</p><section id="eis-ogc-api-tiles-tileset-requirement-class"><h3 id="x6-1-eis-ogc-api-tiles-tileset-requirement-class"><span class="secno">6.1 </span>Eis: OGC API Tiles <strong>"TileSet" requirement class</strong></h3><p>Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core van de OGC standaard een <a href="http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/tileset">TileSet requirement class</a> beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster).</p><div class="advisement"><p><em>EIS</em> Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.</p>
+</div><p>De respons voorziet in metadata zoals beschreven door <a href="https://docs.ogc.org/is/17-083r4/17-083r4.html">OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard</a>.
+</p><p>Essentiele elementen van deze metadata zijn: </p><ul>
 <li>Beschikbare Tilematrixset links</li>
-<li>Links naar de vector tiles</li>
-<li>Geospatial data resoucres beschrijving</li>
-<li>Metadata (attribution)</li>
-<li>Request en response uitleg</li>
-</ul><blockquote>
-<p><strong>Requirement Class "TileSet"</strong> Defines the response of a TileSet GET request (but not the path or the link for the request). The response has two formats: tilejson and OGC json. The OGC json includes tilematrixset links, a central point (optional), a links to the URI template to individual tiles, and the geospatial data resources involved in the creation of the tiles (optional), and other metadata (including attribution; optional) Defines how to formulate a request for individual tiles and how the response will look like (success and failure)</p>
-</blockquote></section><section id="eis-tilejson"><h3 id="x6-2-eis-tilejson"><span class="secno">6.2 </span>Eis: TileJSON</h3><p>Omdat de OGC API Tiles specificatie nog niet af is en om die reden nog niet aan te sluiten is bij deze specificatie, raden wij het volgende alternatief aan:</p><div class="advisement"><p><em>EIS</em> Lever op zijn minst een TileJSON document aan bij een vector tile set. Zoals gedefineerd in <a href="https://htmlpreview.github.io/?https://github.com/opengeospatial/OGC-API-Tiles/blob/master/core/standard/OAPI_Tiles.html#_example_tilejson_document">Annex B.1. Example TileJson Document: Draft</a> van het OGC API Tiles document.</p>
-</div></section><section id="minimale-aanbevelingen"><h3 id="x6-3-minimale-aanbevelingen"><span class="secno">6.3 </span>Minimale aanbevelingen</h3><p>In deze paragraaf staan meer details voor de verschillende metadata onderdelen die men kan aanleveren bij een vector tile set.</p><section id="aanbeveling-data-lagen"><h4 id="x6-3-1-aanbeveling-data-lagen"><span class="secno">6.3.1 </span>Aanbeveling: Data lagen</h4><div class="informative"><p><em>AANBEVELING</em> Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel <code>"Vector Layers"</code></p>
-</div></section><section id="aanbeveling-overzooming"><h4 id="x6-3-2-aanbeveling-overzooming"><span class="secno">6.3.2 </span>Aanbeveling: Overzooming</h4><p>Eén van de vordelen van het gebruik van een TileJSON bestand voor vector tiles is zogenaamde <em>overzooming</em> op lagen.</p><p>De <em>layer definition</em> met <code>minzoom</code> en <code>maxzoom</code> level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.</p><div class="informative"><p><em>AANBEVELING</em>
+<li>De URI van de TileMatrixSet</li>
+<li>Het Coordinaat Referentie Systeem (een URI heeft de voorkeur).</li>
+<li>Een dynamische link (URI) naar de individuele tegels.</li>
+<li>Beschrijving van de data types (bestaat deze uit vector, coverage of map tiles).</li>
+</ul><p>De metadata kan aanvullende informatie bevatten als: </p><ul>
+<li>een titel</li>
+<li>Beschrijving van de dataset</li>
+<li>De limieten van de tileset wanneer het niet de volledige omvang van de TilMatrixSet beslaat.
+</li>
+<li>De geodata bronnen voor het creëren van de tiles. </li>
+<li>Een schema van de beschikbare properties van de tiles.
+</li>
+<li>De styling die gebruikt wordt </li>
+<li>Het middenpunt waar een viewer initieel op kan focussen.
+</li>
+<li>Bronvermelding (Attribution)</li>
+</ul></section><section id="minimale-aanbevelingen"><h3 id="x6-2-minimale-aanbevelingen"><span class="secno">6.2 </span>Minimale aanbevelingen</h3><p>In deze paragraaf staan meer details voor de verschillende metadata onderdelen die men kan aanleveren bij een vector tile set.</p><section id="aanbeveling-data-lagen"><h4 id="x6-2-1-aanbeveling-data-lagen"><span class="secno">6.2.1 </span>Aanbeveling: Data lagen</h4><div class="informative"><p><em>AANBEVELING</em> Zorg in een JSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel "Layers"</p>
+</div></section><section id="aanbeveling-overzooming"><h4 id="x6-2-2-aanbeveling-overzooming"><span class="secno">6.2.2 </span>Aanbeveling: Overzooming</h4><div class="informative"><p>Voor een tiles endpoint is in de OGC API een tileMatrixSet te definiëren.
+Iedere tilematrix kan voorzien worden van <a href="https://docs.ogc.org/is/17-083r4/17-083r4.html#table12">tileMatrixSetLimits</a>.
+Hierin wordt door middel van <code>maxTileRow</code>, <code>minTileRow</code>, <code>maxTileCol</code> en <code>minTileCol</code> voor ieder <code>tileMatrix</code> aangegeven welke tiles beschikbaar zijn voor welke zoomlevels .
+Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles.
+Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet.
+</p>
+<p><em>AANBEVELING</em>
+<code>tileMatrixsetlimits</code> definiëren in de OGC API Tiles tilematrix beschrijving.</p>
+</div><aside class="example" id="example-2-voorbeeld-in-json"><div class="marker">
+      <a class="self-link" href="#example-2-voorbeeld-in-json">Voorbeeld 2</a><span class="example-title">: Voorbeeld in json</span>
+    </div><p>Onderstaande voorbeeld laat TileMatrtixSetLimits in json zien. </p>
+<pre><code class="language-json hljs" aria-busy="false">"tileMatrixSetLimits": [
+{
+ "tileMatrix": "12",
+ "minTileRow": 0,
+ "maxTileRow": 4095,
+ "minTileCol": 0,
+ "maxTileCol": 4095
+}
+]</code></pre>
+</aside></section><section id="aanbeveling-data-attributen"><h4 id="x6-2-3-aanbeveling-data-attributen"><span class="secno">6.2.3 </span>Aanbeveling: Data Attributen</h4><div class="informative"><p><em>AANBEVELING</em>  Geef aan welke attributen (<code>properties</code>) er beschikbaar zijn per data laag.
+</p>
+</div></section><section id="aanbeveling-bron-annotatie"><h4 id="x6-2-4-aanbeveling-bron-annotatie"><span class="secno">6.2.4 </span>Aanbeveling: Bron annotatie</h4><div class="informative"><p><em>AANBEVELING</em> Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.</p>
+</div><p>Optioneel kan ook een TileJSON worden toegevoegd.
+De bijlage <a href="#TileJSON">TileJSON voorbeeld</a> bevat als voorbeeld een minimale TileJSON response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.</p><div class="informative"><p><em>AANBEVELING</em> Lever een <a href="https://github.com/mapbox/tilejson-spec">TileJSON</a> document aan bij een vectortile set.</p>
+</div><p>In TILEJSON:</p></section><section id="aanbeveling-projection-in-tilejson"><h4 id="x6-2-5-aanbeveling-projection-in-tilejson"><span class="secno">6.2.5 </span>Aanbeveling: Projection in TileJSON</h4><div class="informative"><p><em>AANBEVELING</em> Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
+Gebruik hiervoor een <a href="https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0">Custom projection TileJSON</a></p>
+</div></section><section id="aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path"><h4 id="x6-2-6-aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path"><span class="secno">6.2.6 </span>Aanbeveling: Gebruik format is tilejson parameter in het TileJSON path</h4><div class="informative"><p>Voeg 'f=tilejson' als parameter toe aan de url die de TileJSON levert.
+Voorbeeld:</p>
+<ul>
+<li><a href="https://example.com/ogc/v1/tiles/NetherlandsRDNewQuad?f=tilejson">https://example.com/ogc/v1/tiles/NetherlandsRDNewQuad?f=tilejson</a></li>
+</ul>
+</div></section><section id="aanbeveling-data-lagen-tilejson"><h4 id="x6-2-7-aanbeveling-data-lagen-tilejson"><span class="secno">6.2.7 </span>Aanbeveling: Data lagen TileJSON</h4><div class="informative"><p><em>AANBEVELING</em> Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel <code>"Vector Layers"</code></p>
+</div></section><section id="aanbeveling-over-en-underzooming-tilejson"><h4 id="x6-2-8-aanbeveling-over-en-underzooming-tilejson"><span class="secno">6.2.8 </span>Aanbeveling: Over- en underzooming TileJSON</h4><p>Eén van de voordelen van het gebruik van een TileJSON bestand voor vector tiles is zogenaamde <em>overzooming</em> op lagen.</p><p>De <em>layer definition</em> met <code>minzoom</code> en <code>maxzoom</code> level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.</p><div class="informative"><p><em>AANBEVELING</em>
 <code>minzoom</code> en <code>maxzoom</code> definiëren in de data lagen beschrijving.</p>
-</div></section><section id="aanbeveling-data-attributen"><h4 id="x6-3-3-aanbeveling-data-attributen"><span class="secno">6.3.3 </span>Aanbeveling: Data Attributen</h4><div class="informative"><p><em>AANBEVELING</em>  Geef aan welke attributen (<code>fields</code>) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als <code>additionalProperties</code> of <code>description</code> in de data laag beschrijving.</p>
-</div></section><section id="aanbeveling-bron-annotatie"><h4 id="x6-3-4-aanbeveling-bron-annotatie"><span class="secno">6.3.4 </span>Aanbeveling: Bron annotatie</h4><p>Een TileJSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie.</p><div class="informative"><p><em>AANBEVELING</em>  Geef de bron <code>attribution</code> op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.</p>
-</div></section></section><section id="api-design-rules-nederlandse-overheid"><h3 id="x6-4-api-design-rules-nederlandse-overheid"><span class="secno">6.4 </span>API design rules Nederlandse Overheid</h3><p>Verder raden wij aan ook te kijken naar de [<cite><a class="bibref" href="#bib-api-designrules">API-Designrules</a></cite>] voor de Nederlandse overheid. Deze bevatten principes voor het aanbieden van APIs door Nederlandse overheidsorganisaties.</p><p><em>AANBEVELING</em> Volg de aanbevelingen over documentatie uit de [<cite><a class="bibref" href="#bib-api-designrules">API-Designrules</a></cite>] voor de Nederlandse overheid: <a href="https://docs.geostandaarden.nl/api/API-Designrules/#documentation">https://docs.geostandaarden.nl/api/API-Designrules/#documentation</a></p></section></section><section id="Styling" data-format="markdown"><!--OddPage--><h2 id="x7-styling"><span class="secno">7. </span>Styling</h2><p>Voor het weergeven van vector tiles is een weergavestijl specificatie nodig die beschrijft welke data te tekenen, in welke volgorde, en in welke stijl.</p><section id="aanbeveling-styling-publiceren-via-ogc-api-styles"><h3 id="x7-1-aanbeveling-styling-publiceren-via-ogc-api-styles"><span class="secno">7.1 </span>Aanbeveling: Styling publiceren via OGC API Styles</h3><p>Het OGC ontwikkelt [<cite><a class="bibref" href="#bib-ogc-api-styles">OGC-API-Styles</a></cite>] voor het publiceren, delen en vinden van kaart stijlen en bijbehorende resources.</p><div class="informative"><p><em>AANBEVELING</em> Lever de styling aan door middel van de OGC API Styles specificatie.</p>
-</div></section><section id="aanbeveling-styling-specificatie-encoding"><h3 id="x7-2-aanbeveling-styling-specificatie-encoding"><span class="secno">7.2 </span>Aanbeveling: Styling specificatie encoding</h3><p>[<cite><a class="bibref" href="#bib-ogc-api-styles">OGC-API-Styles</a></cite>] ondersteunt verschillende styling encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling.</p><p>In de praktijk ondersteund veel tooling de [<cite><a class="bibref" href="#bib-mapbox-style-specification">Mapbox-Style-Specification</a></cite>] en zien we dat deze het meest wordt gebruikt.</p><div class="informative"><p><em>AANBEVELING</em> Specificeer de stijl conform de [<cite><a class="bibref" href="#bib-mapbox-style-specification">Mapbox-Style-Specification</a></cite>]</p>
+</div></section><section id="aanbeveling-data-attributen-tilejson"><h4 id="x6-2-9-aanbeveling-data-attributen-tilejson"><span class="secno">6.2.9 </span>Aanbeveling: Data Attributen TileJSON</h4><div class="informative"><p><em>AANBEVELING</em>  Geef aan welke attributen (<code>fields</code>) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als <code>additionalProperties</code> of <code>description</code> in de data laag beschrijving.</p>
+</div></section><section id="aanbeveling-bron-annotatie-tilejson"><h4 id="x6-2-10-aanbeveling-bron-annotatie-tilejson"><span class="secno">6.2.10 </span>Aanbeveling: Bron annotatie TileJSON</h4><p>Een TileJSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie.</p><div class="informative"><p><em>AANBEVELING</em>  Geef de bron <code>attribution</code> op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.</p>
+</div></section></section><section id="api-design-rules-nederlandse-overheid"><h3 id="x6-3-api-design-rules-nederlandse-overheid"><span class="secno">6.3 </span>API design rules Nederlandse Overheid</h3><p>Verder raden wij aan ook te kijken naar de [<cite><a class="bibref" href="#bib-api-designrules">API-Designrules</a></cite>] voor de Nederlandse overheid. Deze bevatten principes voor het aanbieden van APIs door Nederlandse overheidsorganisaties.</p><p><em>AANBEVELING</em> Volg de aanbevelingen over documentatie uit de [<cite><a class="bibref" href="#bib-api-designrules">API-Designrules</a></cite>] voor de Nederlandse overheid: <a href="https://docs.geostandaarden.nl/api/API-Designrules/#documentation">https://docs.geostandaarden.nl/api/API-Designrules/#documentation</a></p><section id="aanbeveling-tile-bestandsgrootte"><h4 id="x6-3-1-aanbeveling-tile-bestandsgrootte"><span class="secno">6.3.1 </span>Aanbeveling: tile bestandsgrootte</h4><p>De bestandsgrootte van rastertiles wordt beperkt door het aantal pixels (breedte en hoogte), de kleurdiepte en de variatie in pixelwaarden. De bestandsgrootte van vectortiles wordt bepaald door meerdere factoren:</p><ul>
+<li>het aantal objecten dat in een vectortile zitten</li>
+<li>het aantal coördinaten dat de contouren van die objecten beschrijft</li>
+<li>het aantal atributen van het object</li>
+<li>de attribuutwaarden van het object</li>
+</ul><p>Het zorgvuldig kiezen van welke attributen worden opgenomen in tiles-datasets is van belang voor efficiënt gegevensbeheer.
+Door enkel de essentiële attributen toe te voegen, wordt onnodige gegevensuitwisseling voorkomen, wat de prestaties verbetert en de netwerkbelasting vermindert.
+Daarnaast kan het selectief opnemen van attributen waarop veelvuldig gefilterd wordt helpen bij het optimaliseren van de dataset voor specifieke gebruiksscenario's.</p><p>Het opvragen van extra informatie via een andere server op basis van een unieke identificatie die wel in de vectortegel beschikbaar is biedt real-time toegang tot actuele gegevens.
+Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vectortiles herhaaldelijk gegenereerd moeten worden, of in situaties waar een hoge mate van actualiteit vereist is.</p><p>Bovendien maakt deze aanpak gecontroleerde toegang mogelijk op basis van autorisatie, waardoor bijvoorbeeld de privacy en beveiliging van persoonsgegevens worden gewaarborgd.</p><div class="informative"><p><em>AANBEVELING</em> Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.</p>
+</div></section></section></section><section id="Styling" data-format="markdown"><!--OddPage--><h2 id="x7-styling"><span class="secno">7. </span>Styling</h2><p>Voor het weergeven van vector tiles is een weergavestijl specificatie nodig die beschrijft welke data te tekenen, in welke volgorde, en in welke stijl.</p><section id="aanbeveling-styling-publiceren-via-ogc-api-styles"><h3 id="x7-1-aanbeveling-styling-publiceren-via-ogc-api-styles"><span class="secno">7.1 </span>Aanbeveling: Styling publiceren via OGC API Styles</h3><p>Het OGC ontwikkelt [<cite><a class="bibref" href="#bib-ogc-api-styles">OGC-API-Styles</a></cite>] voor het publiceren, delen en vinden van kaart stijlen en bijbehorende resources.</p><div class="informative"><p><em>AANBEVELING</em> Lever de styling aan door middel van de OGC API Styles specificatie.</p>
+</div></section><section id="aanbeveling-styling-specificatie-encoding"><h3 id="x7-2-aanbeveling-styling-specificatie-encoding"><span class="secno">7.2 </span>Aanbeveling: Styling specificatie encoding</h3><p>[<cite><a class="bibref" href="#bib-ogc-api-styles">OGC-API-Styles</a></cite>] ondersteunt verschillende styling encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling.</p><p>In de praktijk ondersteunt veel tooling de [<cite><a class="bibref" href="#bib-mapbox-style-specification">Mapbox-Style-Specification</a></cite>] en zien we dat deze het meest wordt gebruikt.</p><div class="informative"><p><em>AANBEVELING</em> Specificeer de stijl conform de [<cite><a class="bibref" href="#bib-mapbox-style-specification">Mapbox-Style-Specification</a></cite>]</p>
 </div></section><section id="eis-standaard-stijl"><h3 id="x7-3-eis-standaard-stijl"><span class="secno">7.3 </span>Eis: Standaard stijl</h3><p>Een vector tile set is moeilijk te gebruiken zonder styling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker. Dit zorgt ervoor dat de gebruiker / applicatie ontwikkelaar direct aan de slag kan.</p><div class="advisement"><p><em>EIS</em> Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.</p>
 </div></section><section id="best-practices-styling"><h3 id="x7-4-best-practices-styling"><span class="secno">7.4 </span>Best practices styling</h3><div class="informative"><p>De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het <a href="https://geonovum.github.io/vector-tiling-best-practices/">Best Practices document</a>.</p>
 </div></section></section><section id="CRSachtergrond" class="appendix" data-format="markdown"><!--OddPage--><h2 id="a-coordinaat-referentie-systemen-voor-vector-tiles"><span class="secno">A. </span>Coördinaat referentie systemen voor vector tiles</h2><section id="coordinaat-referentie-systemen-bij-beoogd-gebruik"><h3 id="a-1-coordinaat-referentie-systemen-bij-beoogd-gebruik"><span class="secno">A.1 </span>Coördinaat referentie systemen bij beoogd gebruik</h3><div class="informative"><p>Het OGC en W3C beschrijven in de Spatial Data on the Web Best Practices [<cite><a class="bibref" href="#bib-sdw-bp">SDW-BP</a></cite>] dat het CRS WGS84 vaak de voorkeur heeft.
@@ -701,12 +775,12 @@ Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordele
 <p>Consider your user's intended application when choosing the coordinate reference system(s) used to publish spatial data</p>
 </blockquote>
 <p>Veel tools ondersteunen latitude en longitude in WGS84 en bevatten vaak ook methodes om andere CRSen te ondersteunen. OGC APIs gaan in de basis uit van WGS84 als CRS. Via extensies kunnen andere CRSen ondersteund worden. De [<cite><a class="bibref" href="#bib-mapbox-vector-tile-specification">Mapbox-Vector-Tile-Specification</a></cite>] gaat uit van de Web Mercator projectie (met WGS84 als datum) maar bevat verder geen verplichting voor een specifiek Coördinaat Referentie Systeem (CRS) voor vector tiles.</p>
-</div></section><section id="onnauwkeurigheid-wgs84-en-bijstelling"><h3 id="a-2-onnauwkeurigheid-wgs84-en-bijstelling"><span class="secno">A.2 </span>Onnauwkeurigheid WGS84 en bijstelling</h3><p>Door tektonische verschuiving van Europa veranderen coördinaten in WGS84 en ITRS van punten in Nederland met 2,5 cm/jaar. Coördinaten in ETRS89 veranderen in Nederland niet vanwege tektonische verschuiving. Het verschil tussen WGS84 en ETRS89 is daardoor opgelopen tot ruim 0,8 m in 2020. WGS84 is daarom minder geschikt voor nauwkeurige toepassingen.</p><p>WGS84 wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige eenduidige definitie van het CRS is het daarom nodig een specifieke realisatie van WGS84 te vermelden (bijvoorbeeld WGS84-G1762, EPSG:9057). Vanwege de tektonische verschuiving van Europa is het daarnaast nodig het tijdstip (epoche) van de geldigheid van de coördinaten te vermelden. Bij coördinaten die direct in WGS84 gemeten zijn (zoals met een niet-landmeetkundige GPS-ontvanger) is het epoche het tijdstip van de meting. Bij transformatie van RD/ETRS89 naar een WGS84-realisatie wordt impliciet een referentie-epoche gebruikt of moet de gebruiker een epoche opgeven. Wanneer geen specifieke WGS84-realisatie gespecificeerd wordt, dan wordt meestal een onnauwkeurige nul-transformatie tussen ETRS89 en WGS84 gebruikt.</p><p>Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.</p><p>Voor publicatiedoeleinden bij de meeste (web)applicatie geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.</p><aside class="example" id="example-2-resolutie-en-nauwkeurigheid-webmercator"><div class="marker">
-      <a class="self-link" href="#example-2-resolutie-en-nauwkeurigheid-webmercator">Voorbeeld 2</a><span class="example-title">: Resolutie en nauwkeurigheid WebMercator</span>
+</div></section><section id="onnauwkeurigheid-wgs84-en-bijstelling"><h3 id="a-2-onnauwkeurigheid-wgs84-en-bijstelling"><span class="secno">A.2 </span>Onnauwkeurigheid WGS84 en bijstelling</h3><p>Door tektonische verschuiving van Europa veranderen coördinaten in WGS84 en ITRS van punten in Nederland met 2,5 cm/jaar. Coördinaten in ETRS89 veranderen in Nederland niet vanwege tektonische verschuiving. Het verschil tussen WGS84 en ETRS89 is daardoor opgelopen tot ruim 0,8 m in 2020. WGS84 is daarom minder geschikt voor nauwkeurige toepassingen.</p><p>WGS84 wordt periodiek bijgesteld op basis van nieuwe metingen. Voor nauwkeurige eenduidige definitie van het CRS is het daarom nodig een specifieke realisatie van WGS84 te vermelden (bijvoorbeeld WGS84-G1762, EPSG:9057). Vanwege de tektonische verschuiving van Europa is het daarnaast nodig het tijdstip (epoche) van de geldigheid van de coördinaten te vermelden. Bij coördinaten die direct in WGS84 gemeten zijn (zoals met een niet-landmeetkundige GPS-ontvanger) is het epoche het tijdstip van de meting. Bij transformatie van RD/ETRS89 naar een WGS84-realisatie wordt impliciet een referentie-epoche gebruikt of moet de gebruiker een epoche opgeven. Wanneer geen specifieke WGS84-realisatie gespecificeerd wordt, dan wordt meestal een onnauwkeurige nul-transformatie tussen ETRS89 en WGS84 gebruikt.</p><p>Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basis van WGS84-G1762, wat gelijkgesteld kan worden aan ITRF2008.</p><p>Voor publicatiedoeleinden bij de meeste (web)applicaties geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.</p><aside class="example" id="example-3-resolutie-en-nauwkeurigheid-webmercator"><div class="marker">
+      <a class="self-link" href="#example-3-resolutie-en-nauwkeurigheid-webmercator">Voorbeeld 3</a><span class="example-title">: Resolutie en nauwkeurigheid WebMercator</span>
     </div><p>Voor <a href="http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json">de TileMatrixSet van WebMercator</a> geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:</p>
 <p><code>1 pixel = 300 meter / 256 pixels ~ 1,2 meter</code></p>
-</aside><p>In de Praktijkrichtlijn hanteren we voor Web Mercator de gangbare EPSG code EPSG:3857 (<a href="https://epsg.org/crs_3857/WGS-84-Pseudo-Mercator.html">WGS84 / Pseudo-Mercator</a>), met als Geodetisch CRS WGS84 conform EPSG:4326.</p></section><section id="impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><h3 id="a-3-impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><span class="secno">A.3 </span>Impact onnauwkeurigheid gering voor beoogde vector tiling toepassingen</h3><p>Voor het maken van vector tiles zullen geometriëen omgerekend worden naar het lokale stelsel van een vector tile, in integers (vaak in een bereik van 0-4096 bij 0-4096). Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile. De impact hiervan is voor de meeste datasets gering.</p><aside class="example" id="example-3-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel"><div class="marker">
-      <a class="self-link" href="#example-3-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel">Voorbeeld 3</a><span class="example-title">: Rekenvoorbeeld nauwkeurigheid vector tiling in lokale stelsel</span>
+</aside><p>In de Praktijkrichtlijn hanteren we voor Web Mercator de gangbare EPSG code EPSG:3857 (<a href="https://epsg.org/crs_3857/WGS-84-Pseudo-Mercator.html">WGS84 / Pseudo-Mercator</a>), met als Geodetisch CRS WGS84 conform EPSG:4326.</p></section><section id="impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><h3 id="a-3-impact-onnauwkeurigheid-gering-voor-beoogde-vector-tiling-toepassingen"><span class="secno">A.3 </span>Impact onnauwkeurigheid gering voor beoogde vector tiling toepassingen</h3><p>Voor het maken van vector tiles zullen geometriëen omgerekend worden naar het lokale stelsel van een vector tile, in integers (vaak in een bereik van 0-4096 bij 0-4096). Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile. De impact hiervan is voor de meeste datasets gering.</p><aside class="example" id="example-4-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel"><div class="marker">
+      <a class="self-link" href="#example-4-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel">Voorbeeld 4</a><span class="example-title">: Rekenvoorbeeld nauwkeurigheid vector tiling in lokale stelsel</span>
     </div><p>Een rekenvoorbeeld van dit verlies op zoomniveau 12 (bij benadering een schaal van 1:3000, zie <a href="https://www.geonovum.nl/uploads/standards/downloads/nederlandse_richtlijn_tiling_-_versie_1.1.pdf">de <code>Well-known scale set Nederland</code> uit de Nederlandse Richtlijn Tiling</a>), als gevolg van de inherente simplifcatie in <code>mvt</code> format:</p>
 <p>Gegeven dat:</p>
 <ol>
@@ -722,421 +796,476 @@ Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordele
 <p>Algemeen: de nauwkeurigheid van de geometrie <em>in het lokale stelsel</em> van een vector tile is:</p>
 <p><code>nauwkeurigheid vector tile = (256 * resolutie van het zoomniveau)/4096</code></p>
 <p>Op zoomniveau 10 (bij benadering 1:12.000) is de nauwkeurigheid dan 0,21 meter.</p>
-</aside></section></section><section id="TileMatrixSetRD" class="appendix" data-format="markdown"><!--OddPage--><h2 id="b-bijlage-tilematrixset-rijksdriehoekstelsel"><span class="secno">B. </span>Bijlage TileMatrixSet Rijksdriehoekstelsel</h2><p>Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.</p><section id="json-encoding"><h3 id="b-1-json-encoding"><span class="secno">B.1 </span>JSON encoding</h3><pre><code aria-busy="false" class="hljs json">{
-<span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixSetType"</span>,
-<span class="hljs-attr">"title"</span>: <span class="hljs-string">"Amersfoort / RD New schema for the Netherlands"</span>,
-<span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"NetherlandsRDNewQuad"</span>,
-<span class="hljs-attr">"boundingBox"</span>: {
-    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"BoundingBoxType"</span>,
-    <span class="hljs-attr">"crs"</span>: <span class="hljs-string">"http://www.opengis.net/def/crs/EPSG/0/28992"</span>,
-    <span class="hljs-attr">"lowerCorner"</span>: [
-        <span class="hljs-number">595401.92</span>,
-        <span class="hljs-number">22598.08</span>
+</aside></section></section><section id="TileMatrixSetRD" class="appendix" data-format="markdown"><!--OddPage--><h2 id="b-bijlage-tilematrixset-rijksdriehoekstelsel"><span class="secno">B. </span>Bijlage TileMatrixSet Rijksdriehoekstelsel</h2><p>Deze bijlage bevat encodings van de TileMatrixSet voor het Rijksdriehoekstelsel.</p><section id="json-encoding"><h3 id="b-1-json-encoding"><span class="secno">B.1 </span>JSON encoding</h3><pre><code class="language-json hljs" aria-busy="false">{
+"title": "Amersfoort / RD New schema for the Netherlands",
+"id": "NetherlandsRDNewQuad",
+"uri" : "http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad",
+"boundingBox": {
+    "crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+    "lowerLeft": [
+        -285401.92,
+        22598.08
     ],
-    <span class="hljs-attr">"upperCorner"</span>: [
-        <span class="hljs-number">-285401.92</span>,
-        <span class="hljs-number">903401.92</span>
+    "upperRight": [
+        595401.92,
+        903401.92
     ]
 },
-<span class="hljs-attr">"supportedCRS"</span>: <span class="hljs-string">"http://www.opengis.net/def/crs/EPSG/0/28992"</span>,
-<span class="hljs-attr">"wellKnownScaleSet"</span>: <span class="hljs-string">" urn:ogc:def:wkss:OGC:1.0:NLDEPSG28992Scale"</span>,
-<span class="hljs-attr">"tileMatrix"</span>: [
+"crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+"orderedAxes": ["X", "Y"],
+"tileMatrices": [
     {
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"0"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">1.2288E7</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
+        "id": "0",
+        "pointOfOrigin": [
+            -285401.92,
+            903401.92
         ],
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">1</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">1</span>
+        "scaleDenominator": 1.2288E7,
+        "cellSize": 3440.64,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "matrixWidth": 1,
+        "matrixHeight": 1
     },
     {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"1"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
+        "id": "1",
+        "pointOfOrigin": [
+            -285401.92,
+            903401.92
         ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">6144000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">2</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">2</span>
+        "scaleDenominator": 6144000.0,
+        "cellSize": 1720.32,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "matrixWidth": 2,
+        "matrixHeight": 2
     },
     {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"2"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
+        "id": "2",
+        "pointOfOrigin": [
+            -285401.92,
+            903401.92
         ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">3072000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">4</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">4</span>
+        "scaleDenominator": 3072000.0,
+        "cellSize": 860.16,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "matrixWidth": 4,
+        "matrixHeight": 4
     },
     {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"3"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
+        "id": "3",
+        "pointOfOrigin": [
+            -285401.92,
+            903401.92
         ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">1536000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">8</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">8</span>
+        "scaleDenominator": 1536000.0,
+        "cellSize": 430.08,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "matrixWidth": 8,
+        "matrixHeight": 8
     },
     {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"4"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
+       "id": "4",
+       "type": "TileMatrixType",
+        "identifier": "4",
+        "pointOfOrigin": [
+            -285401.92,
+            903401.92
         ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">768000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">16</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">16</span>
+        "scaleDenominator": 768000.0,
+        "cellSize": 215.04,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "matrixWidth": 16,
+        "matrixHeight": 16
     },
     {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"5"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">384000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">32</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">32</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"6"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">192000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">64</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">64</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"7"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">96000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">128</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">128</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"8"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">48000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">256</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"9"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">24000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">512</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">512</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"10"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">12000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">1024</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">1024</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"11"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">6000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">2048</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">2048</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"12"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">3000.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">4096</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">4096</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"13"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">1500.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">8192</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">8192</span>
-    },
-    {
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"14"</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">750.0</span>,
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">16384</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">16384</span>
-    },
-    {
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"15"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">375.0</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">32768</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">32768</span>
-    },
-    {
-        <span class="hljs-attr">"identifier"</span>: <span class="hljs-string">"16"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"TileMatrixType"</span>,
-        <span class="hljs-attr">"scaleDenominator"</span>: <span class="hljs-number">187.5</span>,
-        <span class="hljs-attr">"topLeftCorner"</span>: [
-            <span class="hljs-number">-285401.92</span>,
-            <span class="hljs-number">903402.0</span>
-        ],
-        <span class="hljs-attr">"tileWidth"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"tileHeight"</span>: <span class="hljs-number">256</span>,
-        <span class="hljs-attr">"matrixWidth"</span>: <span class="hljs-number">65536</span>,
-        <span class="hljs-attr">"matrixHeight"</span>: <span class="hljs-number">65536</span>
-    }
+
+
+    "id": "5",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 384000.0,
+    "cellSize": 107.52,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 32,
+    "matrixHeight": 32
+},
+{
+    "id": "6",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 192000.0,
+    "cellSize": 53.76,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 64,
+    "matrixHeight": 64
+},
+{
+    "id": "7",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 96000.0,
+    "cellSize": 26.88,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 128,
+    "matrixHeight": 128
+},
+{
+    "id": "8",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 48000.0,
+    "cellSize": 13.44,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 256,
+    "matrixHeight": 256
+},
+{
+    "id": "9",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 24000.0,
+    "cellSize": 6.72,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 512,
+    "matrixHeight": 512
+},
+{
+    "id": "10",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 12000.0,
+    "cellSize": 3.36,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 1024,
+    "matrixHeight": 1024
+},
+{
+    "id": "11",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 6000.0,
+    "cellSize": 1.68,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 2048,
+    "matrixHeight": 2048
+},
+{
+    "id": "12",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 3000.0,
+    "cellSize": 0.84,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 4096,
+    "matrixHeight": 4096
+},
+{
+    "id": "13",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 1500.0,
+    "cellSize": 0.42,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 8192,
+    "matrixHeight": 8192
+},
+{
+    "id": "14",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 750.0,
+    "cellSize": 0.21,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 16384,
+    "matrixHeight": 16384
+},
+{
+    "id": "15",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 375.0,
+    "cellSize": 0.105,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 32768,
+    "matrixHeight": 32768
+},
+{
+    "id": "16",
+    "pointOfOrigin": [
+        -285401.92,
+        903401.92
+    ],
+    "scaleDenominator": 187.5,
+    "cellSize": 0.0525,
+    "tileWidth": 256,
+    "tileHeight": 256,
+    "matrixWidth": 65536,
+    "matrixHeight": 65536
+}</code><p><code class="language-json">]
+}
+</code></p></pre></section><section id="xml-encoding"><h3 id="b-2-xml-encoding"><span class="secno">B.2 </span>XML Encoding</h3><pre><code class="language-xml hljs" aria-busy="false">&lt;!--?xml version="1.0" encoding="UTF-8"?--&gt;
+&lt;tilematrixset id="NetherlandsRDNewQuad" xmlns="http://www.opengis.net/tms/2.0" xmlns:tmsc="http://www.opengis.net/tms/2.0/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.opengis.net/tms/2.0 https://schemas.opengis.net/tms/2.0/xml/tilematrixset.xsd"&gt;
+&lt;tmsc:title&gt;Amersfoort / RD New schema for the Netherlands&lt;/tmsc:title&gt;
+&lt;tmsc:identifier&gt;NetherlandsRDNewQuad&lt;/tmsc:identifier&gt;
+&lt;uri&gt;http://www.opengis.net/def/tilematrixset/OGC/1.0/NetherlandsRDNewQuad&lt;/uri&gt;
+&lt;tmsc:boundingbox crs="http://www.opengis.net/def/crs/EPSG/0/28992" orderedaxes="X,Y"&gt;
+&lt;tmsc:lowerleft&gt;-285401.92 22598.08&lt;/tmsc:lowerleft&gt;
+&lt;tmsc:upperright&gt;595401.92 903401.92&lt;/tmsc:upperright&gt;
+&lt;/tmsc:boundingbox&gt;
+&lt;tmsc:crs&gt;
+&lt;tmsc:uri&gt;http://www.opengis.net/def/crs/EPSG/0/28992&lt;/tmsc:uri&gt;
+&lt;/tmsc:crs&gt;
+&lt;orderedaxes&gt;X,Y&lt;/orderedaxes&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;0&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;1.2288E7&lt;/scaledenominator&gt;
+&lt;cellsize&gt;3440.64&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;1&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;1&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;1&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;6144000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;1720.32&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;2&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;2&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;2&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;3072000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;860.16&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;4&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;4&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;3&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;1536000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;430.08&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;8&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;8&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;4&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;768000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;215.04&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;16&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;16&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;5&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;384000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;107.52&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;32&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;32&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;6&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;192000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;53.76&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;64&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;64&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;7&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;96000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;26.88&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;128&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;128&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;8&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;48000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;13.44&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;256&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;256&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;9&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;24000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;6.72&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;512&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;512&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;10&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;12000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;3.36&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;1024&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;1024&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;11&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;6000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;1.68&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;2048&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;2048&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;12&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;3000.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;0.84&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;4096&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;4096&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;13&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;1500.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;0.42&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;8192&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;8192&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;14&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;750.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;0.21&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;16384&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;16384&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;15&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;375.0&lt;/scaledenominator&gt;
+&lt;cellsize&gt;0.105&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;32768&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;32768&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;tilematrix&gt;
+&lt;tmsc:identifier&gt;16&lt;/tmsc:identifier&gt;
+&lt;scaledenominator&gt;187.5&lt;/scaledenominator&gt;
+&lt;cellsize&gt;0.0525&lt;/cellsize&gt;
+&lt;pointoforigin&gt;-285401.92 903401.92&lt;/pointoforigin&gt;
+&lt;tilewidth&gt;256&lt;/tilewidth&gt;
+&lt;tileheight&gt;256&lt;/tileheight&gt;
+&lt;matrixwidth&gt;65536&lt;/matrixwidth&gt;
+&lt;matrixheight&gt;65536&lt;/matrixheight&gt;
+&lt;/tilematrix&gt;
+&lt;/tilematrixset&gt;
+</code></pre></section></section><section id="TileJSON" class="appendix" data-format="markdown"><!--OddPage--><h2 id="c-bijlage-tilejson-voorbeeld"><span class="secno">C. </span>Bijlage TileJSON voorbeeld</h2><p>Deze bijlage bevat een voorbeeld van een (minimale) TileJSON response met de NetherlandsRDNewQuad tilematrixset in Rijksdriehoekstelsel (RD New), EPSG:28992.</p><section id="json-encoding-0"><h3 id="c-1-json-encoding"><span class="secno">C.1 </span>JSON encoding</h3><pre><code class="language-json hljs" aria-busy="false">{
+"tilejson": "2.2.0",
+"name": "NetherlandsRDNewQuad",
+"description": "NetherlandsRDNewQuad as TileJSON (https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)",
+"version": "1.0.0",
+"scheme": "xyz",
+"tiles": [
+  "https://example.com/ogc/v1/tiles/NetherlandsRDNewQuad/{z}/{y}/{x}?f=mvt"
+],
+"minzoom": 9,
+"maxzoom": 11,
+"profile": "custom",
+"crs": "EPSG:28992",
+"tile_matrix": [
+  {
+    "id": "9",
+    "tile_size": [256, 256],
+    "scale_denominator": 24000,
+    "origin": [-285401.92, 903401.92]
+  },
+  {
+    "id": "10",
+    "tile_size": [256, 256],
+    "scale_denominator": 12000,
+    "origin": [-285401.92, 903401.92]
+  },
+  {
+    "id": "11",
+    "tile_size": [256, 256],
+    "scale_denominator": 6000,
+    "origin": [-285401.92, 903401.92]
+  }
 ]
-}</code></pre></section><section id="xml-encoding"><h3 id="b-2-xml-encoding"><span class="secno">B.2 </span>XML Encoding</h3><pre><code aria-busy="false" class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">tilematrixset</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"NetherlandsRDNewQuad"</span> <span class="hljs-attr">xsi:schemalocation</span>=<span class="hljs-string">"geonovum/tilematrixset/def"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:title</span>&gt;</span>Amersfoort / RD New schema for the Netherlands<span class="hljs-tag">&lt;/<span class="hljs-name">ows:title</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>NetherlandsRDNewQuad<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:boundingbox</span> <span class="hljs-attr">crs</span>=<span class="hljs-string">"http://www.opengis.net/def/crs/EPSG/0/28992"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:lowercorner</span>&gt;</span>595401.92 22598.08
-<span class="hljs-tag">&lt;/<span class="hljs-name">ows:lowercorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:uppercorner</span>&gt;</span>-285401.92 903401.92
-<span class="hljs-tag">&lt;/<span class="hljs-name">ows:uppercorner</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ows:boundingbox</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:supportedcrs</span>&gt;</span>http://www.opengis.net/def/crs/EPSG/0/28992<span class="hljs-tag">&lt;/<span class="hljs-name">ows:supportedcrs</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>EPSG:28992<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:supportedcrs</span>&gt;</span>urn:ogc:def:crs:EPSG::28992<span class="hljs-tag">&lt;/<span class="hljs-name">ows:supportedcrs</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>00<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>1.2288E7<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>01<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>6144000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>02<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>3072000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>03<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>1536000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>04<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>768000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>16<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>16<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>05<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>384000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>32<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>32<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>06<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>192000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>64<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>64<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>07<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>96000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>128<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>128<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>08<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>48000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>09<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>24000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>512<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>512<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>10<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>12000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>1024<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>1024<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>11<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>6000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>2048<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>2048<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>12<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>3000.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>4096<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>4096<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>13<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>1500.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>8192<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>8192<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>14<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>750.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>16384<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>16384<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>15<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>375.0<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>32768<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>32768<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">ows:identifier</span>&gt;</span>16<span class="hljs-tag">&lt;/<span class="hljs-name">ows:identifier</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">scaledenominator</span>&gt;</span>187.5<span class="hljs-tag">&lt;/<span class="hljs-name">scaledenominator</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">topleftcorner</span>&gt;</span>-285401.92 903402.0<span class="hljs-tag">&lt;/<span class="hljs-name">topleftcorner</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tilewidth</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tilewidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">tileheight</span>&gt;</span>256<span class="hljs-tag">&lt;/<span class="hljs-name">tileheight</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixwidth</span>&gt;</span>65536<span class="hljs-tag">&lt;/<span class="hljs-name">matrixwidth</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">matrixheight</span>&gt;</span>65536<span class="hljs-tag">&lt;/<span class="hljs-name">matrixheight</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrix</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">tilematrixset</span>&gt;</span></code></pre></section></section><section id="tof"><!--OddPage--><h2 id="c-lijst-van-afbeeldingen"><span class="secno">C. </span>Lijst van afbeeldingen</h2></section><span class="px-viewport-dimensions px-viewport-dimensions--hidden tr"></span><section id="references" class="appendix">
-      <!--OddPage--><h2 id="d-referenties"><span class="secno">D. </span>Referenties</h2>
+}</code></pre></section></section><section id="tof"><!--OddPage--><h2 id="d-lijst-van-afbeeldingen"><span class="secno">D. </span>Lijst van afbeeldingen</h2></section><section id="references" class="appendix">
+      <!--OddPage--><h2 id="e-referenties"><span class="secno">E. </span>Referenties</h2>
       
     <section id="normatieve-referenties">
-        <h3 id="d-1-normatieve-referenties"><span class="secno">D.1 </span>Normatieve referenties</h3>
+        <h3 id="e-1-normatieve-referenties"><span class="secno">E.1 </span>Normatieve referenties</h3>
       <dl class="bibliography">
-        <dt id="bib-api-designrules">[API-Designrules]</dt><dd><a href="https://docs.geostandaarden.nl/api/API-Designrules/"><cite>API Designrules (Nederlandse API Strategie IIa)</cite></a>.  W3C en OGC. Geonovum Standaard. URL: <a href="https://docs.geostandaarden.nl/api/API-Designrules/">https://docs.geostandaarden.nl/api/API-Designrules/</a></dd><dt id="bib-mapbox-style-specification">[Mapbox-Style-Specification]</dt><dd><a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/"><cite>Mapbox Style Specification</cite></a>.  Mapbox. v13.18.0. URL: <a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/">https://docs.mapbox.com/mapbox-gl-js/style-spec/</a></dd><dt id="bib-mapbox-vector-tile-specification">[Mapbox-Vector-Tile-Specification]</dt><dd><a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1"><cite>Mapbox Vector Tile Specification</cite></a>.  Mapbox. V2.1. URL: <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1">https://github.com/mapbox/vector-tile-spec/tree/master/2.1</a></dd><dt id="bib-ogc-api-styles">[OGC-API-Styles]</dt><dd><a href="https://www.ogc.org/projects/groups/stylesapiswg"><cite>OGC API Styles</cite></a>.  OGC. URL: <a href="https://www.ogc.org/projects/groups/stylesapiswg">https://www.ogc.org/projects/groups/stylesapiswg</a></dd><dt id="bib-ogc-api-tiles-core">[OGC-API-Tiles-Core]</dt><dd><a href="https://ogcapi.ogc.org/tiles/"><cite>OGC API - Tiles - Part 1: Core</cite></a>.  OGC. DRAFT. URL: <a href="https://ogcapi.ogc.org/tiles/">https://ogcapi.ogc.org/tiles/</a></dd><dt id="bib-ogc-two-dimensional-tile-matrix-set">[OGC-Two-Dimensional-Tile-Matrix-Set]</dt><dd><a href="https://docs.opengeospatial.org/is/17-083r2/17-083r2.html"><cite>OGC Two Dimensional Tile Matrix Set</cite></a>.  OGC. 1.0. URL: <a href="https://docs.opengeospatial.org/is/17-083r2/17-083r2.html">https://docs.opengeospatial.org/is/17-083r2/17-083r2.html</a></dd><dt id="bib-pbf">[PBF]</dt><dd><a href="https://developers.google.com/protocol-buffers/"><cite>Google Proto Buffers</cite></a>.  Google. URL: <a href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a></dd>
+        <dt id="bib-api-designrules">[API-Designrules]</dt><dd><a href="https://docs.geostandaarden.nl/api/API-Designrules/"><cite>API Designrules (Nederlandse API Strategie IIa)</cite></a>.  W3C en OGC. Geonovum Standaard. URL: <a href="https://docs.geostandaarden.nl/api/API-Designrules/">https://docs.geostandaarden.nl/api/API-Designrules/</a></dd><dt id="bib-mapbox-style-specification">[Mapbox-Style-Specification]</dt><dd><a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/"><cite>Mapbox Style Specification</cite></a>.  Mapbox. v13.18.0. URL: <a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/">https://docs.mapbox.com/mapbox-gl-js/style-spec/</a></dd><dt id="bib-mapbox-vector-tile-specification">[Mapbox-Vector-Tile-Specification]</dt><dd><a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1"><cite>Mapbox Vector Tile Specification</cite></a>.  Mapbox. V2.1. URL: <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1">https://github.com/mapbox/vector-tile-spec/tree/master/2.1</a></dd><dt id="bib-ogc-api-styles">[OGC-API-Styles]</dt><dd><a href="https://docs.ogc.org/DRAFTS/20-009.html"><cite>OGC API Styles</cite></a>.  OGC. DRAFT. URL: <a href="https://docs.ogc.org/DRAFTS/20-009.html">https://docs.ogc.org/DRAFTS/20-009.html</a></dd><dt id="bib-ogc-api-tiles-core">[OGC-API-Tiles-Core]</dt><dd><a href="https://docs.ogc.org/is/20-057/20-057.html"><cite>OGC API - Tiles - Part 1: Core</cite></a>.  OGC. 1.0. URL: <a href="https://docs.ogc.org/is/20-057/20-057.html">https://docs.ogc.org/is/20-057/20-057.html</a></dd><dt id="bib-ogc-two-dimensional-tile-matrix-set-and-tile-set-metadata">[OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata]</dt><dd><a href="https://docs.ogc.org/is/17-083r4/17-083r4.html"><cite>OGC Two Dimensional Tile Matrix Set and Tile Set Metadata</cite></a>.  OGC. 2.0. URL: <a href="https://docs.ogc.org/is/17-083r4/17-083r4.html">https://docs.ogc.org/is/17-083r4/17-083r4.html</a></dd><dt id="bib-pbf">[PBF]</dt><dd><a href="https://developers.google.com/protocol-buffers/"><cite>Google Proto Buffers</cite></a>.  Google. URL: <a href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a></dd>
       </dl></section><section id="informatieve-referenties">
-        <h3 id="d-2-informatieve-referenties"><span class="secno">D.2 </span>Informatieve referenties</h3>
+        <h3 id="e-2-informatieve-referenties"><span class="secno">E.2 </span>Informatieve referenties</h3>
       <dl class="bibliography">
         <dt id="bib-sdw-bp">[SDW-BP]</dt><dd><a href="https://www.w3.org/TR/sdw-bp/"><cite>Spatial Data on the Web Best Practices</cite></a>.  W3C en OGC. Best practice. URL: <a href="https://www.w3.org/TR/sdw-bp/">https://www.w3.org/TR/sdw-bp/</a></dd>
       </dl></section></section><p role="navigation" id="back-to-top"><a href="#title">
