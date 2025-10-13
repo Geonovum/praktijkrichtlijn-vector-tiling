@@ -51,7 +51,7 @@ _AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix b
 </div>
 
 <aside class="example" title="Voorbeeld in json">
-Onderstaande voorbeeld laat het de TileMatrtixSetLimits in json zien. 
+Onderstaande voorbeeld laat TileMatrtixSetLimits in json zien. 
 ```json
 "tileMatrixSetLimits": [
     {
