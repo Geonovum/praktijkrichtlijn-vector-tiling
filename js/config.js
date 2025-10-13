@@ -1,14 +1,14 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "CV",                // Werk Versie = WV, Consultatie versie = CV
+  specStatus: "def",                // Werk Versie = WV, Consultatie versie = CV
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
   specType: "PR",                   // Praktijkrichtlijn
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  //-- publishDate: "2024-08-29",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2025-10-13",  	    // Format is "YYYY-MM-DD"
   //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
