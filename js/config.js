@@ -1,5 +1,7 @@
 var respecConfig =
 {
+  // title is verplicht! Neem hieronder de titel van het document op
+  title: "Praktijkrichtlijn Vector Tiling",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "def",                // Werk Versie = WV, Consultatie versie = CV
   //-- specType is verplicht! (activeer 1 van de volgende) ------------------
@@ -7,8 +9,8 @@ var respecConfig =
   //-- format is verplicht! -----------------------------------------------------------
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
-  //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2025-10-13",  	    // Format is "YYYY-MM-DD"
+  publishVersion: [],
   //-- de namen van de Editor(s) ---------------------------------------------
   github: "https://github.com/geonovum/praktijkrichtlijn-vector-tiling",
   editors:
@@ -103,8 +105,8 @@ var respecConfig =
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
   previousPublishDate: "2021-08-30",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "GN-DEF",                   // kies 1 van deze 2 regels
-  //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
+  previousMaturity: "deF",                   // kies 1 van deze 2 regels
+  prevVersion: "https://docs.geostandaarden.nl/serv/def-pr-vt-20210830/",
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
