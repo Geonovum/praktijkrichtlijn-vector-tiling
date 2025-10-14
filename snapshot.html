@@ -1521,12 +1521,12 @@ img.license{float:left;padding-right:5px;background:0 0}
 <p>De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen <em>EIS</em> en <em>AANBEVELING</em> om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.</p>
 <p>Eisen staan geformuleerd in oranje blokken, bijvoorbeeld:</p>
 <div class="advisement">
-_EIS_ Dit is een vereist kenmerk
+<em>EIS</em> Dit is een vereist kenmerk
 </div>
 
 <p>Aanbevelingen zonder extra opmaak:</p>
 <div class="informative">
-_AANBEVELING_ Dit is een aanbeveling
+<em>AANBEVELING</em> Dit is een aanbeveling
 </div></section></section>
         <section id="Scope"><div class="header-wrapper"><h2 id="x2-scope"><bdi class="secno">2. </bdi>Scope</h2><a class="self-link" href="#Scope" aria-label="Permalink for Section 2."></a></div>
 <section id="binnen-scope"><div class="header-wrapper"><h3 id="x2-1-binnen-scope"><bdi class="secno">2.1 </bdi>Binnen scope</h3><a class="self-link" href="#binnen-scope" aria-label="Permalink for Section 2.1"></a></div>
@@ -1557,7 +1557,7 @@ _AANBEVELING_ Dit is een aanbeveling
 <p>Bij het maken van vector tiles gaat deze richtlijn uit van het gebruik van de technische specificatie zoals beschreven door de [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-vector-tile-specification" title="Mapbox Vector Tile Specification">Mapbox-Vector-Tile-Specification</a></cite>]. Deze specificatie bevat de belangrijkste standaarden en instellingen over hoe geografische data opgeslagen en gecodeerd wordt in een vector tile. Deze bevat informatie over bestandsformaten, extensies, projecties, <em>bounds</em>, en de interne structuur van een vector tile.</p>
 </section><section id="eis-mapbox-vector-tile-specification-versie-2-1"><div class="header-wrapper"><h3 id="x3-2-eis-mapbox-vector-tile-specification-versie-2-1"><bdi class="secno">3.2 </bdi>Eis: Mapbox Vector Tile specification versie 2.1</h3><a class="self-link" href="#eis-mapbox-vector-tile-specification-versie-2-1" aria-label="Permalink for Section 3.2"></a></div>
 <div class="advisement">
-_EIS_ Gebruik [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-vector-tile-specification" title="Mapbox Vector Tile Specification">Mapbox-Vector-Tile-Specification</a></cite>] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
+<em>EIS</em> Gebruik [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-vector-tile-specification" title="Mapbox Vector Tile Specification">Mapbox-Vector-Tile-Specification</a></cite>] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
 </div>
 
 <p>In het kort gaat deze specificatie uit van:</p>
@@ -1569,7 +1569,7 @@ _EIS_ Gebruik [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox
 <p>In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie <code>.mvt</code> zoals genoemd in <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#21-file-extension">2.1 File extension</a> van de Mapbox specificatie. Ook wijken wij af van de paragraaf <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#22-multipurpose-internet-mail-extensions-mime">2.2 Multipurpose Internet Mail Extensions (MIME)</a>.</p>
 <section id="eis-vrije-bestands-extensie"><div class="header-wrapper"><h4 id="x3-2-1-eis-vrije-bestands-extensie"><bdi class="secno">3.2.1 </bdi>Eis: Vrije Bestands Extensie</h4><a class="self-link" href="#eis-vrije-bestands-extensie" aria-label="Permalink for Section 3.2.1"></a></div>
 <div class="advisement">
-_EIS_ De bestandsextensie voor vectortiles is vrij in te vullen.
+<em>EIS</em> De bestandsextensie voor vectortiles is vrij in te vullen.
 Het Media Type van vectortiles moet volgens mapbox specificatie altijd <code>application/vnd.mapbox-vector-tile</code> zijn.
 
 <p>Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk <a href="https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format">2. File Format</a> definities van de Mapbox Vector tile specification.</p>
@@ -1577,7 +1577,7 @@ Het Media Type van vectortiles moet volgens mapbox specificatie altijd <code>app
 
 </section><section id="eis-encoding-pbf"><div class="header-wrapper"><h4 id="x3-2-2-eis-encoding-pbf"><bdi class="secno">3.2.2 </bdi>Eis: Encoding PBF</h4><a class="self-link" href="#eis-encoding-pbf" aria-label="Permalink for Section 3.2.2"></a></div>
 <div class="advisement">
-_EIS_ Gebruik voor de encoding van de data [<cite><a class="bibref" data-link-type="biblio" href="#bib-pbf" title="Google Proto Buffers">PBF</a></cite>] (Google Protobuf)
+<em>EIS</em> Gebruik voor de encoding van de data [<cite><a class="bibref" data-link-type="biblio" href="#bib-pbf" title="Google Proto Buffers">PBF</a></cite>] (Google Protobuf)
 </div>
 
 </section><section id="eis-clockwise-winding-order"><div class="header-wrapper"><h4 id="x3-2-3-eis-clockwise-winding-order"><bdi class="secno">3.2.3 </bdi>Eis: Clockwise Winding order</h4><a class="self-link" href="#eis-clockwise-winding-order" aria-label="Permalink for Section 3.2.3"></a></div>
@@ -1589,7 +1589,7 @@ Het probleem wat in deze situatie kan optreden is dat voor vectoren die gaten be
 <p>Let op! de winding order van vector tiles is tegengesteld aan de <em>Winding order</em> voor geschreven door OGC in o.a. de OGC Simple Features.</p>
 </blockquote>
 <div class="advisement">
-_EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clockwise (buitenste ring met de klok mee, binnenste ring tegen de klok in) _winding order_ zoals in Mapbox vectortile specificatie is beschreven.
+<em>EIS</em> Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clockwise (buitenste ring met de klok mee, binnenste ring tegen de klok in) <em>winding order</em> zoals in Mapbox vectortile specificatie is beschreven.
 </div>
 
 </section></section><section id="vector-tiles-aanbieden"><div class="header-wrapper"><h3 id="x3-3-vector-tiles-aanbieden"><bdi class="secno">3.3 </bdi>Vector tiles aanbieden</h3><a class="self-link" href="#vector-tiles-aanbieden" aria-label="Permalink for Section 3.3"></a></div>
@@ -1598,7 +1598,7 @@ _EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clo
 <p>Deze praktijkrichtlijn schrijft het gebruik van [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>] voor. Dit is een open standaard voor publicatie van vector tiles door middel van web services. Deze standaard is door OGC vastgesteld. </p>
 <section id="eis-ogc-api-tiles"><div class="header-wrapper"><h4 id="x3-3-1-eis-ogc-api-tiles"><bdi class="secno">3.3.1 </bdi>Eis: OGC API Tiles</h4><a class="self-link" href="#eis-ogc-api-tiles" aria-label="Permalink for Section 3.3.1"></a></div>
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>].
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>].
 </div>
 
 <p><a href="#Publicatie">Hoofdstuk 5</a> werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.</p>
@@ -1618,7 +1618,7 @@ Voor het te gebruiken CRS en grid kan het beste aangesloten worden bij bestaande
 <p>[<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>] beschrijft alleen een beperkte standaardset van 8 TileMatrixSets, uit [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-two-dimensional-tile-matrix-set-and-tile-set-metadata" title="OGC Two Dimensional Tile Matrix Set and Tile Set Metadata">OGC-Two-Dimensional-Tile-Matrix-Set-and-Tile-Set-Metadata</a></cite>]. Omdat er nog geen OGC TileMatrixSet voor het Rijksdriehoekstelsel is, hebben wij deze opgesteld en opgenomen als bijlage voor deze praktijkrichtlijn. Zie de bijlage: <a href="media/NetherlandsRDNewQuad.json">NetherlandsRDNewQuad.json</a></p>
 <p>Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>].</p>
 <div class="advisement">
-_EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSets_ voor de coördinaat referentie systemen:
+<em>EIS</em> Biedt vector tiles aan in <em>tenminste</em> één van de volgende <em>TileMatrixSets</em> voor de coördinaat referentie systemen:
 
 <ul>
 <li>Web Mercator: EPSG:3857. TileMatrixSetId van OGC: <code>WebMercatorQuad</code>, URI: <a href="http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad">http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad</a>.</li>
@@ -1631,23 +1631,23 @@ _EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSet
 <section id="eis-gebruik-ogc-api-tiles"><div class="header-wrapper"><h3 id="x5-1-eis-gebruik-ogc-api-tiles"><bdi class="secno">5.1 </bdi>Eis: gebruik OGC API Tiles</h3><a class="self-link" href="#eis-gebruik-ogc-api-tiles" aria-label="Permalink for Section 5.1"></a></div>
 <p>De OGC API Tiles [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>] is de open standaard voor het opstellen van tiles. Deze praktijkrichtlijn schrijft deze API-specificatie daarom voor.</p>
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>].
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-tiles-core" title="OGC API - Tiles - Part 1: Core">OGC-API-Tiles-Core</a></cite>].
 </div>
 
 </section><section id="eis-content-type"><div class="header-wrapper"><h3 id="x5-2-eis-content-type"><bdi class="secno">5.2 </bdi>Eis: Content-Type</h3><a class="self-link" href="#eis-content-type" aria-label="Permalink for Section 5.2"></a></div>
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header <code>Content-Type</code> om het gebruikte media type van de vector tiles weer te geven.
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header <code>Content-Type</code> om het gebruikte media type van de vector tiles weer te geven.
 </div>
 
 <p>Omdat deze Prakrijktrichtlijn voorschrijft om <a href="#eis-mapbox-vector-tile-specification-versie-2-1">Mapbox Vector Tile specification te gebruiken</a>, geldt:</p>
 <div class="advisement">
-_EIS_ Gebruik <code>application/vnd.mapbox-vector-tile</code> als media type (_MIME_) bij het aanbieden via het web.
+<em>EIS</em> Gebruik <code>application/vnd.mapbox-vector-tile</code> als media type (<em>MIME</em>) bij het aanbieden via het web.
 </div>
 
 </section><section id="eis-gebruik-http-header-content-encoding-gzip"><div class="header-wrapper"><h3 id="x5-3-eis-gebruik-http-header-content-encoding-gzip"><bdi class="secno">5.3 </bdi>Eis: gebruik HTTP Header Content-Encoding gzip</h3><a class="self-link" href="#eis-gebruik-http-header-content-encoding-gzip" aria-label="Permalink for Section 5.3"></a></div>
 <p>Voor allerlei bestanden wordt <em>gzip</em> compressie toegepast om de bestanden kleiner te maken bij het ophalen van de webserver. Via de generieke HTTP Header <code>Content-Encoding: gzip</code> wordt dit aangegeven. Ook voor vector tiles is deze gzip compressie vaak in gebruik. Als de gzip compressie niet kenbaar is gemaakt via de HTTP Header Content-Encoding, kunnen (bepaalde) clients de tiles niet goed verwerken. Bijvoorbeeld van <a href="https://openlayers.org/">OpenLayers</a> is bekend dat deze de vector tiles dan helemaal niet kan verwerken.</p>
 <div class="advisement">
-_EIS_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header <code>Content-Encoding: gzip</code> mee.
+<em>EIS</em> Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header <code>Content-Encoding: gzip</code> mee.
 </div>
 
 <aside class="example" id="example-voorbeeld-http-headers-vector-tile-met-gzip-compressie"><div class="marker">
@@ -1669,7 +1669,7 @@ Onderstaande HTTP Header illustreert gzip compressie voor een vector tile die in
 <section id="eis-ogc-api-tiles-tileset-requirement-class"><div class="header-wrapper"><h3 id="x6-1-eis-ogc-api-tiles-tileset-requirement-class"><bdi class="secno">6.1 </bdi>Eis: OGC API Tiles <strong>"TileSet" requirement class</strong></h3><a class="self-link" href="#eis-ogc-api-tiles-tileset-requirement-class" aria-label="Permalink for Section 6.1"></a></div>
 <p>Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core van de OGC standaard een <a href="http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/tileset">TileSet requirement class</a> beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster).</p>
 <div class="advisement">
-_EIS_ Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.
+<em>EIS</em> Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.
 </div>
 
 <p>De respons voorziet in metadata zoals beschreven door <a href="https://docs.ogc.org/is/17-083r4/17-083r4.html">OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard</a>. </p>
@@ -1696,7 +1696,7 @@ _EIS_ Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class e
 <p>In deze paragraaf staan meer details voor de verschillende metadata onderdelen die men kan aanleveren bij een vector tile set.</p>
 <section id="aanbeveling-data-lagen"><div class="header-wrapper"><h4 id="x6-2-1-aanbeveling-data-lagen"><bdi class="secno">6.2.1 </bdi>Aanbeveling: Data lagen</h4><a class="self-link" href="#aanbeveling-data-lagen" aria-label="Permalink for Section 6.2.1"></a></div>
 <div class="informative">
-_AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel "Layers"
+<em>AANBEVELING</em> Zorg in een JSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel "Layers"
 </div>
 
 </section><section id="aanbeveling-overzooming"><div class="header-wrapper"><h4 id="x6-2-2-aanbeveling-overzooming"><bdi class="secno">6.2.2 </bdi>Aanbeveling: Overzooming</h4><a class="self-link" href="#aanbeveling-overzooming" aria-label="Permalink for Section 6.2.2"></a></div>
@@ -1729,25 +1729,25 @@ Onderstaande voorbeeld laat TileMatrtixSetLimits in json zien.
 
 </section><section id="aanbeveling-data-attributen"><div class="header-wrapper"><h4 id="x6-2-3-aanbeveling-data-attributen"><bdi class="secno">6.2.3 </bdi>Aanbeveling: Data Attributen</h4><a class="self-link" href="#aanbeveling-data-attributen" aria-label="Permalink for Section 6.2.3"></a></div>
 <div class="informative">
-_AANBEVELING_  Geef aan welke attributen (<code>properties</code>) er beschikbaar zijn per data laag. 
+<em>AANBEVELING</em>  Geef aan welke attributen (<code>properties</code>) er beschikbaar zijn per data laag. 
 </div>
 
 </section><section id="aanbeveling-bron-annotatie"><div class="header-wrapper"><h4 id="x6-2-4-aanbeveling-bron-annotatie"><bdi class="secno">6.2.4 </bdi>Aanbeveling: Bron annotatie</h4><a class="self-link" href="#aanbeveling-bron-annotatie" aria-label="Permalink for Section 6.2.4"></a></div>
 <div class="informative">
-_AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.
+<em>AANBEVELING</em> Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.
 </div>
 
 <p>Optioneel kan ook een TileJSON worden toegevoegd.
 De bijlage <a href="#TileJSON">TileJSON voorbeeld</a> bevat als voorbeeld een minimale TileJSON response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.</p>
 <div class="informative">
-_AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vectortile set.
+<em>AANBEVELING</em> Lever een <a href="https://github.com/mapbox/tilejson-spec">TileJSON</a> document aan bij een vectortile set.
 </div>
 
 <p>In TILEJSON:</p>
 </section><section id="aanbeveling-projection-in-tilejson"><div class="header-wrapper"><h4 id="x6-2-5-aanbeveling-projection-in-tilejson"><bdi class="secno">6.2.5 </bdi>Aanbeveling: Projection in TileJSON</h4><a class="self-link" href="#aanbeveling-projection-in-tilejson" aria-label="Permalink for Section 6.2.5"></a></div>
 <div class="informative">
-_AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
-Gebruik hiervoor een [Custom projection TileJSON](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
+<em>AANBEVELING</em> Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
+Gebruik hiervoor een <a href="https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0">Custom projection TileJSON</a>
 </div>
 
 </section><section id="aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path"><div class="header-wrapper"><h4 id="x6-2-6-aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path"><bdi class="secno">6.2.6 </bdi>Aanbeveling: Gebruik format is tilejson parameter in het TileJSON path</h4><a class="self-link" href="#aanbeveling-gebruik-format-is-tilejson-parameter-in-het-tilejson-path" aria-label="Permalink for Section 6.2.6"></a></div>
@@ -1759,25 +1759,25 @@ Voorbeeld:
 
 </section><section id="aanbeveling-data-lagen-tilejson"><div class="header-wrapper"><h4 id="x6-2-7-aanbeveling-data-lagen-tilejson"><bdi class="secno">6.2.7 </bdi>Aanbeveling: Data lagen TileJSON</h4><a class="self-link" href="#aanbeveling-data-lagen-tilejson" aria-label="Permalink for Section 6.2.7"></a></div>
 <div class="informative">
-_AANBEVELING_ Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel <code>"Vector Layers"</code>
+<em>AANBEVELING</em> Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel <code>"Vector Layers"</code>
 </div>
 
 </section><section id="aanbeveling-over-en-underzooming-tilejson"><div class="header-wrapper"><h4 id="x6-2-8-aanbeveling-over-en-underzooming-tilejson"><bdi class="secno">6.2.8 </bdi>Aanbeveling: Over- en underzooming TileJSON</h4><a class="self-link" href="#aanbeveling-over-en-underzooming-tilejson" aria-label="Permalink for Section 6.2.8"></a></div>
 <p>Eén van de voordelen van het gebruik van een TileJSON bestand voor vector tiles is zogenaamde <em>overzooming</em> op lagen.</p>
 <p>De <em>layer definition</em> met <code>minzoom</code> en <code>maxzoom</code> level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.</p>
 <div class="informative">
-_AANBEVELING_ <code>minzoom</code> en <code>maxzoom</code> definiëren in de data lagen beschrijving.
+<em>AANBEVELING</em> <code>minzoom</code> en <code>maxzoom</code> definiëren in de data lagen beschrijving.
 </div>
 
 </section><section id="aanbeveling-data-attributen-tilejson"><div class="header-wrapper"><h4 id="x6-2-9-aanbeveling-data-attributen-tilejson"><bdi class="secno">6.2.9 </bdi>Aanbeveling: Data Attributen TileJSON</h4><a class="self-link" href="#aanbeveling-data-attributen-tilejson" aria-label="Permalink for Section 6.2.9"></a></div>
 <div class="informative">
-_AANBEVELING_  Geef aan welke attributen (<code>fields</code>) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als <code>additionalProperties</code> of <code>description</code> in de data laag beschrijving.
+<em>AANBEVELING</em>  Geef aan welke attributen (<code>fields</code>) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als <code>additionalProperties</code> of <code>description</code> in de data laag beschrijving.
 </div>
 
 </section><section id="aanbeveling-bron-annotatie-tilejson"><div class="header-wrapper"><h4 id="x6-2-10-aanbeveling-bron-annotatie-tilejson"><bdi class="secno">6.2.10 </bdi>Aanbeveling: Bron annotatie TileJSON</h4><a class="self-link" href="#aanbeveling-bron-annotatie-tilejson" aria-label="Permalink for Section 6.2.10"></a></div>
 <p>Een TileJSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie.</p>
 <div class="informative">
-_AANBEVELING_  Geef de bron <code>attribution</code> op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.
+<em>AANBEVELING</em>  Geef de bron <code>attribution</code> op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.
 </div>
 
 </section></section><section id="api-design-rules-nederlandse-overheid"><div class="header-wrapper"><h3 id="x6-3-api-design-rules-nederlandse-overheid"><bdi class="secno">6.3 </bdi>API design rules Nederlandse Overheid</h3><a class="self-link" href="#api-design-rules-nederlandse-overheid" aria-label="Permalink for Section 6.3"></a></div>
@@ -1798,32 +1798,32 @@ Daarnaast kan het selectief opnemen van attributen waarop veelvuldig gefilterd w
 Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vectortiles herhaaldelijk gegenereerd moeten worden, of in situaties waar een hoge mate van actualiteit vereist is.</p>
 <p>Bovendien maakt deze aanpak gecontroleerde toegang mogelijk op basis van autorisatie, waardoor bijvoorbeeld de privacy en beveiliging van persoonsgegevens worden gewaarborgd.</p>
 <div class="informative">
-_AANBEVELING_ Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
+<em>AANBEVELING</em> Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
 </div></section></section></section>
         <section id="Styling"><div class="header-wrapper"><h2 id="x7-styling"><bdi class="secno">7. </bdi>Styling</h2><a class="self-link" href="#Styling" aria-label="Permalink for Section 7."></a></div>
 <p>Voor het weergeven van vector tiles is een weergavestijl specificatie nodig die beschrijft welke data te tekenen, in welke volgorde, en in welke stijl.</p>
 <section id="aanbeveling-styling-publiceren-via-ogc-api-styles"><div class="header-wrapper"><h3 id="x7-1-aanbeveling-styling-publiceren-via-ogc-api-styles"><bdi class="secno">7.1 </bdi>Aanbeveling: Styling publiceren via OGC API Styles</h3><a class="self-link" href="#aanbeveling-styling-publiceren-via-ogc-api-styles" aria-label="Permalink for Section 7.1"></a></div>
 <p>Het OGC ontwikkelt [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-styles" title="OGC API Styles">OGC-API-Styles</a></cite>] voor het publiceren, delen en vinden van kaart stijlen en bijbehorende resources.</p>
 <div class="informative">
-_AANBEVELING_ Lever de styling aan door middel van de OGC API Styles specificatie.
+<em>AANBEVELING</em> Lever de styling aan door middel van de OGC API Styles specificatie.
 </div>
 
 </section><section id="aanbeveling-styling-specificatie-encoding"><div class="header-wrapper"><h3 id="x7-2-aanbeveling-styling-specificatie-encoding"><bdi class="secno">7.2 </bdi>Aanbeveling: Styling specificatie encoding</h3><a class="self-link" href="#aanbeveling-styling-specificatie-encoding" aria-label="Permalink for Section 7.2"></a></div>
 <p>[<cite><a class="bibref" data-link-type="biblio" href="#bib-ogc-api-styles" title="OGC API Styles">OGC-API-Styles</a></cite>] ondersteunt verschillende styling encodings, zoals JSON, HTML, CSS, SLD encoding en ook de Mapbox styling.</p>
 <p>In de praktijk ondersteunt veel tooling de [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-style-specification" title="Mapbox Style Specification">Mapbox-Style-Specification</a></cite>] en zien we dat deze het meest wordt gebruikt.</p>
 <div class="informative">
-_AANBEVELING_ Specificeer de stijl conform de [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-style-specification" title="Mapbox Style Specification">Mapbox-Style-Specification</a></cite>]
+<em>AANBEVELING</em> Specificeer de stijl conform de [<cite><a class="bibref" data-link-type="biblio" href="#bib-mapbox-style-specification" title="Mapbox Style Specification">Mapbox-Style-Specification</a></cite>]
 </div>
 
 </section><section id="eis-standaard-stijl"><div class="header-wrapper"><h3 id="x7-3-eis-standaard-stijl"><bdi class="secno">7.3 </bdi>Eis: Standaard stijl</h3><a class="self-link" href="#eis-standaard-stijl" aria-label="Permalink for Section 7.3"></a></div>
 <p>Een vector tile set is moeilijk te gebruiken zonder styling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker. Dit zorgt ervoor dat de gebruiker / applicatie ontwikkelaar direct aan de slag kan.</p>
 <div class="advisement">
-_EIS_ Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
+<em>EIS</em> Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
 </div>
 
 </section><section id="best-practices-styling"><div class="header-wrapper"><h3 id="x7-4-best-practices-styling"><bdi class="secno">7.4 </bdi>Best practices styling</h3><a class="self-link" href="#best-practices-styling" aria-label="Permalink for Section 7.4"></a></div>
 <div class="informative">
-De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het [Best Practices document](https://geonovum.github.io/vector-tiling-best-practices/).
+De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het <a href="https://geonovum.github.io/vector-tiling-best-practices/">Best Practices document</a>.
 </div></section></section>
 
         <section id="CRSachtergrond" class="appendix"><div class="header-wrapper"><h2 id="a-coordinaat-referentie-systemen-voor-vector-tiles"><bdi class="secno">A. </bdi>Coördinaat referentie systemen voor vector tiles</h2><a class="self-link" href="#CRSachtergrond" aria-label="Permalink for Appendix A."></a></div>
@@ -1847,7 +1847,7 @@ Een CRS kiezen dat bij de potentiële gebruikers breed bekend is, heeft voordele
 <aside class="example" id="example-resolutie-en-nauwkeurigheid-webmercator"><div class="marker">
     <a class="self-link" href="#example-resolutie-en-nauwkeurigheid-webmercator">Voorbeeld<bdi> 3</bdi></a><span class="example-title">: Resolutie en nauwkeurigheid WebMercator</span>
   </div>
-Voor [de TileMatrixSet van WebMercator](http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json) geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:
+Voor <a href="http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json">de TileMatrixSet van WebMercator</a> geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:
 
 <p><code>1 pixel = 300 meter / 256 pixels ~ 1,2 meter</code></p>
 </aside>
@@ -1858,7 +1858,7 @@ Voor [de TileMatrixSet van WebMercator](http://schemas.opengis.net/tms/1.0/json/
 <aside class="example" id="example-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel"><div class="marker">
     <a class="self-link" href="#example-rekenvoorbeeld-nauwkeurigheid-vector-tiling-in-lokale-stelsel">Voorbeeld<bdi> 4</bdi></a><span class="example-title">: Rekenvoorbeeld nauwkeurigheid vector tiling in lokale stelsel</span>
   </div>
-Een rekenvoorbeeld van dit verlies op zoomniveau 12 (bij benadering een schaal van 1:3000, zie [de <code>Well-known scale set Nederland</code> uit de Nederlandse Richtlijn Tiling](https://www.geonovum.nl/uploads/standards/downloads/nederlandse_richtlijn_tiling_-_versie_1.1.pdf)), als gevolg van de inherente simplifcatie in <code>mvt</code> format:
+Een rekenvoorbeeld van dit verlies op zoomniveau 12 (bij benadering een schaal van 1:3000, zie <a href="https://www.geonovum.nl/uploads/standards/downloads/nederlandse_richtlijn_tiling_-_versie_1.1.pdf">de <code>Well-known scale set Nederland</code> uit de Nederlandse Richtlijn Tiling</a>), als gevolg van de inherente simplifcatie in <code>mvt</code> format:
 
 <p>Gegeven dat:</p>
 <ol>
