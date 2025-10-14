@@ -6,7 +6,7 @@ Het is belangrijk bij het aanleveren van een vector tile set (download of servic
 Als de vector tiles via de OGC API Tiles standaard worden aangeboden dan is in de core van de OGC standaard een [TileSet requirement class](http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/tileset) beschreven. Deze bevat de beschrijving van de aangeboden vector tiles set en de bron beschrijving van de vector tiles (ook raster).
 
 <div class="advisement">
-_EIS_ Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.
+<em>EIS</em> Sluit aan bij de OGC API Tiles definitie en de TileSet requirement class endpoint.
 </div>
 
 De respons voorziet in metadata zoals beschreven door [OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0 Standard](https://docs.ogc.org/is/17-083r4/17-083r4.html). 
@@ -35,7 +35,7 @@ In deze paragraaf staan meer details voor de verschillende metadata onderdelen d
 
 ### Aanbeveling: Data lagen 
 <div class="informative">
-_AANBEVELING_ Zorg in een JSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel "Layers"
+<em>AANBEVELING</em> Zorg in een JSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel "Layers"
 </div>
 
 ### Aanbeveling: Overzooming
@@ -47,7 +47,7 @@ Hierin wordt door middel van `maxTileRow`, `minTileRow`, `maxTileCol` en `minTil
 Deze definitie zorgt ervoor dat de client kan overzoomen op de vector tiles.
 Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau voor de tileMatrixSet. 
 
-_AANBEVELING_ `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
+<em>AANBEVELING</em> `tileMatrixsetlimits` definiëren in de OGC API Tiles tilematrix beschrijving.
 </div>
 
 <aside class="example" title="Voorbeeld in json">
@@ -67,28 +67,28 @@ Onderstaande voorbeeld laat TileMatrtixSetLimits in json zien.
 
 ### Aanbeveling: Data Attributen
 <div class="informative">
-_AANBEVELING_  Geef aan welke attributen (`properties`) er beschikbaar zijn per data laag. 
+<em>AANBEVELING</em>  Geef aan welke attributen (`properties`) er beschikbaar zijn per data laag. 
 </div>
 
 ### Aanbeveling: Bron annotatie
 
 <div class="informative">
-_AANBEVELING_ Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.
+<em>AANBEVELING</em> Een JSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie. Gebruik hiervoor 'Attribution'.
 </div>
 
 Optioneel kan ook een TileJSON worden toegevoegd.
 De bijlage [TileJSON voorbeeld](#TileJSON) bevat als voorbeeld een minimale TileJSON response met een Custom projection in Rijksdriehoekstelsel (RD New), EPSG:28992.
 
 <div class="informative">
-_AANBEVELING_ Lever een [TileJSON](https://github.com/mapbox/tilejson-spec) document aan bij een vectortile set.
+<em>AANBEVELING</em> Lever een <a href="https://github.com/mapbox/tilejson-spec">TileJSON</a> document aan bij een vectortile set.
 </div>
 
 In TILEJSON:
 
 ### Aanbeveling: Projection in TileJSON
 <div class="informative">
-_AANBEVELING_ Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
-Gebruik hiervoor een [Custom projection TileJSON](https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0)
+<em>AANBEVELING</em> Lever een TileJSON met projectie (CRS) indien andere projectie dan EPSG:3857 gebruikt wordt.
+Gebruik hiervoor een <a href="https://github.com/maptiler/tilejson-spec/tree/custom-projection/2.2.0">Custom projection TileJSON</a>
 </div>
 
 ### Aanbeveling: Gebruik format is tilejson parameter in het TileJSON path
@@ -100,7 +100,7 @@ Voorbeeld:
 
 ### Aanbeveling: Data lagen TileJSON
 <div class="informative">
-_AANBEVELING_ Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel `"Vector Layers"`
+<em>AANBEVELING</em> Zorg in een TileJSON bestand voor een beschrijving van welke data lagen er aanwezig zijn in de vector tile set bij het onderdeel `"Vector Layers"`
 </div>
 
 ### Aanbeveling: Over- en underzooming TileJSON
@@ -109,12 +109,12 @@ Eén van de voordelen van het gebruik van een TileJSON bestand voor vector tiles
 De _layer definition_ met `minzoom` en `maxzoom` level definitie zorgt ervoor dat de client kan overzoomen op de vector tiles. Dit houdt in dat, wanneer vector tiles niet beschikbaar zijn op een bepaald zoom level, een client de vector tiles op kan halen van een bovenliggend zoomniveau.
 
 <div class="informative">
-_AANBEVELING_ `minzoom` en `maxzoom` definiëren in de data lagen beschrijving.
+<em>AANBEVELING</em> `minzoom` en `maxzoom` definiëren in de data lagen beschrijving.
 </div>
 
 ### Aanbeveling: Data Attributen TileJSON
 <div class="informative">
-_AANBEVELING_  Geef aan welke attributen (`fields`) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als `additionalProperties` of `description` in de data laag beschrijving.
+<em>AANBEVELING</em>  Geef aan welke attributen (`fields`) er beschikbaar zijn per data laag. Een TileJSON bestand bevat verder geen beschrijving van de attributen die beschikbaar zijn per data laag. Wij bevelen aan deze beschrijving los te documenteren of op te nemen als `additionalProperties` of `description` in de data laag beschrijving.
 </div>
 
 ### Aanbeveling: Bron annotatie TileJSON
@@ -122,13 +122,13 @@ _AANBEVELING_  Geef aan welke attributen (`fields`) er beschikbaar zijn per data
 Een TileJSON bestand kan de bronhouder bevatten, wat soms gewenst of vereist is om op te nemen in een applicatie. Zoals mogelijke copyright annotatie.
 
 <div class="informative">
-_AANBEVELING_  Geef de bron `attribution` op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.
+<em>AANBEVELING</em>  Geef de bron `attribution` op in een TileJSON bestand, zodat deze zichtbaar is als annotatie op de kaart in de client.
 </div>
 
 ## API design rules Nederlandse Overheid
 Verder raden wij aan ook te kijken naar de [[API-Designrules]] voor de Nederlandse overheid. Deze bevatten principes voor het aanbieden van APIs door Nederlandse overheidsorganisaties.
 
-_AANBEVELING_ Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
+<em>AANBEVELING</em> Volg de aanbevelingen over documentatie uit de [[API-Designrules]] voor de Nederlandse overheid: https://docs.geostandaarden.nl/api/API-Designrules/#documentation
 
 ### Aanbeveling: tile bestandsgrootte
 De bestandsgrootte van rastertiles wordt beperkt door het aantal pixels (breedte en hoogte), de kleurdiepte en de variatie in pixelwaarden. De bestandsgrootte van vectortiles wordt bepaald door meerdere factoren:
@@ -147,5 +147,5 @@ Dit is vooral gunstig bij dynamische datasets, waarbij voorkomen wordt dat vecto
 Bovendien maakt deze aanpak gecontroleerde toegang mogelijk op basis van autorisatie, waardoor bijvoorbeeld de privacy en beveiliging van persoonsgegevens worden gewaarborgd.
 
 <div class="informative">
-_AANBEVELING_ Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
+<em>AANBEVELING</em> Beperk de bestandsgrootte van een vectortile, in omvang en hoeveelheid vectoren. bijvoorbeeld 500kb of 100.000 features.
 </div>

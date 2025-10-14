@@ -4,25 +4,25 @@
 De OGC API Tiles [[OGC-API-Tiles-Core]] is de open standaard voor het opstellen van tiles. Deze praktijkrichtlijn schrijft deze API-specificatie daarom voor.
 
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
 ## Eis: Content-Type
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type van de vector tiles weer te geven.
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan de HTTP Header `Content-Type` om het gebruikte media type van de vector tiles weer te geven.
 </div>
 
 Omdat deze Prakrijktrichtlijn voorschrijft om [Mapbox Vector Tile specification te gebruiken](#eis-mapbox-vector-tile-specification-versie-2-1), geldt:
 
 <div class="advisement">
-_EIS_ Gebruik `application/vnd.mapbox-vector-tile` als media type (_MIME_) bij het aanbieden via het web.
+<em>EIS</em> Gebruik `application/vnd.mapbox-vector-tile` als media type (<em>MIME</em>) bij het aanbieden via het web.
 </div>
 
 ## Eis: gebruik HTTP Header Content-Encoding gzip
 Voor allerlei bestanden wordt _gzip_ compressie toegepast om de bestanden kleiner te maken bij het ophalen van de webserver. Via de generieke HTTP Header `Content-Encoding: gzip` wordt dit aangegeven. Ook voor vector tiles is deze gzip compressie vaak in gebruik. Als de gzip compressie niet kenbaar is gemaakt via de HTTP Header Content-Encoding, kunnen (bepaalde) clients de tiles niet goed verwerken. Bijvoorbeeld van [OpenLayers](https://openlayers.org/) is bekend dat deze de vector tiles dan helemaal niet kan verwerken.
 
 <div class="advisement">
-_EIS_ Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header `Content-Encoding: gzip` mee.
+<em>EIS</em> Als GZIP compressie gebruikt wordt op de webserver, geef dan de HTTP Header `Content-Encoding: gzip` mee.
 </div>
 
 <aside class="example" title="Voorbeeld HTTP Headers vector tile met gzip compressie">

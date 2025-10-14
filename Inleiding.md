@@ -42,16 +42,16 @@ De bijlagen bevatten verdiepende informatie over Coördinaat Referentie Systemen
 
 Dit document bevat kenmerken waaraan een implementatie moet voldoen (eisen) en waaraan een implementatie idealiter voldoet, maar niet noodzakelijk voor alle implementaties (aanbevelingen).
 
-De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen _EIS_ en _AANBEVELING_ om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.
+De Praktijkrichtlijn zelf is geen verplichting. Om een onderscheid te maken in prioriteit, hanteert de Prakrijktrichtlijn wel de termen <em>EIS</em> en _AANBEVELING_ om de minimaal benodigde set van kenmerken aan te geven (eisen) voor hergebruik van vector tiles en de gewenste set (aanbevelingen) om het zo goed mogelijk te doen.
 
 Eisen staan geformuleerd in oranje blokken, bijvoorbeeld:
 
 <div class="advisement">
-_EIS_ Dit is een vereist kenmerk
+<em>EIS</em> Dit is een vereist kenmerk
 </div>
 
 Aanbevelingen zonder extra opmaak:
 
 <div class="informative">
-_AANBEVELING_ Dit is een aanbeveling
+<em>AANBEVELING</em> Dit is een aanbeveling
 </div>

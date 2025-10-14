@@ -8,7 +8,7 @@ Bij het maken van vector tiles gaat deze richtlijn uit van het gebruik van de te
 
 ## Eis: Mapbox Vector Tile specification versie 2.1
 <div class="advisement">
-_EIS_ Gebruik [[Mapbox-Vector-Tile-Specification]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
+<em>EIS</em> Gebruik [[Mapbox-Vector-Tile-Specification]] versie 2.1 (January 19th, 2016) om vector tiles op te bouwen
 </div>
 
 In het kort gaat deze specificatie uit van:
@@ -22,7 +22,7 @@ In deze praktijkrichtlijn wijken wij af van de beschreven bestand extensie `.mvt
 ### Eis: Vrije Bestands Extensie
 
 <div class="advisement">
-_EIS_ De bestandsextensie voor vectortiles is vrij in te vullen.
+<em>EIS</em> De bestandsextensie voor vectortiles is vrij in te vullen.
 Het Media Type van vectortiles moet volgens mapbox specificatie altijd `application/vnd.mapbox-vector-tile` zijn.
 
 Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk [2. File Format](https://github.com/mapbox/vector-tile-spec/tree/master/2.1#2-file-format) definities van de Mapbox Vector tile specification.
@@ -31,7 +31,7 @@ Deze praktijkrichtlijn wijkt hiermee af van Hoofdstuk [2. File Format](https://g
 ### Eis: Encoding PBF
 
 <div class="advisement">
-_EIS_ Gebruik voor de encoding van de data [[PBF]] (Google Protobuf)
+<em>EIS</em> Gebruik voor de encoding van de data [[PBF]] (Google Protobuf)
 </div>
 
 ### Eis: Clockwise Winding order
@@ -43,7 +43,7 @@ Het probleem wat in deze situatie kan optreden is dat voor vectoren die gaten be
 > Let op! de winding order van vector tiles is tegengesteld aan de _Winding order_ voor geschreven door OGC in o.a. de OGC Simple Features.
 
 <div class="advisement">
-_EIS_ Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clockwise (buitenste ring met de klok mee, binnenste ring tegen de klok in) _winding order_ zoals in Mapbox vectortile specificatie is beschreven.
+<em>EIS</em> Voor de volgorde van coördinaten bij polygonen, gebruik de zogenaamde clockwise (buitenste ring met de klok mee, binnenste ring tegen de klok in) <em>winding order</em> zoals in Mapbox vectortile specificatie is beschreven.
 </div>
 
 ## Vector tiles aanbieden
@@ -56,7 +56,7 @@ Deze praktijkrichtlijn schrijft het gebruik van [[OGC-API-Tiles-Core]] voor. Dit
 
 ### Eis: OGC API Tiles
 <div class="advisement">
-_EIS_ Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
+<em>EIS</em> Als vector tiles via een API aangeboden worden, gebruik dan [[OGC-API-Tiles-Core]].
 </div>
 
 [Hoofdstuk 5](#Publicatie) werkt het gebruik van OGC API Tiles verder uit. Daar worden ook alternatieven aangegeven voor wanneer het nog niet mogelijk is te voldoen aan de OGC API Tiles specificatie.

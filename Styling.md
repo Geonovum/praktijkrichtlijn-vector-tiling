@@ -7,7 +7,7 @@ Voor het weergeven van vector tiles is een weergavestijl specificatie nodig die 
 Het OGC ontwikkelt [[OGC-API-Styles]] voor het publiceren, delen en vinden van kaart stijlen en bijbehorende resources.
 
 <div class="informative">
-_AANBEVELING_ Lever de styling aan door middel van de OGC API Styles specificatie.
+<em>AANBEVELING</em> Lever de styling aan door middel van de OGC API Styles specificatie.
 </div>
 
 ## Aanbeveling: Styling specificatie encoding
@@ -17,7 +17,7 @@ _AANBEVELING_ Lever de styling aan door middel van de OGC API Styles specificati
 In de praktijk ondersteunt veel tooling de [[Mapbox-Style-Specification]] en zien we dat deze het meest wordt gebruikt.
 
 <div class="informative">
-_AANBEVELING_ Specificeer de stijl conform de [[Mapbox-Style-Specification]]
+<em>AANBEVELING</em> Specificeer de stijl conform de [[Mapbox-Style-Specification]]
 </div>
 
 ## Eis: Standaard stijl
@@ -25,10 +25,10 @@ _AANBEVELING_ Specificeer de stijl conform de [[Mapbox-Style-Specification]]
 Een vector tile set is moeilijk te gebruiken zonder styling. Door het aanleveren van minimaal 1 default stijl is de instap voor delen, hergebruik en aanpassing makkelijker. Dit zorgt ervoor dat de gebruiker / applicatie ontwikkelaar direct aan de slag kan.
 
 <div class="advisement">
-_EIS_ Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
+<em>EIS</em> Lever altijd minimaal 1 standaard stijl aan bij een vector tile set.
 </div>
 
 ## Best practices styling
 <div class="informative">
-De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het [Best Practices document](https://geonovum.github.io/vector-tiling-best-practices/).
+De styling hangt direct samen met de aangeleverde data in de vector tiles. Een goede inrichting van de data en de data attributen in samenhang met een goede styling opzet, is cruciaal voor de snelheid en gebruiksvriendelijkheid van de kaart en de vector tile service. Voor meer tips en tricks hierover zie het <a href="https://geonovum.github.io/vector-tiling-best-practices/">Best Practices document</a>.
 </div>

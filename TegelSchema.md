@@ -19,7 +19,7 @@ Voor de meeste toepassingen die vector tiles gebruiken binnen de scope van deze 
 Vooruitlopend op een extensie om andere TileMatrixSets te ondersteunen, kiezen we in deze Praktijkrichtlijn voor een zelfde mechanisme om de TileMatrixSet te publiceren als eentje uit de standaardset van [[OGC-API-Tiles-Core]].
 
 <div class="advisement">
-_EIS_ Biedt vector tiles aan in _tenminste_ één van de volgende _TileMatrixSets_ voor de coördinaat referentie systemen:
+<em>EIS</em> Biedt vector tiles aan in <em>tenminste</em> één van de volgende <em>TileMatrixSets</em> voor de coördinaat referentie systemen:
 
 * Web Mercator: EPSG:3857. TileMatrixSetId van OGC: `WebMercatorQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad](http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad).
 * ETRS89, projectie Lambert Azimuthal Equal Area, EPSG:3035. TileMatrixSetId van OGC: `EuropeanETRS89_LAEAQuad`, URI: [http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad](http://www.opengis.net/def/tilematrixset/OGC/1.0/EuropeanETRS89_LAEAQuad). Dit kan voor Europese toepassingen, met hogere nauwkeurigheid dan 1 meter, geschikt zijn.

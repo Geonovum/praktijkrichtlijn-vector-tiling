@@ -23,7 +23,7 @@ Strikt genomen wordt met Web Mercator bij voorkeur bedoeld: Web Mercator op basi
 Voor publicatiedoeleinden bij de meeste (web)applicaties geldt dat WGS84 acceptabel is, ondanks de beschreven onnauwkeurigheid. En voor visualisatie van achtergrondkaarten betekent dat in web applicaties vaak Web Mercator. Als de vector tiles bedoeld zijn voor toepassingen die niet nauwkeuriger zijn dan 1 meter, is dit een voldoende nauwkeurig coördinaat referentie systeem.
 
 <aside class="example" title="Resolutie en nauwkeurigheid WebMercator">
-Voor [de TileMatrixSet van WebMercator](http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json) geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:
+Voor <a href="http://schemas.opengis.net/tms/1.0/json/examples/WebMercatorQuad.json">de TileMatrixSet van WebMercator</a> geldt dat een tile op zoomniveau 17 (bij benadering een schaal van 1:4200), ongeveer 300 meter beslaat. Let op: de afmeting in meters is afhankelijk van de locatie op aarde, maar voor dit voorbeeld is ongeveer 300 meter voldoende. Dit betekent dat 1 pixel in een tile van 256 * 256 pixels een afstand vertegenwoordigt van:
 
 `1 pixel = 300 meter / 256 pixels ~ 1,2 meter`
 </aside>
@@ -34,7 +34,7 @@ In de Praktijkrichtlijn hanteren we voor Web Mercator de gangbare EPSG code EPSG
 Voor het maken van vector tiles zullen geometriëen omgerekend worden naar het lokale stelsel van een vector tile, in integers (vaak in een bereik van 0-4096 bij 0-4096). Dit betekent dat de originele geometrie nauwkeurigheid verliest in een vector tile. De impact hiervan is voor de meeste datasets gering.
 
 <aside class='example' title='Rekenvoorbeeld nauwkeurigheid vector tiling in lokale stelsel'>
-Een rekenvoorbeeld van dit verlies op zoomniveau 12 (bij benadering een schaal van 1:3000, zie [de `Well-known scale set Nederland` uit de Nederlandse Richtlijn Tiling](https://www.geonovum.nl/uploads/standards/downloads/nederlandse_richtlijn_tiling_-_versie_1.1.pdf)), als gevolg van de inherente simplifcatie in `mvt` format:
+Een rekenvoorbeeld van dit verlies op zoomniveau 12 (bij benadering een schaal van 1:3000, zie <a href="https://www.geonovum.nl/uploads/standards/downloads/nederlandse_richtlijn_tiling_-_versie_1.1.pdf">de `Well-known scale set Nederland` uit de Nederlandse Richtlijn Tiling</a>), als gevolg van de inherente simplifcatie in `mvt` format:
 
 Gegeven dat:
 1.  de resolutie op zoomniveau 12: 0,84 m/pixels is in de TileMatrixSet `NetherlandsRDNewQuad` voor het Rijksdriehoekstelsel
