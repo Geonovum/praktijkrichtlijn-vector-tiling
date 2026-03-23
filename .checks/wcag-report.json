@@ -1,1 +1,32 @@
-{"error":"WCAG-check mislukt (axe-cli). Zie logs voor details."}
+[
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "scrollable-region-focusable",
+    "impact": "serious",
+    "description": "Ensure elements that have scrollable content are accessible by keyboard",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "#json-encoding > pre > .json.hljs"
+        ],
+        "html": "<code class=\"json hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          ".xml"
+        ],
+        "html": "<code class=\"xml hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          "#json-encoding-0 > pre > .json.hljs"
+        ],
+        "html": "<code class=\"json hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      }
+    ]
+  }
+]
