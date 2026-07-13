@@ -9,8 +9,21 @@
         <title>Praktijkrichtlijn Vector Tiling</title> <!-- Ook raster tiles?-->
         <!-- link rel="stylesheet" type="text/css" href="./media/style.css" -->
         <link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
+        <script class="remove" src="https://cdn.jsdelivr.net/gh/digitalbazaar/respec-mermaid@1.0.1/dist/main.js"></script>
+        <script class="remove" src="https://tools.geostandaarden.nl/respec/config/geonovum-config.js"></script>
         <script class="remove" src="js/config.js"></script>
-        <script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
+        <script class="remove">
+          const mergedLocalBiblio = {
+            ...organisationConfig.localBiblio,
+            ...respecConfig.localBiblio
+          };
+          respecConfig = {
+            ...organisationConfig,
+            ...respecConfig,
+            localBiblio: mergedLocalBiblio
+          };
+        </script>
+        <script class='remove' src='https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js' async></script>
     </head>
 
     <body>
